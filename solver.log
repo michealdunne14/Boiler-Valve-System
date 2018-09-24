@@ -1,0 +1,1513 @@
+Apr 24, 2018 2:49:50 PM java.util.logging.LogManager$RootLogger log
+INFO: Start of solver :getSolution() : Tue Apr 24 14:49:50 BST 2018
+
+
+Apr 24, 2018 2:49:50 PM java.util.logging.LogManager$RootLogger log
+INFO: 
+timeout(solve_mapping_problem([ 
+reserved([ccu4,GLOBAL_CCU40sv0,global],'global_ccu4$595667498$0'),
+reserved([scu,_,gcu,ccu4_global_enable,GLOBAL_CCU40sv0],'global_ccu4$507149432$0'),
+reserved([scu,0,dco,_],'clock_xmc1$347764531$0'),
+reserved([scu,0,ccu,config],'clock_xmc1$02010375550$0'),
+reserved([ccu4,_,cc4,_],'pwm$084752152$0'),
+reserved([p,_,pad,_],'pwm$01754918612$0'),
+reserved([devicepackage,0,_],'pwm$0207185738$0'),
+signal('global_ccu4$595667498$0',global_signal,'global_ccu4$595667498$0$global_signal'),
+signal('global_ccu4$595667498$0',clk,'global_ccu4$595667498$0$clk'),
+signal('global_ccu4$507149432$0',gsc_enable,'global_ccu4$507149432$0$gsc_enable'),
+signal('clock_xmc1$347764531$0',clkout,'clock_xmc1$347764531$0$clkout'),
+signal('clock_xmc1$02010375550$0',frtc,'clock_xmc1$02010375550$0$frtc'),
+signal('pwm$084752152$0',global_signal,'pwm$084752152$0$global_signal'),
+signal('pwm$084752152$0',cmds_cmus,'pwm$084752152$0$cmds_cmus'),
+signal('pwm$084752152$0',pmus_omds,'pwm$084752152$0$pmus_omds'),
+signal('pwm$084752152$0',st,'pwm$084752152$0$st'),
+signal('pwm$084752152$0',out,'pwm$084752152$0$out'),
+signal('pwm$01754918612$0',pad,'pwm$01754918612$0$pad'),
+signal('pwm$0207185738$0',pin,'pwm$0207185738$0$pin'),
+connected('clock_xmc1$347764531$0$clkout','clock_xmc1$02010375550$0$frtc',1),
+connected('pwm$0207185738$0$pin','pwm$01754918612$0$pad',1),
+connected('pwm$084752152$0$out','pwm$01754918612$0$pad',1),
+connected('pwm$01754918612$0$pad','pwm$0207185738$0$pin',1),
+connected('global_ccu4$595667498$0$global_signal','pwm$084752152$0$global_signal',1)
+ ],Vars,Regs,Appslocalvars),15,writeln(timeout),all_solution, Timer, Due, Remainder).
+
+
+
+Apr 24, 2018 2:49:50 PM java.util.logging.LogManager$RootLogger log
+INFO: 
+End of solver : getSolution() :  Difference in ms 80
+
+
+Apr 24, 2018 2:49:50 PM java.util.logging.LogManager$RootLogger log
+INFO: [/scu/0/ccu/config, /clock_xmc1$02010375550$0, /scu/0/dco/2, /clock_xmc1$347764531$0, /scu/0/gcu/ccu4_global_enable/0, /global_ccu4$507149432$0, /ccu4/0/global, /global_ccu4$595667498$0, /p/1/pad/0, /pwm$01754918612$0, /devicepackage/0/14, /pwm$0207185738$0, /ccu4/0/cc4/0, /pwm$084752152$0]
+
+
+Apr 24, 2018 2:49:50 PM java.util.logging.LogManager$RootLogger log
+INFO: [/p/1/pad/0/iocr_pcr, /2, /p/1/pad/0/iocr_oe, /1, /p/1/pad/0/hwsel_hw, /0, /p/1/pad/1/iocr_pcr, /0, /p/1/pad/1/iocr_oe, /0, /p/1/pad/1/hwsel_hw, /0, /p/1/pad/2/iocr_pcr, /0, /p/1/pad/2/iocr_oe, /0, /p/1/pad/2/hwsel_hw, /0, /p/1/pad/3/iocr_pcr, /0, /p/1/pad/3/iocr_oe, /0, /p/1/pad/3/hwsel_hw, /0, /p/2/pad/2/iocr_pcr, /0, /p/2/pad/2/iocr_oe, /0, /p/2/pad/2/hwsel_hw, /0, /p/2/pad/2/pdisc_pdis, /1, /p/2/pad/6/iocr_pcr, /0, /p/2/pad/6/iocr_oe, /0, /p/2/pad/6/hwsel_hw, /0, /p/2/pad/6/pdisc_pdis, /1, /p/2/pad/7/iocr_pcr, /0, /p/2/pad/7/iocr_oe, /0, /p/2/pad/7/hwsel_hw, /0, /p/2/pad/7/pdisc_pdis, /1, /p/2/pad/8/iocr_pcr, /0, /p/2/pad/8/iocr_oe, /0, /p/2/pad/8/hwsel_hw, /0, /p/2/pad/8/pdisc_pdis, /1, /p/2/pad/9/iocr_pcr, /0, /p/2/pad/9/iocr_oe, /0, /p/2/pad/9/hwsel_hw, /0, /p/2/pad/9/pdisc_pdis, /1, /p/0/pad/0/iocr_pcr, /0, /p/0/pad/0/iocr_oe, /0, /p/0/pad/0/hwsel_hw, /0, /p/0/pad/12/iocr_pcr, /0, /p/0/pad/12/iocr_oe, /0, /p/0/pad/12/hwsel_hw, /0, /p/0/pad/13/iocr_pcr, /0, /p/0/pad/13/iocr_oe, /0, /p/0/pad/13/hwsel_hw, /0, /p/0/pad/14/iocr_pcr, /0, /p/0/pad/14/iocr_oe, /0, /p/0/pad/14/hwsel_hw, /0, /p/0/pad/15/iocr_pcr, /0, /p/0/pad/15/iocr_oe, /0, /p/0/pad/15/hwsel_hw, /0, /p/0/pad/5/iocr_pcr, /0, /p/0/pad/5/iocr_oe, /0, /p/0/pad/5/hwsel_hw, /0, /p/0/pad/6/iocr_pcr, /0, /p/0/pad/6/iocr_oe, /0, /p/0/pad/6/hwsel_hw, /0, /p/0/pad/7/iocr_pcr, /0, /p/0/pad/7/iocr_oe, /0, /p/0/pad/7/hwsel_hw, /0, /p/0/pad/8/iocr_pcr, /0, /p/0/pad/8/iocr_oe, /0, /p/0/pad/8/hwsel_hw, /0, /p/0/pad/9/iocr_pcr, /0, /p/0/pad/9/iocr_oe, /0, /p/0/pad/9/hwsel_hw, /0, /p/2/pad/0/iocr_pcr, /0, /p/2/pad/0/iocr_oe, /0, /p/2/pad/0/hwsel_hw, /0, /p/2/pad/0/pdisc_pdis, /1, /p/2/pad/1/iocr_pcr, /0, /p/2/pad/1/iocr_oe, /0, /p/2/pad/1/hwsel_hw, /0, /p/2/pad/1/pdisc_pdis, /1, /p/2/pad/10/iocr_pcr, /0, /p/2/pad/10/iocr_oe, /0, /p/2/pad/10/hwsel_hw, /0, /p/2/pad/10/pdisc_pdis, /1, /p/2/pad/11/iocr_pcr, /0, /p/2/pad/11/iocr_oe, /0, /p/2/pad/11/hwsel_hw, /0, /p/2/pad/11/pdisc_pdis, /1, /ccu4/0/cc4/0/srs_cmsr, /0, /ccu4/0/cc4/0/srs_e0sr, /0, /ccu4/0/cc4/0/srs_e1sr, /0, /ccu4/0/cc4/0/srs_e2sr, /0, /ccu4/0/cc4/0/ins_ev0is, /0, /ccu4/0/cc4/0/ins_ev1is, /0, /ccu4/0/cc4/0/ins_ev2is, /0, /ccu4/0/cc4/0/srs_posr, /0, /ccu4/0/cc4/1/srs_cmsr, /0, /ccu4/0/cc4/1/srs_e0sr, /0, /ccu4/0/cc4/1/srs_e1sr, /0, /ccu4/0/cc4/1/srs_e2sr, /0, /ccu4/0/cc4/1/ins_ev0is, /0, /ccu4/0/cc4/1/ins_ev1is, /0, /ccu4/0/cc4/1/ins_ev2is, /0, /ccu4/0/cc4/1/srs_posr, /0, /ccu4/0/cc4/1/cmc_tce, /0, /ccu4/0/cc4/2/srs_cmsr, /0, /ccu4/0/cc4/2/srs_e0sr, /0, /ccu4/0/cc4/2/srs_e1sr, /0, /ccu4/0/cc4/2/srs_e2sr, /0, /ccu4/0/cc4/2/ins_ev0is, /0, /ccu4/0/cc4/2/ins_ev1is, /0, /ccu4/0/cc4/2/ins_ev2is, /0, /ccu4/0/cc4/2/srs_posr, /0, /ccu4/0/cc4/2/cmc_tce, /0, /ccu4/0/cc4/3/srs_cmsr, /0, /ccu4/0/cc4/3/srs_e0sr, /0, /ccu4/0/cc4/3/srs_e1sr, /0, /ccu4/0/cc4/3/srs_e2sr, /0, /ccu4/0/cc4/3/ins_ev0is, /0, /ccu4/0/cc4/3/ins_ev1is, /0, /ccu4/0/cc4/3/ins_ev2is, /0, /ccu4/0/cc4/3/srs_posr, /0, /ccu4/0/cc4/3/cmc_tce, /0, /ccu4/0/global/gctrl_pcis, /0, /cpu/0/nvic/interrupt/0/iser_setena, /0, /cpu/0/nvic/interrupt/1/iser_setena, /0, /cpu/0/nvic/interrupt/10/iser_setena, /0, /cpu/0/nvic/interrupt/11/iser_setena, /0, /cpu/0/nvic/interrupt/12/iser_setena, /0, /cpu/0/nvic/interrupt/13/iser_setena, /0, /cpu/0/nvic/interrupt/14/iser_setena, /0, /cpu/0/nvic/interrupt/15/iser_setena, /0, /cpu/0/nvic/interrupt/16/iser_setena, /0, /cpu/0/nvic/interrupt/17/iser_setena, /0, /cpu/0/nvic/interrupt/18/iser_setena, /0, /cpu/0/nvic/interrupt/19/iser_setena, /0, /cpu/0/nvic/interrupt/2/iser_setena, /0, /cpu/0/nvic/interrupt/20/iser_setena, /0, /cpu/0/nvic/interrupt/21/iser_setena, /0, /cpu/0/nvic/interrupt/22/iser_setena, /0, /cpu/0/nvic/interrupt/23/iser_setena, /0, /cpu/0/nvic/interrupt/24/iser_setena, /0, /cpu/0/nvic/interrupt/25/iser_setena, /0, /cpu/0/nvic/interrupt/26/iser_setena, /0, /cpu/0/nvic/interrupt/27/iser_setena, /0, /cpu/0/nvic/interrupt/28/iser_setena, /0, /cpu/0/nvic/interrupt/29/iser_setena, /0, /cpu/0/nvic/interrupt/3/iser_setena, /0, /cpu/0/nvic/interrupt/30/iser_setena, /0, /cpu/0/nvic/interrupt/31/iser_setena, /0, /cpu/0/nvic/interrupt/4/iser_setena, /0, /cpu/0/nvic/interrupt/5/iser_setena, /0, /cpu/0/nvic/interrupt/6/iser_setena, /0, /cpu/0/nvic/interrupt/7/iser_setena, /0, /cpu/0/nvic/interrupt/9/iser_setena, /0, /eru/0/ers_etl/0/exicon_pe, /0, /eru/0/ers_etl/0/exicon_ocs, /0, /eru/0/ers_etl/0/exisel_exsxb, /0, /eru/0/ers_etl/0/exisel_exsxa, /0, /eru/0/ers_etl/1/exicon_pe, /0, /eru/0/ers_etl/1/exicon_ocs, /0, /eru/0/ers_etl/1/exisel_exsxb, /0, /eru/0/ers_etl/1/exisel_exsxa, /0, /eru/0/ers_etl/2/exicon_pe, /0, /eru/0/ers_etl/2/exicon_ocs, /0, /eru/0/ers_etl/2/exisel_exsxb, /0, /eru/0/ers_etl/2/exisel_exsxa, /0, /eru/0/ers_etl/3/exicon_pe, /0, /eru/0/ers_etl/3/exicon_ocs, /0, /eru/0/ers_etl/3/exisel_exsxb, /0, /eru/0/ers_etl/3/exisel_exsxa, /0, /eru/0/ogu/0/exocon_iss, /0, /eru/0/ogu/0/exocon_ipen0, /0, /eru/0/ogu/0/exocon_ipen1, /0, /eru/0/ogu/0/exocon_ipen2, /0, /eru/0/ogu/0/exocon_ipen3, /0, /eru/0/ogu/1/exocon_iss, /0, /eru/0/ogu/1/exocon_ipen0, /0, /eru/0/ogu/1/exocon_ipen1, /0, /eru/0/ogu/1/exocon_ipen2, /0, /eru/0/ogu/1/exocon_ipen3, /0, /eru/0/ogu/2/exocon_iss, /0, /eru/0/ogu/2/exocon_ipen0, /0, /eru/0/ogu/2/exocon_ipen1, /0, /eru/0/ogu/2/exocon_ipen2, /0, /eru/0/ogu/2/exocon_ipen3, /0, /eru/0/ogu/3/exocon_iss, /0, /eru/0/ogu/3/exocon_ipen0, /0, /eru/0/ogu/3/exocon_ipen1, /0, /eru/0/ogu/3/exocon_ipen2, /0, /eru/0/ogu/3/exocon_ipen3, /0, /scu/0/ccu/config/clkcr_rtcclksel, /0, /usic/0/channel/0/ccr_hpcen, /0, /usic/0/channel/0/dx1cr_dsel, /0, /usic/0/channel/0/dx0cr_dsel, /0, /usic/0/channel/0/dx5cr_dsel, /0, /usic/0/channel/0/dx3cr_dsel, /0, /usic/0/channel/0/dx4cr_dsel, /0, /usic/0/channel/0/dx2cr_dsel, /0, /usic/0/channel/0/rbctr_arbien, /0, /usic/0/channel/0/rbctr_arbinp, /0, /usic/0/channel/0/ccr_aien, /0, /usic/0/channel/0/inpr_ainp, /0, /usic/0/channel/0/ccr_brgien, /0, /usic/0/channel/0/inpr_pinp, /0, /usic/0/channel/0/ccr_dlien, /0, /usic/0/channel/0/rbctr_rberien, /0, /usic/0/channel/0/ccr_rsien, /0, /usic/0/channel/0/inpr_tbinp, /0, /usic/0/channel/0/rbctr_srbien, /0, /usic/0/channel/0/rbctr_srbinp, /0, /usic/0/channel/0/ccr_rien, /0, /usic/0/channel/0/inpr_rinp, /0, /usic/0/channel/0/tbctr_stbien, /0, /usic/0/channel/0/tbctr_stbinp, /0, /usic/0/channel/0/tbctr_tberien, /0, /usic/0/channel/0/tbctr_atbinp, /0, /usic/0/channel/0/ccr_tbien, /0, /usic/0/channel/0/ccr_tsien, /0, /usic/0/channel/0/inpr_tsinp, /0, /usic/0/channel/0/rbctr_dptr, /0, /usic/0/channel/0/rbctr_size, /0, /usic/0/channel/0/tbctr_dptr, /0, /usic/0/channel/0/tbctr_size, /0, /usic/0/channel/1/ccr_hpcen, /0, /usic/0/channel/1/dx1cr_dsel, /0, /usic/0/channel/1/dx0cr_dsel, /0, /usic/0/channel/1/dx5cr_dsel, /0, /usic/0/channel/1/dx3cr_dsel, /0, /usic/0/channel/1/dx4cr_dsel, /0, /usic/0/channel/1/dx2cr_dsel, /0, /usic/0/channel/1/rbctr_arbien, /0, /usic/0/channel/1/rbctr_arbinp, /0, /usic/0/channel/1/ccr_aien, /0, /usic/0/channel/1/inpr_ainp, /0, /usic/0/channel/1/ccr_brgien, /0, /usic/0/channel/1/inpr_pinp, /0, /usic/0/channel/1/ccr_dlien, /0, /usic/0/channel/1/rbctr_rberien, /0, /usic/0/channel/1/ccr_rsien, /0, /usic/0/channel/1/inpr_tbinp, /0, /usic/0/channel/1/rbctr_srbien, /0, /usic/0/channel/1/rbctr_srbinp, /0, /usic/0/channel/1/ccr_rien, /0, /usic/0/channel/1/inpr_rinp, /0, /usic/0/channel/1/tbctr_stbien, /0, /usic/0/channel/1/tbctr_stbinp, /0, /usic/0/channel/1/tbctr_tberien, /0, /usic/0/channel/1/tbctr_atbinp, /0, /usic/0/channel/1/ccr_tbien, /0, /usic/0/channel/1/ccr_tsien, /0, /usic/0/channel/1/inpr_tsinp, /0, /usic/0/channel/1/rbctr_dptr, /0, /usic/0/channel/1/rbctr_size, /0, /usic/0/channel/1/tbctr_dptr, /0, /usic/0/channel/1/tbctr_size, /0, /vadc/0/backgnd/brsctrl_xtsel, /0, /vadc/0/backgnd/brsctrl_xtwc, /0, /vadc/0/backgnd/brsctrl_gtsel, /0, /vadc/0/backgnd/brsctrl_gtwc, /0, /vadc/0/backgnd/globevnp_sev0np, /0, /vadc/0/global/emuxsel_emuxgrp0, /0, /vadc/0/global/emuxsel_emuxgrp1, /0, /vadc/0/global_result/globevnp_revnp, /0]
+
+
+Apr 24, 2018 2:50:01 PM java.util.logging.LogManager$RootLogger log
+INFO: Start of solver :getSolution() : Tue Apr 24 14:50:01 BST 2018
+
+
+Apr 24, 2018 2:50:01 PM java.util.logging.LogManager$RootLogger log
+INFO: 
+timeout(solve_mapping_problem([ 
+reserved([ccu4,GLOBAL_CCU40sv0,global],'global_ccu4$595667498$0'),
+reserved([scu,_,gcu,ccu4_global_enable,GLOBAL_CCU40sv0],'global_ccu4$507149432$0'),
+reserved([scu,0,dco,_],'clock_xmc1$347764531$0'),
+reserved([scu,0,ccu,config],'clock_xmc1$02010375550$0'),
+reserved([ccu4,_,cc4,_],'pwm$084752152$0'),
+reserved([p,_,pad,_],'pwm$01754918612$0'),
+reserved([devicepackage,0,_],'pwm$0207185738$0'),
+reserved([wdt,_,wdt],'watchdog$01400492666$0'),
+reserved([scu,_,gcu,interrupt,prewarn],'watchdog$0865335036$0'),
+signal('global_ccu4$595667498$0',global_signal,'global_ccu4$595667498$0$global_signal'),
+signal('global_ccu4$595667498$0',clk,'global_ccu4$595667498$0$clk'),
+signal('global_ccu4$507149432$0',gsc_enable,'global_ccu4$507149432$0$gsc_enable'),
+signal('clock_xmc1$347764531$0',clkout,'clock_xmc1$347764531$0$clkout'),
+signal('clock_xmc1$02010375550$0',frtc,'clock_xmc1$02010375550$0$frtc'),
+signal('pwm$084752152$0',global_signal,'pwm$084752152$0$global_signal'),
+signal('pwm$084752152$0',cmds_cmus,'pwm$084752152$0$cmds_cmus'),
+signal('pwm$084752152$0',pmus_omds,'pwm$084752152$0$pmus_omds'),
+signal('pwm$084752152$0',st,'pwm$084752152$0$st'),
+signal('pwm$084752152$0',out,'pwm$084752152$0$out'),
+signal('pwm$01754918612$0',pad,'pwm$01754918612$0$pad'),
+signal('pwm$0207185738$0',pin,'pwm$0207185738$0$pin'),
+signal('watchdog$01400492666$0',wdt_srv_request,'watchdog$01400492666$0$wdt_srv_request'),
+signal('watchdog$0865335036$0',int,'watchdog$0865335036$0$int'),
+connected('clock_xmc1$347764531$0$clkout','clock_xmc1$02010375550$0$frtc',1),
+connected('pwm$0207185738$0$pin','pwm$01754918612$0$pad',1),
+connected('pwm$084752152$0$out','pwm$01754918612$0$pad',1),
+connected('pwm$01754918612$0$pad','pwm$0207185738$0$pin',1),
+connected('global_ccu4$595667498$0$global_signal','pwm$084752152$0$global_signal',1)
+ ],Vars,Regs,Appslocalvars),15,writeln(timeout),all_solution, Timer, Due, Remainder).
+
+
+
+Apr 24, 2018 2:50:01 PM java.util.logging.LogManager$RootLogger log
+INFO: 
+End of solver : getSolution() :  Difference in ms 43
+
+
+Apr 24, 2018 2:50:01 PM java.util.logging.LogManager$RootLogger log
+INFO: [/scu/0/ccu/config, /clock_xmc1$02010375550$0, /scu/0/dco/2, /clock_xmc1$347764531$0, /scu/0/gcu/ccu4_global_enable/0, /global_ccu4$507149432$0, /ccu4/0/global, /global_ccu4$595667498$0, /p/1/pad/0, /pwm$01754918612$0, /devicepackage/0/14, /pwm$0207185738$0, /ccu4/0/cc4/0, /pwm$084752152$0, /wdt/0/wdt, /watchdog$01400492666$0, /scu/0/gcu/interrupt/prewarn, /watchdog$0865335036$0]
+
+
+Apr 24, 2018 2:50:01 PM java.util.logging.LogManager$RootLogger log
+INFO: [/p/1/pad/0/iocr_pcr, /2, /p/1/pad/0/iocr_oe, /1, /p/1/pad/0/hwsel_hw, /0, /p/1/pad/1/iocr_pcr, /0, /p/1/pad/1/iocr_oe, /0, /p/1/pad/1/hwsel_hw, /0, /p/1/pad/2/iocr_pcr, /0, /p/1/pad/2/iocr_oe, /0, /p/1/pad/2/hwsel_hw, /0, /p/1/pad/3/iocr_pcr, /0, /p/1/pad/3/iocr_oe, /0, /p/1/pad/3/hwsel_hw, /0, /p/2/pad/2/iocr_pcr, /0, /p/2/pad/2/iocr_oe, /0, /p/2/pad/2/hwsel_hw, /0, /p/2/pad/2/pdisc_pdis, /1, /p/2/pad/6/iocr_pcr, /0, /p/2/pad/6/iocr_oe, /0, /p/2/pad/6/hwsel_hw, /0, /p/2/pad/6/pdisc_pdis, /1, /p/2/pad/7/iocr_pcr, /0, /p/2/pad/7/iocr_oe, /0, /p/2/pad/7/hwsel_hw, /0, /p/2/pad/7/pdisc_pdis, /1, /p/2/pad/8/iocr_pcr, /0, /p/2/pad/8/iocr_oe, /0, /p/2/pad/8/hwsel_hw, /0, /p/2/pad/8/pdisc_pdis, /1, /p/2/pad/9/iocr_pcr, /0, /p/2/pad/9/iocr_oe, /0, /p/2/pad/9/hwsel_hw, /0, /p/2/pad/9/pdisc_pdis, /1, /p/0/pad/0/iocr_pcr, /0, /p/0/pad/0/iocr_oe, /0, /p/0/pad/0/hwsel_hw, /0, /p/0/pad/12/iocr_pcr, /0, /p/0/pad/12/iocr_oe, /0, /p/0/pad/12/hwsel_hw, /0, /p/0/pad/13/iocr_pcr, /0, /p/0/pad/13/iocr_oe, /0, /p/0/pad/13/hwsel_hw, /0, /p/0/pad/14/iocr_pcr, /0, /p/0/pad/14/iocr_oe, /0, /p/0/pad/14/hwsel_hw, /0, /p/0/pad/15/iocr_pcr, /0, /p/0/pad/15/iocr_oe, /0, /p/0/pad/15/hwsel_hw, /0, /p/0/pad/5/iocr_pcr, /0, /p/0/pad/5/iocr_oe, /0, /p/0/pad/5/hwsel_hw, /0, /p/0/pad/6/iocr_pcr, /0, /p/0/pad/6/iocr_oe, /0, /p/0/pad/6/hwsel_hw, /0, /p/0/pad/7/iocr_pcr, /0, /p/0/pad/7/iocr_oe, /0, /p/0/pad/7/hwsel_hw, /0, /p/0/pad/8/iocr_pcr, /0, /p/0/pad/8/iocr_oe, /0, /p/0/pad/8/hwsel_hw, /0, /p/0/pad/9/iocr_pcr, /0, /p/0/pad/9/iocr_oe, /0, /p/0/pad/9/hwsel_hw, /0, /p/2/pad/0/iocr_pcr, /0, /p/2/pad/0/iocr_oe, /0, /p/2/pad/0/hwsel_hw, /0, /p/2/pad/0/pdisc_pdis, /1, /p/2/pad/1/iocr_pcr, /0, /p/2/pad/1/iocr_oe, /0, /p/2/pad/1/hwsel_hw, /0, /p/2/pad/1/pdisc_pdis, /1, /p/2/pad/10/iocr_pcr, /0, /p/2/pad/10/iocr_oe, /0, /p/2/pad/10/hwsel_hw, /0, /p/2/pad/10/pdisc_pdis, /1, /p/2/pad/11/iocr_pcr, /0, /p/2/pad/11/iocr_oe, /0, /p/2/pad/11/hwsel_hw, /0, /p/2/pad/11/pdisc_pdis, /1, /ccu4/0/cc4/0/srs_cmsr, /0, /ccu4/0/cc4/0/srs_e0sr, /0, /ccu4/0/cc4/0/srs_e1sr, /0, /ccu4/0/cc4/0/srs_e2sr, /0, /ccu4/0/cc4/0/ins_ev0is, /0, /ccu4/0/cc4/0/ins_ev1is, /0, /ccu4/0/cc4/0/ins_ev2is, /0, /ccu4/0/cc4/0/srs_posr, /0, /ccu4/0/cc4/1/srs_cmsr, /0, /ccu4/0/cc4/1/srs_e0sr, /0, /ccu4/0/cc4/1/srs_e1sr, /0, /ccu4/0/cc4/1/srs_e2sr, /0, /ccu4/0/cc4/1/ins_ev0is, /0, /ccu4/0/cc4/1/ins_ev1is, /0, /ccu4/0/cc4/1/ins_ev2is, /0, /ccu4/0/cc4/1/srs_posr, /0, /ccu4/0/cc4/1/cmc_tce, /0, /ccu4/0/cc4/2/srs_cmsr, /0, /ccu4/0/cc4/2/srs_e0sr, /0, /ccu4/0/cc4/2/srs_e1sr, /0, /ccu4/0/cc4/2/srs_e2sr, /0, /ccu4/0/cc4/2/ins_ev0is, /0, /ccu4/0/cc4/2/ins_ev1is, /0, /ccu4/0/cc4/2/ins_ev2is, /0, /ccu4/0/cc4/2/srs_posr, /0, /ccu4/0/cc4/2/cmc_tce, /0, /ccu4/0/cc4/3/srs_cmsr, /0, /ccu4/0/cc4/3/srs_e0sr, /0, /ccu4/0/cc4/3/srs_e1sr, /0, /ccu4/0/cc4/3/srs_e2sr, /0, /ccu4/0/cc4/3/ins_ev0is, /0, /ccu4/0/cc4/3/ins_ev1is, /0, /ccu4/0/cc4/3/ins_ev2is, /0, /ccu4/0/cc4/3/srs_posr, /0, /ccu4/0/cc4/3/cmc_tce, /0, /ccu4/0/global/gctrl_pcis, /0, /cpu/0/nvic/interrupt/0/iser_setena, /0, /cpu/0/nvic/interrupt/1/iser_setena, /0, /cpu/0/nvic/interrupt/10/iser_setena, /0, /cpu/0/nvic/interrupt/11/iser_setena, /0, /cpu/0/nvic/interrupt/12/iser_setena, /0, /cpu/0/nvic/interrupt/13/iser_setena, /0, /cpu/0/nvic/interrupt/14/iser_setena, /0, /cpu/0/nvic/interrupt/15/iser_setena, /0, /cpu/0/nvic/interrupt/16/iser_setena, /0, /cpu/0/nvic/interrupt/17/iser_setena, /0, /cpu/0/nvic/interrupt/18/iser_setena, /0, /cpu/0/nvic/interrupt/19/iser_setena, /0, /cpu/0/nvic/interrupt/2/iser_setena, /0, /cpu/0/nvic/interrupt/20/iser_setena, /0, /cpu/0/nvic/interrupt/21/iser_setena, /0, /cpu/0/nvic/interrupt/22/iser_setena, /0, /cpu/0/nvic/interrupt/23/iser_setena, /0, /cpu/0/nvic/interrupt/24/iser_setena, /0, /cpu/0/nvic/interrupt/25/iser_setena, /0, /cpu/0/nvic/interrupt/26/iser_setena, /0, /cpu/0/nvic/interrupt/27/iser_setena, /0, /cpu/0/nvic/interrupt/28/iser_setena, /0, /cpu/0/nvic/interrupt/29/iser_setena, /0, /cpu/0/nvic/interrupt/3/iser_setena, /0, /cpu/0/nvic/interrupt/30/iser_setena, /0, /cpu/0/nvic/interrupt/31/iser_setena, /0, /cpu/0/nvic/interrupt/4/iser_setena, /0, /cpu/0/nvic/interrupt/5/iser_setena, /0, /cpu/0/nvic/interrupt/6/iser_setena, /0, /cpu/0/nvic/interrupt/7/iser_setena, /0, /cpu/0/nvic/interrupt/9/iser_setena, /0, /eru/0/ers_etl/0/exicon_pe, /0, /eru/0/ers_etl/0/exicon_ocs, /0, /eru/0/ers_etl/0/exisel_exsxb, /0, /eru/0/ers_etl/0/exisel_exsxa, /0, /eru/0/ers_etl/1/exicon_pe, /0, /eru/0/ers_etl/1/exicon_ocs, /0, /eru/0/ers_etl/1/exisel_exsxb, /0, /eru/0/ers_etl/1/exisel_exsxa, /0, /eru/0/ers_etl/2/exicon_pe, /0, /eru/0/ers_etl/2/exicon_ocs, /0, /eru/0/ers_etl/2/exisel_exsxb, /0, /eru/0/ers_etl/2/exisel_exsxa, /0, /eru/0/ers_etl/3/exicon_pe, /0, /eru/0/ers_etl/3/exicon_ocs, /0, /eru/0/ers_etl/3/exisel_exsxb, /0, /eru/0/ers_etl/3/exisel_exsxa, /0, /eru/0/ogu/0/exocon_iss, /0, /eru/0/ogu/0/exocon_ipen0, /0, /eru/0/ogu/0/exocon_ipen1, /0, /eru/0/ogu/0/exocon_ipen2, /0, /eru/0/ogu/0/exocon_ipen3, /0, /eru/0/ogu/1/exocon_iss, /0, /eru/0/ogu/1/exocon_ipen0, /0, /eru/0/ogu/1/exocon_ipen1, /0, /eru/0/ogu/1/exocon_ipen2, /0, /eru/0/ogu/1/exocon_ipen3, /0, /eru/0/ogu/2/exocon_iss, /0, /eru/0/ogu/2/exocon_ipen0, /0, /eru/0/ogu/2/exocon_ipen1, /0, /eru/0/ogu/2/exocon_ipen2, /0, /eru/0/ogu/2/exocon_ipen3, /0, /eru/0/ogu/3/exocon_iss, /0, /eru/0/ogu/3/exocon_ipen0, /0, /eru/0/ogu/3/exocon_ipen1, /0, /eru/0/ogu/3/exocon_ipen2, /0, /eru/0/ogu/3/exocon_ipen3, /0, /scu/0/ccu/config/clkcr_rtcclksel, /0, /usic/0/channel/0/ccr_hpcen, /0, /usic/0/channel/0/dx1cr_dsel, /0, /usic/0/channel/0/dx0cr_dsel, /0, /usic/0/channel/0/dx5cr_dsel, /0, /usic/0/channel/0/dx3cr_dsel, /0, /usic/0/channel/0/dx4cr_dsel, /0, /usic/0/channel/0/dx2cr_dsel, /0, /usic/0/channel/0/rbctr_arbien, /0, /usic/0/channel/0/rbctr_arbinp, /0, /usic/0/channel/0/ccr_aien, /0, /usic/0/channel/0/inpr_ainp, /0, /usic/0/channel/0/ccr_brgien, /0, /usic/0/channel/0/inpr_pinp, /0, /usic/0/channel/0/ccr_dlien, /0, /usic/0/channel/0/rbctr_rberien, /0, /usic/0/channel/0/ccr_rsien, /0, /usic/0/channel/0/inpr_tbinp, /0, /usic/0/channel/0/rbctr_srbien, /0, /usic/0/channel/0/rbctr_srbinp, /0, /usic/0/channel/0/ccr_rien, /0, /usic/0/channel/0/inpr_rinp, /0, /usic/0/channel/0/tbctr_stbien, /0, /usic/0/channel/0/tbctr_stbinp, /0, /usic/0/channel/0/tbctr_tberien, /0, /usic/0/channel/0/tbctr_atbinp, /0, /usic/0/channel/0/ccr_tbien, /0, /usic/0/channel/0/ccr_tsien, /0, /usic/0/channel/0/inpr_tsinp, /0, /usic/0/channel/0/rbctr_dptr, /0, /usic/0/channel/0/rbctr_size, /0, /usic/0/channel/0/tbctr_dptr, /0, /usic/0/channel/0/tbctr_size, /0, /usic/0/channel/1/ccr_hpcen, /0, /usic/0/channel/1/dx1cr_dsel, /0, /usic/0/channel/1/dx0cr_dsel, /0, /usic/0/channel/1/dx5cr_dsel, /0, /usic/0/channel/1/dx3cr_dsel, /0, /usic/0/channel/1/dx4cr_dsel, /0, /usic/0/channel/1/dx2cr_dsel, /0, /usic/0/channel/1/rbctr_arbien, /0, /usic/0/channel/1/rbctr_arbinp, /0, /usic/0/channel/1/ccr_aien, /0, /usic/0/channel/1/inpr_ainp, /0, /usic/0/channel/1/ccr_brgien, /0, /usic/0/channel/1/inpr_pinp, /0, /usic/0/channel/1/ccr_dlien, /0, /usic/0/channel/1/rbctr_rberien, /0, /usic/0/channel/1/ccr_rsien, /0, /usic/0/channel/1/inpr_tbinp, /0, /usic/0/channel/1/rbctr_srbien, /0, /usic/0/channel/1/rbctr_srbinp, /0, /usic/0/channel/1/ccr_rien, /0, /usic/0/channel/1/inpr_rinp, /0, /usic/0/channel/1/tbctr_stbien, /0, /usic/0/channel/1/tbctr_stbinp, /0, /usic/0/channel/1/tbctr_tberien, /0, /usic/0/channel/1/tbctr_atbinp, /0, /usic/0/channel/1/ccr_tbien, /0, /usic/0/channel/1/ccr_tsien, /0, /usic/0/channel/1/inpr_tsinp, /0, /usic/0/channel/1/rbctr_dptr, /0, /usic/0/channel/1/rbctr_size, /0, /usic/0/channel/1/tbctr_dptr, /0, /usic/0/channel/1/tbctr_size, /0, /vadc/0/backgnd/brsctrl_xtsel, /0, /vadc/0/backgnd/brsctrl_xtwc, /0, /vadc/0/backgnd/brsctrl_gtsel, /0, /vadc/0/backgnd/brsctrl_gtwc, /0, /vadc/0/backgnd/globevnp_sev0np, /0, /vadc/0/global/emuxsel_emuxgrp0, /0, /vadc/0/global/emuxsel_emuxgrp1, /0, /vadc/0/global_result/globevnp_revnp, /0]
+
+
+Apr 24, 2018 2:50:13 PM java.util.logging.LogManager$RootLogger log
+INFO: Start of solver :getSolution() : Tue Apr 24 14:50:13 BST 2018
+
+
+Apr 24, 2018 2:50:13 PM java.util.logging.LogManager$RootLogger log
+INFO: 
+timeout(solve_mapping_problem([ 
+reserved([ccu4,GLOBAL_CCU40sv0,global],'global_ccu4$595667498$0'),
+reserved([scu,_,gcu,ccu4_global_enable,GLOBAL_CCU40sv0],'global_ccu4$507149432$0'),
+reserved([scu,0,dco,_],'clock_xmc1$347764531$0'),
+reserved([scu,0,ccu,config],'clock_xmc1$02010375550$0'),
+reserved([ccu4,_,cc4,_],'pwm$084752152$0'),
+reserved([p,_,pad,_],'pwm$01754918612$0'),
+reserved([devicepackage,0,_],'pwm$0207185738$0'),
+reserved([wdt,_,wdt],'watchdog$01400492666$0'),
+reserved([scu,_,gcu,interrupt,prewarn],'watchdog$0865335036$0'),
+reserved([vadc,_,global],'global_adc$278079266$0'),
+reserved([vadc,_,group,0,config],'global_adc$283639056$0'),
+reserved([vadc,_,backgnd],'adc_measurement$0960477383$0'),
+reserved([vadc,_,class,1],'adc_measurement$0157319968$0'),
+reserved([vadc,_,class,0],'adc_measurement$01167015281$0'),
+reserved([p,_,pad,_],'adc_measurement$0680805286$0'),
+reserved([devicepackage,0,_],'adc_measurement$0124857238$0'),
+reserved([vadc,0,group,_,ch,_],'adc_measurement$0315738293$0'),
+reserved([vadc,_,global_result],'adc_measurement$01671456721$0'),
+signal('global_ccu4$595667498$0',global_signal,'global_ccu4$595667498$0$global_signal'),
+signal('global_ccu4$595667498$0',clk,'global_ccu4$595667498$0$clk'),
+signal('global_ccu4$507149432$0',gsc_enable,'global_ccu4$507149432$0$gsc_enable'),
+signal('clock_xmc1$347764531$0',clkout,'clock_xmc1$347764531$0$clkout'),
+signal('clock_xmc1$02010375550$0',frtc,'clock_xmc1$02010375550$0$frtc'),
+signal('pwm$084752152$0',global_signal,'pwm$084752152$0$global_signal'),
+signal('pwm$084752152$0',cmds_cmus,'pwm$084752152$0$cmds_cmus'),
+signal('pwm$084752152$0',pmus_omds,'pwm$084752152$0$pmus_omds'),
+signal('pwm$084752152$0',st,'pwm$084752152$0$st'),
+signal('pwm$084752152$0',out,'pwm$084752152$0$out'),
+signal('pwm$01754918612$0',pad,'pwm$01754918612$0$pad'),
+signal('pwm$0207185738$0',pin,'pwm$0207185738$0$pin'),
+signal('watchdog$01400492666$0',wdt_srv_request,'watchdog$01400492666$0$wdt_srv_request'),
+signal('watchdog$0865335036$0',int,'watchdog$0865335036$0$int'),
+signal('global_adc$278079266$0',global_signal,'global_adc$278079266$0$global_signal'),
+signal('adc_measurement$0315738293$0',gch,'adc_measurement$0315738293$0$gch'),
+signal('adc_measurement$0680805286$0',pad,'adc_measurement$0680805286$0$pad'),
+signal('adc_measurement$0124857238$0',pin,'adc_measurement$0124857238$0$pin'),
+signal('adc_measurement$0315738293$0',select,'adc_measurement$0315738293$0$select'),
+signal('adc_measurement$01671456721$0',rev0,'adc_measurement$01671456721$0$rev0'),
+signal('adc_measurement$0960477383$0',bgreqtrsel,'adc_measurement$0960477383$0$bgreqtrsel'),
+signal('adc_measurement$0960477383$0',bgreqgtsel,'adc_measurement$0960477383$0$bgreqgtsel'),
+signal('adc_measurement$0960477383$0',global_signal,'adc_measurement$0960477383$0$global_signal'),
+connected('clock_xmc1$347764531$0$clkout','clock_xmc1$02010375550$0$frtc',1),
+connected('pwm$0207185738$0$pin','pwm$01754918612$0$pad',1),
+connected('pwm$084752152$0$out','pwm$01754918612$0$pad',1),
+connected('pwm$01754918612$0$pad','pwm$0207185738$0$pin',1),
+connected('global_ccu4$595667498$0$global_signal','pwm$084752152$0$global_signal',1),
+connected('global_adc$278079266$0$global_signal','adc_measurement$0960477383$0$global_signal',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0315738293$0$gch',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0124857238$0$pin',1),
+connected('adc_measurement$0124857238$0$pin','adc_measurement$0680805286$0$pad',1)
+ ],Vars,Regs,Appslocalvars),15,writeln(timeout),all_solution, Timer, Due, Remainder).
+
+
+
+Apr 24, 2018 2:50:13 PM java.util.logging.LogManager$RootLogger log
+INFO: 
+End of solver : getSolution() :  Difference in ms 65
+
+
+Apr 24, 2018 2:50:13 PM java.util.logging.LogManager$RootLogger log
+INFO: [/vadc/0/class/0, /adc_measurement$01167015281$0, /devicepackage/0/4, /adc_measurement$0124857238$0, /vadc/0/class/1, /adc_measurement$0157319968$0, /vadc/0/global_result, /adc_measurement$01671456721$0, /vadc/0/group/0/ch/0, /adc_measurement$0315738293$0, /p/2/pad/6, /adc_measurement$0680805286$0, /vadc/0/backgnd, /adc_measurement$0960477383$0, /scu/0/ccu/config, /clock_xmc1$02010375550$0, /scu/0/dco/2, /clock_xmc1$347764531$0, /vadc/0/global, /global_adc$278079266$0, /vadc/0/group/0/config, /global_adc$283639056$0, /scu/0/gcu/ccu4_global_enable/0, /global_ccu4$507149432$0, /ccu4/0/global, /global_ccu4$595667498$0, /p/1/pad/0, /pwm$01754918612$0, /devicepackage/0/14, /pwm$0207185738$0, /ccu4/0/cc4/0, /pwm$084752152$0, /wdt/0/wdt, /watchdog$01400492666$0, /scu/0/gcu/interrupt/prewarn, /watchdog$0865335036$0]
+
+
+Apr 24, 2018 2:50:13 PM java.util.logging.LogManager$RootLogger log
+INFO: [/p/1/pad/0/iocr_pcr, /2, /p/1/pad/0/iocr_oe, /1, /p/1/pad/0/hwsel_hw, /0, /p/1/pad/1/iocr_pcr, /0, /p/1/pad/1/iocr_oe, /0, /p/1/pad/1/hwsel_hw, /0, /p/1/pad/2/iocr_pcr, /0, /p/1/pad/2/iocr_oe, /0, /p/1/pad/2/hwsel_hw, /0, /p/1/pad/3/iocr_pcr, /0, /p/1/pad/3/iocr_oe, /0, /p/1/pad/3/hwsel_hw, /0, /p/2/pad/2/iocr_pcr, /0, /p/2/pad/2/iocr_oe, /0, /p/2/pad/2/hwsel_hw, /0, /p/2/pad/2/pdisc_pdis, /1, /p/2/pad/6/iocr_pcr, /0, /p/2/pad/6/iocr_oe, /0, /p/2/pad/6/hwsel_hw, /0, /p/2/pad/6/pdisc_pdis, /1, /p/2/pad/7/iocr_pcr, /0, /p/2/pad/7/iocr_oe, /0, /p/2/pad/7/hwsel_hw, /0, /p/2/pad/7/pdisc_pdis, /1, /p/2/pad/8/iocr_pcr, /0, /p/2/pad/8/iocr_oe, /0, /p/2/pad/8/hwsel_hw, /0, /p/2/pad/8/pdisc_pdis, /1, /p/2/pad/9/iocr_pcr, /0, /p/2/pad/9/iocr_oe, /0, /p/2/pad/9/hwsel_hw, /0, /p/2/pad/9/pdisc_pdis, /1, /p/0/pad/0/iocr_pcr, /0, /p/0/pad/0/iocr_oe, /0, /p/0/pad/0/hwsel_hw, /0, /p/0/pad/12/iocr_pcr, /0, /p/0/pad/12/iocr_oe, /0, /p/0/pad/12/hwsel_hw, /0, /p/0/pad/13/iocr_pcr, /0, /p/0/pad/13/iocr_oe, /0, /p/0/pad/13/hwsel_hw, /0, /p/0/pad/14/iocr_pcr, /0, /p/0/pad/14/iocr_oe, /0, /p/0/pad/14/hwsel_hw, /0, /p/0/pad/15/iocr_pcr, /0, /p/0/pad/15/iocr_oe, /0, /p/0/pad/15/hwsel_hw, /0, /p/0/pad/5/iocr_pcr, /0, /p/0/pad/5/iocr_oe, /0, /p/0/pad/5/hwsel_hw, /0, /p/0/pad/6/iocr_pcr, /0, /p/0/pad/6/iocr_oe, /0, /p/0/pad/6/hwsel_hw, /0, /p/0/pad/7/iocr_pcr, /0, /p/0/pad/7/iocr_oe, /0, /p/0/pad/7/hwsel_hw, /0, /p/0/pad/8/iocr_pcr, /0, /p/0/pad/8/iocr_oe, /0, /p/0/pad/8/hwsel_hw, /0, /p/0/pad/9/iocr_pcr, /0, /p/0/pad/9/iocr_oe, /0, /p/0/pad/9/hwsel_hw, /0, /p/2/pad/0/iocr_pcr, /0, /p/2/pad/0/iocr_oe, /0, /p/2/pad/0/hwsel_hw, /0, /p/2/pad/0/pdisc_pdis, /1, /p/2/pad/1/iocr_pcr, /0, /p/2/pad/1/iocr_oe, /0, /p/2/pad/1/hwsel_hw, /0, /p/2/pad/1/pdisc_pdis, /1, /p/2/pad/10/iocr_pcr, /0, /p/2/pad/10/iocr_oe, /0, /p/2/pad/10/hwsel_hw, /0, /p/2/pad/10/pdisc_pdis, /1, /p/2/pad/11/iocr_pcr, /0, /p/2/pad/11/iocr_oe, /0, /p/2/pad/11/hwsel_hw, /0, /p/2/pad/11/pdisc_pdis, /1, /ccu4/0/cc4/0/srs_cmsr, /0, /ccu4/0/cc4/0/srs_e0sr, /0, /ccu4/0/cc4/0/srs_e1sr, /0, /ccu4/0/cc4/0/srs_e2sr, /0, /ccu4/0/cc4/0/ins_ev0is, /0, /ccu4/0/cc4/0/ins_ev1is, /0, /ccu4/0/cc4/0/ins_ev2is, /0, /ccu4/0/cc4/0/srs_posr, /0, /ccu4/0/cc4/1/srs_cmsr, /0, /ccu4/0/cc4/1/srs_e0sr, /0, /ccu4/0/cc4/1/srs_e1sr, /0, /ccu4/0/cc4/1/srs_e2sr, /0, /ccu4/0/cc4/1/ins_ev0is, /0, /ccu4/0/cc4/1/ins_ev1is, /0, /ccu4/0/cc4/1/ins_ev2is, /0, /ccu4/0/cc4/1/srs_posr, /0, /ccu4/0/cc4/1/cmc_tce, /0, /ccu4/0/cc4/2/srs_cmsr, /0, /ccu4/0/cc4/2/srs_e0sr, /0, /ccu4/0/cc4/2/srs_e1sr, /0, /ccu4/0/cc4/2/srs_e2sr, /0, /ccu4/0/cc4/2/ins_ev0is, /0, /ccu4/0/cc4/2/ins_ev1is, /0, /ccu4/0/cc4/2/ins_ev2is, /0, /ccu4/0/cc4/2/srs_posr, /0, /ccu4/0/cc4/2/cmc_tce, /0, /ccu4/0/cc4/3/srs_cmsr, /0, /ccu4/0/cc4/3/srs_e0sr, /0, /ccu4/0/cc4/3/srs_e1sr, /0, /ccu4/0/cc4/3/srs_e2sr, /0, /ccu4/0/cc4/3/ins_ev0is, /0, /ccu4/0/cc4/3/ins_ev1is, /0, /ccu4/0/cc4/3/ins_ev2is, /0, /ccu4/0/cc4/3/srs_posr, /0, /ccu4/0/cc4/3/cmc_tce, /0, /ccu4/0/global/gctrl_pcis, /0, /cpu/0/nvic/interrupt/0/iser_setena, /0, /cpu/0/nvic/interrupt/1/iser_setena, /0, /cpu/0/nvic/interrupt/10/iser_setena, /0, /cpu/0/nvic/interrupt/11/iser_setena, /0, /cpu/0/nvic/interrupt/12/iser_setena, /0, /cpu/0/nvic/interrupt/13/iser_setena, /0, /cpu/0/nvic/interrupt/14/iser_setena, /0, /cpu/0/nvic/interrupt/15/iser_setena, /0, /cpu/0/nvic/interrupt/16/iser_setena, /0, /cpu/0/nvic/interrupt/17/iser_setena, /0, /cpu/0/nvic/interrupt/18/iser_setena, /0, /cpu/0/nvic/interrupt/19/iser_setena, /0, /cpu/0/nvic/interrupt/2/iser_setena, /0, /cpu/0/nvic/interrupt/20/iser_setena, /0, /cpu/0/nvic/interrupt/21/iser_setena, /0, /cpu/0/nvic/interrupt/22/iser_setena, /0, /cpu/0/nvic/interrupt/23/iser_setena, /0, /cpu/0/nvic/interrupt/24/iser_setena, /0, /cpu/0/nvic/interrupt/25/iser_setena, /0, /cpu/0/nvic/interrupt/26/iser_setena, /0, /cpu/0/nvic/interrupt/27/iser_setena, /0, /cpu/0/nvic/interrupt/28/iser_setena, /0, /cpu/0/nvic/interrupt/29/iser_setena, /0, /cpu/0/nvic/interrupt/3/iser_setena, /0, /cpu/0/nvic/interrupt/30/iser_setena, /0, /cpu/0/nvic/interrupt/31/iser_setena, /0, /cpu/0/nvic/interrupt/4/iser_setena, /0, /cpu/0/nvic/interrupt/5/iser_setena, /0, /cpu/0/nvic/interrupt/6/iser_setena, /0, /cpu/0/nvic/interrupt/7/iser_setena, /0, /cpu/0/nvic/interrupt/9/iser_setena, /0, /eru/0/ers_etl/0/exicon_pe, /0, /eru/0/ers_etl/0/exicon_ocs, /0, /eru/0/ers_etl/0/exisel_exsxb, /0, /eru/0/ers_etl/0/exisel_exsxa, /0, /eru/0/ers_etl/1/exicon_pe, /0, /eru/0/ers_etl/1/exicon_ocs, /0, /eru/0/ers_etl/1/exisel_exsxb, /0, /eru/0/ers_etl/1/exisel_exsxa, /0, /eru/0/ers_etl/2/exicon_pe, /0, /eru/0/ers_etl/2/exicon_ocs, /0, /eru/0/ers_etl/2/exisel_exsxb, /0, /eru/0/ers_etl/2/exisel_exsxa, /0, /eru/0/ers_etl/3/exicon_pe, /0, /eru/0/ers_etl/3/exicon_ocs, /0, /eru/0/ers_etl/3/exisel_exsxb, /0, /eru/0/ers_etl/3/exisel_exsxa, /0, /eru/0/ogu/0/exocon_iss, /0, /eru/0/ogu/0/exocon_ipen0, /0, /eru/0/ogu/0/exocon_ipen1, /0, /eru/0/ogu/0/exocon_ipen2, /0, /eru/0/ogu/0/exocon_ipen3, /0, /eru/0/ogu/1/exocon_iss, /0, /eru/0/ogu/1/exocon_ipen0, /0, /eru/0/ogu/1/exocon_ipen1, /0, /eru/0/ogu/1/exocon_ipen2, /0, /eru/0/ogu/1/exocon_ipen3, /0, /eru/0/ogu/2/exocon_iss, /0, /eru/0/ogu/2/exocon_ipen0, /0, /eru/0/ogu/2/exocon_ipen1, /0, /eru/0/ogu/2/exocon_ipen2, /0, /eru/0/ogu/2/exocon_ipen3, /0, /eru/0/ogu/3/exocon_iss, /0, /eru/0/ogu/3/exocon_ipen0, /0, /eru/0/ogu/3/exocon_ipen1, /0, /eru/0/ogu/3/exocon_ipen2, /0, /eru/0/ogu/3/exocon_ipen3, /0, /scu/0/ccu/config/clkcr_rtcclksel, /0, /usic/0/channel/0/ccr_hpcen, /0, /usic/0/channel/0/dx1cr_dsel, /0, /usic/0/channel/0/dx0cr_dsel, /0, /usic/0/channel/0/dx5cr_dsel, /0, /usic/0/channel/0/dx3cr_dsel, /0, /usic/0/channel/0/dx4cr_dsel, /0, /usic/0/channel/0/dx2cr_dsel, /0, /usic/0/channel/0/rbctr_arbien, /0, /usic/0/channel/0/rbctr_arbinp, /0, /usic/0/channel/0/ccr_aien, /0, /usic/0/channel/0/inpr_ainp, /0, /usic/0/channel/0/ccr_brgien, /0, /usic/0/channel/0/inpr_pinp, /0, /usic/0/channel/0/ccr_dlien, /0, /usic/0/channel/0/rbctr_rberien, /0, /usic/0/channel/0/ccr_rsien, /0, /usic/0/channel/0/inpr_tbinp, /0, /usic/0/channel/0/rbctr_srbien, /0, /usic/0/channel/0/rbctr_srbinp, /0, /usic/0/channel/0/ccr_rien, /0, /usic/0/channel/0/inpr_rinp, /0, /usic/0/channel/0/tbctr_stbien, /0, /usic/0/channel/0/tbctr_stbinp, /0, /usic/0/channel/0/tbctr_tberien, /0, /usic/0/channel/0/tbctr_atbinp, /0, /usic/0/channel/0/ccr_tbien, /0, /usic/0/channel/0/ccr_tsien, /0, /usic/0/channel/0/inpr_tsinp, /0, /usic/0/channel/0/rbctr_dptr, /0, /usic/0/channel/0/rbctr_size, /0, /usic/0/channel/0/tbctr_dptr, /0, /usic/0/channel/0/tbctr_size, /0, /usic/0/channel/1/ccr_hpcen, /0, /usic/0/channel/1/dx1cr_dsel, /0, /usic/0/channel/1/dx0cr_dsel, /0, /usic/0/channel/1/dx5cr_dsel, /0, /usic/0/channel/1/dx3cr_dsel, /0, /usic/0/channel/1/dx4cr_dsel, /0, /usic/0/channel/1/dx2cr_dsel, /0, /usic/0/channel/1/rbctr_arbien, /0, /usic/0/channel/1/rbctr_arbinp, /0, /usic/0/channel/1/ccr_aien, /0, /usic/0/channel/1/inpr_ainp, /0, /usic/0/channel/1/ccr_brgien, /0, /usic/0/channel/1/inpr_pinp, /0, /usic/0/channel/1/ccr_dlien, /0, /usic/0/channel/1/rbctr_rberien, /0, /usic/0/channel/1/ccr_rsien, /0, /usic/0/channel/1/inpr_tbinp, /0, /usic/0/channel/1/rbctr_srbien, /0, /usic/0/channel/1/rbctr_srbinp, /0, /usic/0/channel/1/ccr_rien, /0, /usic/0/channel/1/inpr_rinp, /0, /usic/0/channel/1/tbctr_stbien, /0, /usic/0/channel/1/tbctr_stbinp, /0, /usic/0/channel/1/tbctr_tberien, /0, /usic/0/channel/1/tbctr_atbinp, /0, /usic/0/channel/1/ccr_tbien, /0, /usic/0/channel/1/ccr_tsien, /0, /usic/0/channel/1/inpr_tsinp, /0, /usic/0/channel/1/rbctr_dptr, /0, /usic/0/channel/1/rbctr_size, /0, /usic/0/channel/1/tbctr_dptr, /0, /usic/0/channel/1/tbctr_size, /0, /vadc/0/backgnd/brsctrl_xtsel, /0, /vadc/0/backgnd/brsctrl_xtwc, /0, /vadc/0/backgnd/brsctrl_gtsel, /0, /vadc/0/backgnd/brsctrl_gtwc, /0, /vadc/0/backgnd/globevnp_sev0np, /0, /vadc/0/global/emuxsel_emuxgrp0, /0, /vadc/0/global/emuxsel_emuxgrp1, /0, /vadc/0/global_result/globevnp_revnp, /0]
+
+
+Apr 24, 2018 2:50:54 PM java.util.logging.LogManager$RootLogger log
+INFO: Start of solver :getSolution() : Tue Apr 24 14:50:54 BST 2018
+
+
+Apr 24, 2018 2:50:54 PM java.util.logging.LogManager$RootLogger log
+INFO: 
+timeout(solve_mapping_problem([ 
+reserved([ccu4,GLOBAL_CCU40sv0,global],'global_ccu4$595667498$0'),
+reserved([scu,_,gcu,ccu4_global_enable,GLOBAL_CCU40sv0],'global_ccu4$507149432$0'),
+reserved([scu,0,dco,_],'clock_xmc1$347764531$0'),
+reserved([scu,0,ccu,config],'clock_xmc1$02010375550$0'),
+reserved([ccu4,_,cc4,_],'pwm$084752152$0'),
+reserved([p,_,pad,_],'pwm$01754918612$0'),
+reserved([devicepackage,0,_],'pwm$0207185738$0'),
+reserved([wdt,_,wdt],'watchdog$01400492666$0'),
+reserved([scu,_,gcu,interrupt,prewarn],'watchdog$0865335036$0'),
+reserved([vadc,_,global],'global_adc$278079266$0'),
+reserved([vadc,_,group,0,config],'global_adc$283639056$0'),
+reserved([vadc,_,backgnd],'adc_measurement$0960477383$0'),
+reserved([vadc,_,class,1],'adc_measurement$0157319968$0'),
+reserved([vadc,_,class,0],'adc_measurement$01167015281$0'),
+reserved([p,_,pad,_],'adc_measurement$0680805286$0'),
+reserved([devicepackage,0,_],'adc_measurement$0124857238$0'),
+reserved([vadc,0,group,_,ch,_],'adc_measurement$0315738293$0'),
+reserved([vadc,_,global_result],'adc_measurement$01671456721$0'),
+reserved([cpu,0,nvic,interrupt,_],'adc_measurement$1888029967$0'),
+reserved([p,0,pad,14],'cpu_ctrl_xmc1$355878294$0'),
+reserved([p,0,pad,15],'cpu_ctrl_xmc1$355878295$0'),
+reserved([cpu,0,exception,hardfault],'cpu_ctrl_xmc1$846901778$0'),
+signal('global_ccu4$595667498$0',global_signal,'global_ccu4$595667498$0$global_signal'),
+signal('global_ccu4$595667498$0',clk,'global_ccu4$595667498$0$clk'),
+signal('global_ccu4$507149432$0',gsc_enable,'global_ccu4$507149432$0$gsc_enable'),
+signal('clock_xmc1$347764531$0',clkout,'clock_xmc1$347764531$0$clkout'),
+signal('clock_xmc1$02010375550$0',frtc,'clock_xmc1$02010375550$0$frtc'),
+signal('pwm$084752152$0',global_signal,'pwm$084752152$0$global_signal'),
+signal('pwm$084752152$0',cmds_cmus,'pwm$084752152$0$cmds_cmus'),
+signal('pwm$084752152$0',pmus_omds,'pwm$084752152$0$pmus_omds'),
+signal('pwm$084752152$0',st,'pwm$084752152$0$st'),
+signal('pwm$084752152$0',out,'pwm$084752152$0$out'),
+signal('pwm$01754918612$0',pad,'pwm$01754918612$0$pad'),
+signal('pwm$0207185738$0',pin,'pwm$0207185738$0$pin'),
+signal('watchdog$01400492666$0',wdt_srv_request,'watchdog$01400492666$0$wdt_srv_request'),
+signal('watchdog$0865335036$0',int,'watchdog$0865335036$0$int'),
+signal('global_adc$278079266$0',global_signal,'global_adc$278079266$0$global_signal'),
+signal('adc_measurement$0315738293$0',gch,'adc_measurement$0315738293$0$gch'),
+signal('adc_measurement$0680805286$0',pad,'adc_measurement$0680805286$0$pad'),
+signal('adc_measurement$0124857238$0',pin,'adc_measurement$0124857238$0$pin'),
+signal('adc_measurement$0315738293$0',select,'adc_measurement$0315738293$0$select'),
+signal('adc_measurement$01671456721$0',rev0,'adc_measurement$01671456721$0$rev0'),
+signal('adc_measurement$0960477383$0',bgreqtrsel,'adc_measurement$0960477383$0$bgreqtrsel'),
+signal('adc_measurement$0960477383$0',bgreqgtsel,'adc_measurement$0960477383$0$bgreqgtsel'),
+signal('adc_measurement$0960477383$0',global_signal,'adc_measurement$0960477383$0$global_signal'),
+signal('adc_measurement$1888029967$0',signal_in,'adc_measurement$1888029967$0$signal_in'),
+connected('clock_xmc1$347764531$0$clkout','clock_xmc1$02010375550$0$frtc',1),
+connected('pwm$0207185738$0$pin','pwm$01754918612$0$pad',1),
+connected('pwm$084752152$0$out','pwm$01754918612$0$pad',1),
+connected('pwm$01754918612$0$pad','pwm$0207185738$0$pin',1),
+connected('global_ccu4$595667498$0$global_signal','pwm$084752152$0$global_signal',1),
+connected('global_adc$278079266$0$global_signal','adc_measurement$0960477383$0$global_signal',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0315738293$0$gch',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0124857238$0$pin',1),
+connected('adc_measurement$01671456721$0$rev0','adc_measurement$1888029967$0$signal_in',1),
+connected('adc_measurement$0124857238$0$pin','adc_measurement$0680805286$0$pad',1)
+ ],Vars,Regs,Appslocalvars),15,writeln(timeout),all_solution, Timer, Due, Remainder).
+
+
+
+Apr 24, 2018 2:50:54 PM java.util.logging.LogManager$RootLogger log
+INFO: 
+End of solver : getSolution() :  Difference in ms 77
+
+
+Apr 24, 2018 2:50:54 PM java.util.logging.LogManager$RootLogger log
+INFO: [/vadc/0/class/0, /adc_measurement$01167015281$0, /devicepackage/0/4, /adc_measurement$0124857238$0, /vadc/0/class/1, /adc_measurement$0157319968$0, /vadc/0/global_result, /adc_measurement$01671456721$0, /vadc/0/group/0/ch/0, /adc_measurement$0315738293$0, /p/2/pad/6, /adc_measurement$0680805286$0, /vadc/0/backgnd, /adc_measurement$0960477383$0, /cpu/0/nvic/interrupt/15, /adc_measurement$1888029967$0, /scu/0/ccu/config, /clock_xmc1$02010375550$0, /scu/0/dco/2, /clock_xmc1$347764531$0, /p/0/pad/14, /cpu_ctrl_xmc1$355878294$0, /p/0/pad/15, /cpu_ctrl_xmc1$355878295$0, /cpu/0/exception/hardfault, /cpu_ctrl_xmc1$846901778$0, /vadc/0/global, /global_adc$278079266$0, /vadc/0/group/0/config, /global_adc$283639056$0, /scu/0/gcu/ccu4_global_enable/0, /global_ccu4$507149432$0, /ccu4/0/global, /global_ccu4$595667498$0, /p/1/pad/0, /pwm$01754918612$0, /devicepackage/0/14, /pwm$0207185738$0, /ccu4/0/cc4/0, /pwm$084752152$0, /wdt/0/wdt, /watchdog$01400492666$0, /scu/0/gcu/interrupt/prewarn, /watchdog$0865335036$0]
+
+
+Apr 24, 2018 2:50:54 PM java.util.logging.LogManager$RootLogger log
+INFO: [/p/1/pad/0/iocr_pcr, /2, /p/1/pad/0/iocr_oe, /1, /p/1/pad/0/hwsel_hw, /0, /p/1/pad/1/iocr_pcr, /0, /p/1/pad/1/iocr_oe, /0, /p/1/pad/1/hwsel_hw, /0, /p/1/pad/2/iocr_pcr, /0, /p/1/pad/2/iocr_oe, /0, /p/1/pad/2/hwsel_hw, /0, /p/1/pad/3/iocr_pcr, /0, /p/1/pad/3/iocr_oe, /0, /p/1/pad/3/hwsel_hw, /0, /p/2/pad/2/iocr_pcr, /0, /p/2/pad/2/iocr_oe, /0, /p/2/pad/2/hwsel_hw, /0, /p/2/pad/2/pdisc_pdis, /1, /p/2/pad/6/iocr_pcr, /0, /p/2/pad/6/iocr_oe, /0, /p/2/pad/6/hwsel_hw, /0, /p/2/pad/6/pdisc_pdis, /1, /p/2/pad/7/iocr_pcr, /0, /p/2/pad/7/iocr_oe, /0, /p/2/pad/7/hwsel_hw, /0, /p/2/pad/7/pdisc_pdis, /1, /p/2/pad/8/iocr_pcr, /0, /p/2/pad/8/iocr_oe, /0, /p/2/pad/8/hwsel_hw, /0, /p/2/pad/8/pdisc_pdis, /1, /p/2/pad/9/iocr_pcr, /0, /p/2/pad/9/iocr_oe, /0, /p/2/pad/9/hwsel_hw, /0, /p/2/pad/9/pdisc_pdis, /1, /p/0/pad/0/iocr_pcr, /0, /p/0/pad/0/iocr_oe, /0, /p/0/pad/0/hwsel_hw, /0, /p/0/pad/12/iocr_pcr, /0, /p/0/pad/12/iocr_oe, /0, /p/0/pad/12/hwsel_hw, /0, /p/0/pad/13/iocr_pcr, /0, /p/0/pad/13/iocr_oe, /0, /p/0/pad/13/hwsel_hw, /0, /p/0/pad/14/iocr_pcr, /0, /p/0/pad/14/iocr_oe, /0, /p/0/pad/14/hwsel_hw, /0, /p/0/pad/15/iocr_pcr, /0, /p/0/pad/15/iocr_oe, /0, /p/0/pad/15/hwsel_hw, /0, /p/0/pad/5/iocr_pcr, /0, /p/0/pad/5/iocr_oe, /0, /p/0/pad/5/hwsel_hw, /0, /p/0/pad/6/iocr_pcr, /0, /p/0/pad/6/iocr_oe, /0, /p/0/pad/6/hwsel_hw, /0, /p/0/pad/7/iocr_pcr, /0, /p/0/pad/7/iocr_oe, /0, /p/0/pad/7/hwsel_hw, /0, /p/0/pad/8/iocr_pcr, /0, /p/0/pad/8/iocr_oe, /0, /p/0/pad/8/hwsel_hw, /0, /p/0/pad/9/iocr_pcr, /0, /p/0/pad/9/iocr_oe, /0, /p/0/pad/9/hwsel_hw, /0, /p/2/pad/0/iocr_pcr, /0, /p/2/pad/0/iocr_oe, /0, /p/2/pad/0/hwsel_hw, /0, /p/2/pad/0/pdisc_pdis, /1, /p/2/pad/1/iocr_pcr, /0, /p/2/pad/1/iocr_oe, /0, /p/2/pad/1/hwsel_hw, /0, /p/2/pad/1/pdisc_pdis, /1, /p/2/pad/10/iocr_pcr, /0, /p/2/pad/10/iocr_oe, /0, /p/2/pad/10/hwsel_hw, /0, /p/2/pad/10/pdisc_pdis, /1, /p/2/pad/11/iocr_pcr, /0, /p/2/pad/11/iocr_oe, /0, /p/2/pad/11/hwsel_hw, /0, /p/2/pad/11/pdisc_pdis, /1, /ccu4/0/cc4/0/srs_cmsr, /0, /ccu4/0/cc4/0/srs_e0sr, /0, /ccu4/0/cc4/0/srs_e1sr, /0, /ccu4/0/cc4/0/srs_e2sr, /0, /ccu4/0/cc4/0/ins_ev0is, /0, /ccu4/0/cc4/0/ins_ev1is, /0, /ccu4/0/cc4/0/ins_ev2is, /0, /ccu4/0/cc4/0/srs_posr, /0, /ccu4/0/cc4/1/srs_cmsr, /0, /ccu4/0/cc4/1/srs_e0sr, /0, /ccu4/0/cc4/1/srs_e1sr, /0, /ccu4/0/cc4/1/srs_e2sr, /0, /ccu4/0/cc4/1/ins_ev0is, /0, /ccu4/0/cc4/1/ins_ev1is, /0, /ccu4/0/cc4/1/ins_ev2is, /0, /ccu4/0/cc4/1/srs_posr, /0, /ccu4/0/cc4/1/cmc_tce, /0, /ccu4/0/cc4/2/srs_cmsr, /0, /ccu4/0/cc4/2/srs_e0sr, /0, /ccu4/0/cc4/2/srs_e1sr, /0, /ccu4/0/cc4/2/srs_e2sr, /0, /ccu4/0/cc4/2/ins_ev0is, /0, /ccu4/0/cc4/2/ins_ev1is, /0, /ccu4/0/cc4/2/ins_ev2is, /0, /ccu4/0/cc4/2/srs_posr, /0, /ccu4/0/cc4/2/cmc_tce, /0, /ccu4/0/cc4/3/srs_cmsr, /0, /ccu4/0/cc4/3/srs_e0sr, /0, /ccu4/0/cc4/3/srs_e1sr, /0, /ccu4/0/cc4/3/srs_e2sr, /0, /ccu4/0/cc4/3/ins_ev0is, /0, /ccu4/0/cc4/3/ins_ev1is, /0, /ccu4/0/cc4/3/ins_ev2is, /0, /ccu4/0/cc4/3/srs_posr, /0, /ccu4/0/cc4/3/cmc_tce, /0, /ccu4/0/global/gctrl_pcis, /0, /cpu/0/nvic/interrupt/0/iser_setena, /0, /cpu/0/nvic/interrupt/1/iser_setena, /0, /cpu/0/nvic/interrupt/10/iser_setena, /0, /cpu/0/nvic/interrupt/11/iser_setena, /0, /cpu/0/nvic/interrupt/12/iser_setena, /0, /cpu/0/nvic/interrupt/13/iser_setena, /0, /cpu/0/nvic/interrupt/14/iser_setena, /0, /cpu/0/nvic/interrupt/15/iser_setena, /1, /cpu/0/nvic/interrupt/16/iser_setena, /0, /cpu/0/nvic/interrupt/17/iser_setena, /0, /cpu/0/nvic/interrupt/18/iser_setena, /0, /cpu/0/nvic/interrupt/19/iser_setena, /0, /cpu/0/nvic/interrupt/2/iser_setena, /0, /cpu/0/nvic/interrupt/20/iser_setena, /0, /cpu/0/nvic/interrupt/21/iser_setena, /0, /cpu/0/nvic/interrupt/22/iser_setena, /0, /cpu/0/nvic/interrupt/23/iser_setena, /0, /cpu/0/nvic/interrupt/24/iser_setena, /0, /cpu/0/nvic/interrupt/25/iser_setena, /0, /cpu/0/nvic/interrupt/26/iser_setena, /0, /cpu/0/nvic/interrupt/27/iser_setena, /0, /cpu/0/nvic/interrupt/28/iser_setena, /0, /cpu/0/nvic/interrupt/29/iser_setena, /0, /cpu/0/nvic/interrupt/3/iser_setena, /0, /cpu/0/nvic/interrupt/30/iser_setena, /0, /cpu/0/nvic/interrupt/31/iser_setena, /0, /cpu/0/nvic/interrupt/4/iser_setena, /0, /cpu/0/nvic/interrupt/5/iser_setena, /0, /cpu/0/nvic/interrupt/6/iser_setena, /0, /cpu/0/nvic/interrupt/7/iser_setena, /0, /cpu/0/nvic/interrupt/9/iser_setena, /0, /eru/0/ers_etl/0/exicon_pe, /0, /eru/0/ers_etl/0/exicon_ocs, /0, /eru/0/ers_etl/0/exisel_exsxb, /0, /eru/0/ers_etl/0/exisel_exsxa, /0, /eru/0/ers_etl/1/exicon_pe, /0, /eru/0/ers_etl/1/exicon_ocs, /0, /eru/0/ers_etl/1/exisel_exsxb, /0, /eru/0/ers_etl/1/exisel_exsxa, /0, /eru/0/ers_etl/2/exicon_pe, /0, /eru/0/ers_etl/2/exicon_ocs, /0, /eru/0/ers_etl/2/exisel_exsxb, /0, /eru/0/ers_etl/2/exisel_exsxa, /0, /eru/0/ers_etl/3/exicon_pe, /0, /eru/0/ers_etl/3/exicon_ocs, /0, /eru/0/ers_etl/3/exisel_exsxb, /0, /eru/0/ers_etl/3/exisel_exsxa, /0, /eru/0/ogu/0/exocon_iss, /0, /eru/0/ogu/0/exocon_ipen0, /0, /eru/0/ogu/0/exocon_ipen1, /0, /eru/0/ogu/0/exocon_ipen2, /0, /eru/0/ogu/0/exocon_ipen3, /0, /eru/0/ogu/1/exocon_iss, /0, /eru/0/ogu/1/exocon_ipen0, /0, /eru/0/ogu/1/exocon_ipen1, /0, /eru/0/ogu/1/exocon_ipen2, /0, /eru/0/ogu/1/exocon_ipen3, /0, /eru/0/ogu/2/exocon_iss, /0, /eru/0/ogu/2/exocon_ipen0, /0, /eru/0/ogu/2/exocon_ipen1, /0, /eru/0/ogu/2/exocon_ipen2, /0, /eru/0/ogu/2/exocon_ipen3, /0, /eru/0/ogu/3/exocon_iss, /0, /eru/0/ogu/3/exocon_ipen0, /0, /eru/0/ogu/3/exocon_ipen1, /0, /eru/0/ogu/3/exocon_ipen2, /0, /eru/0/ogu/3/exocon_ipen3, /0, /scu/0/ccu/config/clkcr_rtcclksel, /0, /usic/0/channel/0/ccr_hpcen, /0, /usic/0/channel/0/dx1cr_dsel, /0, /usic/0/channel/0/dx0cr_dsel, /0, /usic/0/channel/0/dx5cr_dsel, /0, /usic/0/channel/0/dx3cr_dsel, /0, /usic/0/channel/0/dx4cr_dsel, /0, /usic/0/channel/0/dx2cr_dsel, /0, /usic/0/channel/0/rbctr_arbien, /0, /usic/0/channel/0/rbctr_arbinp, /0, /usic/0/channel/0/ccr_aien, /0, /usic/0/channel/0/inpr_ainp, /0, /usic/0/channel/0/ccr_brgien, /0, /usic/0/channel/0/inpr_pinp, /0, /usic/0/channel/0/ccr_dlien, /0, /usic/0/channel/0/rbctr_rberien, /0, /usic/0/channel/0/ccr_rsien, /0, /usic/0/channel/0/inpr_tbinp, /0, /usic/0/channel/0/rbctr_srbien, /0, /usic/0/channel/0/rbctr_srbinp, /0, /usic/0/channel/0/ccr_rien, /0, /usic/0/channel/0/inpr_rinp, /0, /usic/0/channel/0/tbctr_stbien, /0, /usic/0/channel/0/tbctr_stbinp, /0, /usic/0/channel/0/tbctr_tberien, /0, /usic/0/channel/0/tbctr_atbinp, /0, /usic/0/channel/0/ccr_tbien, /0, /usic/0/channel/0/ccr_tsien, /0, /usic/0/channel/0/inpr_tsinp, /0, /usic/0/channel/0/rbctr_dptr, /0, /usic/0/channel/0/rbctr_size, /0, /usic/0/channel/0/tbctr_dptr, /0, /usic/0/channel/0/tbctr_size, /0, /usic/0/channel/1/ccr_hpcen, /0, /usic/0/channel/1/dx1cr_dsel, /0, /usic/0/channel/1/dx0cr_dsel, /0, /usic/0/channel/1/dx5cr_dsel, /0, /usic/0/channel/1/dx3cr_dsel, /0, /usic/0/channel/1/dx4cr_dsel, /0, /usic/0/channel/1/dx2cr_dsel, /0, /usic/0/channel/1/rbctr_arbien, /0, /usic/0/channel/1/rbctr_arbinp, /0, /usic/0/channel/1/ccr_aien, /0, /usic/0/channel/1/inpr_ainp, /0, /usic/0/channel/1/ccr_brgien, /0, /usic/0/channel/1/inpr_pinp, /0, /usic/0/channel/1/ccr_dlien, /0, /usic/0/channel/1/rbctr_rberien, /0, /usic/0/channel/1/ccr_rsien, /0, /usic/0/channel/1/inpr_tbinp, /0, /usic/0/channel/1/rbctr_srbien, /0, /usic/0/channel/1/rbctr_srbinp, /0, /usic/0/channel/1/ccr_rien, /0, /usic/0/channel/1/inpr_rinp, /0, /usic/0/channel/1/tbctr_stbien, /0, /usic/0/channel/1/tbctr_stbinp, /0, /usic/0/channel/1/tbctr_tberien, /0, /usic/0/channel/1/tbctr_atbinp, /0, /usic/0/channel/1/ccr_tbien, /0, /usic/0/channel/1/ccr_tsien, /0, /usic/0/channel/1/inpr_tsinp, /0, /usic/0/channel/1/rbctr_dptr, /0, /usic/0/channel/1/rbctr_size, /0, /usic/0/channel/1/tbctr_dptr, /0, /usic/0/channel/1/tbctr_size, /0, /vadc/0/backgnd/brsctrl_xtsel, /0, /vadc/0/backgnd/brsctrl_xtwc, /0, /vadc/0/backgnd/brsctrl_gtsel, /0, /vadc/0/backgnd/brsctrl_gtwc, /0, /vadc/0/backgnd/globevnp_sev0np, /0, /vadc/0/global/emuxsel_emuxgrp0, /0, /vadc/0/global/emuxsel_emuxgrp1, /0, /vadc/0/global_result/globevnp_revnp, /0]
+
+
+Apr 24, 2018 2:52:07 PM java.util.logging.LogManager$RootLogger log
+INFO: Start of solver :getSolution() : Tue Apr 24 14:52:07 BST 2018
+
+
+Apr 24, 2018 2:52:07 PM java.util.logging.LogManager$RootLogger log
+INFO: 
+timeout(solve_mapping_problem([ 
+reserved([ccu4,GLOBAL_CCU40sv0,global],'global_ccu4$595667498$0'),
+reserved([scu,_,gcu,ccu4_global_enable,GLOBAL_CCU40sv0],'global_ccu4$507149432$0'),
+reserved([scu,0,dco,_],'clock_xmc1$347764531$0'),
+reserved([scu,0,ccu,config],'clock_xmc1$02010375550$0'),
+reserved([ccu4,_,cc4,_],'pwm$084752152$0'),
+reserved([p,_,pad,_],'pwm$01754918612$0'),
+reserved([devicepackage,0,_],'pwm$0207185738$0'),
+reserved([wdt,_,wdt],'watchdog$01400492666$0'),
+reserved([scu,_,gcu,interrupt,prewarn],'watchdog$0865335036$0'),
+reserved([vadc,_,global],'global_adc$278079266$0'),
+reserved([vadc,_,group,0,config],'global_adc$283639056$0'),
+reserved([vadc,_,backgnd],'adc_measurement$0960477383$0'),
+reserved([vadc,_,class,1],'adc_measurement$0157319968$0'),
+reserved([vadc,_,class,0],'adc_measurement$01167015281$0'),
+reserved([p,_,pad,_],'adc_measurement$0680805286$0'),
+reserved([devicepackage,0,_],'adc_measurement$0124857238$0'),
+reserved([vadc,0,group,_,ch,_],'adc_measurement$0315738293$0'),
+reserved([vadc,_,global_result],'adc_measurement$01671456721$0'),
+reserved([cpu,0,nvic,interrupt,_],'adc_measurement$1888029967$0'),
+reserved([p,0,pad,14],'cpu_ctrl_xmc1$355878294$0'),
+reserved([p,0,pad,15],'cpu_ctrl_xmc1$355878295$0'),
+reserved([cpu,0,exception,hardfault],'cpu_ctrl_xmc1$846901778$0'),
+reserved([cpu,0,nvic,interrupt,GLOBAL_SCU_XMC10sv0],'global_scu_xmc1$85239467$0'),
+reserved([cpu,0,nvic,interrupt,GLOBAL_SCU_XMC10sv1],'global_scu_xmc1$01722214996$0'),
+signal('global_ccu4$595667498$0',global_signal,'global_ccu4$595667498$0$global_signal'),
+signal('global_ccu4$595667498$0',clk,'global_ccu4$595667498$0$clk'),
+signal('global_ccu4$507149432$0',gsc_enable,'global_ccu4$507149432$0$gsc_enable'),
+signal('clock_xmc1$347764531$0',clkout,'clock_xmc1$347764531$0$clkout'),
+signal('clock_xmc1$02010375550$0',frtc,'clock_xmc1$02010375550$0$frtc'),
+signal('pwm$084752152$0',global_signal,'pwm$084752152$0$global_signal'),
+signal('pwm$084752152$0',cmds_cmus,'pwm$084752152$0$cmds_cmus'),
+signal('pwm$084752152$0',pmus_omds,'pwm$084752152$0$pmus_omds'),
+signal('pwm$084752152$0',st,'pwm$084752152$0$st'),
+signal('pwm$084752152$0',out,'pwm$084752152$0$out'),
+signal('pwm$01754918612$0',pad,'pwm$01754918612$0$pad'),
+signal('pwm$0207185738$0',pin,'pwm$0207185738$0$pin'),
+signal('watchdog$01400492666$0',wdt_srv_request,'watchdog$01400492666$0$wdt_srv_request'),
+signal('watchdog$0865335036$0',int,'watchdog$0865335036$0$int'),
+signal('global_adc$278079266$0',global_signal,'global_adc$278079266$0$global_signal'),
+signal('adc_measurement$0315738293$0',gch,'adc_measurement$0315738293$0$gch'),
+signal('adc_measurement$0680805286$0',pad,'adc_measurement$0680805286$0$pad'),
+signal('adc_measurement$0124857238$0',pin,'adc_measurement$0124857238$0$pin'),
+signal('adc_measurement$0315738293$0',select,'adc_measurement$0315738293$0$select'),
+signal('adc_measurement$01671456721$0',rev0,'adc_measurement$01671456721$0$rev0'),
+signal('adc_measurement$0960477383$0',bgreqtrsel,'adc_measurement$0960477383$0$bgreqtrsel'),
+signal('adc_measurement$0960477383$0',bgreqgtsel,'adc_measurement$0960477383$0$bgreqgtsel'),
+signal('adc_measurement$0960477383$0',global_signal,'adc_measurement$0960477383$0$global_signal'),
+signal('adc_measurement$1888029967$0',signal_in,'adc_measurement$1888029967$0$signal_in'),
+signal('global_scu_xmc1$85239467$0',signal_in,'global_scu_xmc1$85239467$0$signal_in'),
+signal('global_scu_xmc1$01722214996$0',signal_in,'global_scu_xmc1$01722214996$0$signal_in'),
+connected('clock_xmc1$347764531$0$clkout','clock_xmc1$02010375550$0$frtc',1),
+connected('pwm$0207185738$0$pin','pwm$01754918612$0$pad',1),
+connected('pwm$084752152$0$out','pwm$01754918612$0$pad',1),
+connected('pwm$01754918612$0$pad','pwm$0207185738$0$pin',1),
+connected('global_ccu4$595667498$0$global_signal','pwm$084752152$0$global_signal',1),
+connected('watchdog$0865335036$0$int','global_scu_xmc1$01722214996$0$signal_in',1),
+connected('global_adc$278079266$0$global_signal','adc_measurement$0960477383$0$global_signal',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0315738293$0$gch',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0124857238$0$pin',1),
+connected('adc_measurement$01671456721$0$rev0','adc_measurement$1888029967$0$signal_in',1),
+connected('adc_measurement$0124857238$0$pin','adc_measurement$0680805286$0$pad',1),
+linear_constraint(GLOBAL_SCU_XMC10sv1,GLOBAL_SCU_XMC10sv0,1),
+uri_element_range(GLOBAL_SCU_XMC10sv0,[0]),
+uri_element_range(GLOBAL_SCU_XMC10sv1,[1])
+ ],Vars,Regs,Appslocalvars),15,writeln(timeout),all_solution, Timer, Due, Remainder).
+
+
+
+Apr 24, 2018 2:52:07 PM java.util.logging.LogManager$RootLogger log
+INFO: 
+End of solver : getSolution() :  Difference in ms 123
+
+
+Apr 24, 2018 2:52:07 PM java.util.logging.LogManager$RootLogger log
+INFO: [/vadc/0/class/0, /adc_measurement$01167015281$0, /devicepackage/0/4, /adc_measurement$0124857238$0, /vadc/0/class/1, /adc_measurement$0157319968$0, /vadc/0/global_result, /adc_measurement$01671456721$0, /vadc/0/group/0/ch/0, /adc_measurement$0315738293$0, /p/2/pad/6, /adc_measurement$0680805286$0, /vadc/0/backgnd, /adc_measurement$0960477383$0, /cpu/0/nvic/interrupt/15, /adc_measurement$1888029967$0, /scu/0/ccu/config, /clock_xmc1$02010375550$0, /scu/0/dco/2, /clock_xmc1$347764531$0, /p/0/pad/14, /cpu_ctrl_xmc1$355878294$0, /p/0/pad/15, /cpu_ctrl_xmc1$355878295$0, /cpu/0/exception/hardfault, /cpu_ctrl_xmc1$846901778$0, /vadc/0/global, /global_adc$278079266$0, /vadc/0/group/0/config, /global_adc$283639056$0, /scu/0/gcu/ccu4_global_enable/0, /global_ccu4$507149432$0, /ccu4/0/global, /global_ccu4$595667498$0, /cpu/0/nvic/interrupt/1, /global_scu_xmc1$01722214996$0, /cpu/0/nvic/interrupt/0, /global_scu_xmc1$85239467$0, /p/1/pad/0, /pwm$01754918612$0, /devicepackage/0/14, /pwm$0207185738$0, /ccu4/0/cc4/0, /pwm$084752152$0, /wdt/0/wdt, /watchdog$01400492666$0, /scu/0/gcu/interrupt/prewarn, /watchdog$0865335036$0]
+
+
+Apr 24, 2018 2:52:07 PM java.util.logging.LogManager$RootLogger log
+INFO: [/p/1/pad/0/iocr_pcr, /2, /p/1/pad/0/iocr_oe, /1, /p/1/pad/0/hwsel_hw, /0, /p/1/pad/1/iocr_pcr, /0, /p/1/pad/1/iocr_oe, /0, /p/1/pad/1/hwsel_hw, /0, /p/1/pad/2/iocr_pcr, /0, /p/1/pad/2/iocr_oe, /0, /p/1/pad/2/hwsel_hw, /0, /p/1/pad/3/iocr_pcr, /0, /p/1/pad/3/iocr_oe, /0, /p/1/pad/3/hwsel_hw, /0, /p/2/pad/2/iocr_pcr, /0, /p/2/pad/2/iocr_oe, /0, /p/2/pad/2/hwsel_hw, /0, /p/2/pad/2/pdisc_pdis, /1, /p/2/pad/6/iocr_pcr, /0, /p/2/pad/6/iocr_oe, /0, /p/2/pad/6/hwsel_hw, /0, /p/2/pad/6/pdisc_pdis, /1, /p/2/pad/7/iocr_pcr, /0, /p/2/pad/7/iocr_oe, /0, /p/2/pad/7/hwsel_hw, /0, /p/2/pad/7/pdisc_pdis, /1, /p/2/pad/8/iocr_pcr, /0, /p/2/pad/8/iocr_oe, /0, /p/2/pad/8/hwsel_hw, /0, /p/2/pad/8/pdisc_pdis, /1, /p/2/pad/9/iocr_pcr, /0, /p/2/pad/9/iocr_oe, /0, /p/2/pad/9/hwsel_hw, /0, /p/2/pad/9/pdisc_pdis, /1, /p/0/pad/0/iocr_pcr, /0, /p/0/pad/0/iocr_oe, /0, /p/0/pad/0/hwsel_hw, /0, /p/0/pad/12/iocr_pcr, /0, /p/0/pad/12/iocr_oe, /0, /p/0/pad/12/hwsel_hw, /0, /p/0/pad/13/iocr_pcr, /0, /p/0/pad/13/iocr_oe, /0, /p/0/pad/13/hwsel_hw, /0, /p/0/pad/14/iocr_pcr, /0, /p/0/pad/14/iocr_oe, /0, /p/0/pad/14/hwsel_hw, /0, /p/0/pad/15/iocr_pcr, /0, /p/0/pad/15/iocr_oe, /0, /p/0/pad/15/hwsel_hw, /0, /p/0/pad/5/iocr_pcr, /0, /p/0/pad/5/iocr_oe, /0, /p/0/pad/5/hwsel_hw, /0, /p/0/pad/6/iocr_pcr, /0, /p/0/pad/6/iocr_oe, /0, /p/0/pad/6/hwsel_hw, /0, /p/0/pad/7/iocr_pcr, /0, /p/0/pad/7/iocr_oe, /0, /p/0/pad/7/hwsel_hw, /0, /p/0/pad/8/iocr_pcr, /0, /p/0/pad/8/iocr_oe, /0, /p/0/pad/8/hwsel_hw, /0, /p/0/pad/9/iocr_pcr, /0, /p/0/pad/9/iocr_oe, /0, /p/0/pad/9/hwsel_hw, /0, /p/2/pad/0/iocr_pcr, /0, /p/2/pad/0/iocr_oe, /0, /p/2/pad/0/hwsel_hw, /0, /p/2/pad/0/pdisc_pdis, /1, /p/2/pad/1/iocr_pcr, /0, /p/2/pad/1/iocr_oe, /0, /p/2/pad/1/hwsel_hw, /0, /p/2/pad/1/pdisc_pdis, /1, /p/2/pad/10/iocr_pcr, /0, /p/2/pad/10/iocr_oe, /0, /p/2/pad/10/hwsel_hw, /0, /p/2/pad/10/pdisc_pdis, /1, /p/2/pad/11/iocr_pcr, /0, /p/2/pad/11/iocr_oe, /0, /p/2/pad/11/hwsel_hw, /0, /p/2/pad/11/pdisc_pdis, /1, /ccu4/0/cc4/0/srs_cmsr, /0, /ccu4/0/cc4/0/srs_e0sr, /0, /ccu4/0/cc4/0/srs_e1sr, /0, /ccu4/0/cc4/0/srs_e2sr, /0, /ccu4/0/cc4/0/ins_ev0is, /0, /ccu4/0/cc4/0/ins_ev1is, /0, /ccu4/0/cc4/0/ins_ev2is, /0, /ccu4/0/cc4/0/srs_posr, /0, /ccu4/0/cc4/1/srs_cmsr, /0, /ccu4/0/cc4/1/srs_e0sr, /0, /ccu4/0/cc4/1/srs_e1sr, /0, /ccu4/0/cc4/1/srs_e2sr, /0, /ccu4/0/cc4/1/ins_ev0is, /0, /ccu4/0/cc4/1/ins_ev1is, /0, /ccu4/0/cc4/1/ins_ev2is, /0, /ccu4/0/cc4/1/srs_posr, /0, /ccu4/0/cc4/1/cmc_tce, /0, /ccu4/0/cc4/2/srs_cmsr, /0, /ccu4/0/cc4/2/srs_e0sr, /0, /ccu4/0/cc4/2/srs_e1sr, /0, /ccu4/0/cc4/2/srs_e2sr, /0, /ccu4/0/cc4/2/ins_ev0is, /0, /ccu4/0/cc4/2/ins_ev1is, /0, /ccu4/0/cc4/2/ins_ev2is, /0, /ccu4/0/cc4/2/srs_posr, /0, /ccu4/0/cc4/2/cmc_tce, /0, /ccu4/0/cc4/3/srs_cmsr, /0, /ccu4/0/cc4/3/srs_e0sr, /0, /ccu4/0/cc4/3/srs_e1sr, /0, /ccu4/0/cc4/3/srs_e2sr, /0, /ccu4/0/cc4/3/ins_ev0is, /0, /ccu4/0/cc4/3/ins_ev1is, /0, /ccu4/0/cc4/3/ins_ev2is, /0, /ccu4/0/cc4/3/srs_posr, /0, /ccu4/0/cc4/3/cmc_tce, /0, /ccu4/0/global/gctrl_pcis, /0, /cpu/0/nvic/interrupt/0/iser_setena, /0, /cpu/0/nvic/interrupt/1/iser_setena, /1, /cpu/0/nvic/interrupt/10/iser_setena, /0, /cpu/0/nvic/interrupt/11/iser_setena, /0, /cpu/0/nvic/interrupt/12/iser_setena, /0, /cpu/0/nvic/interrupt/13/iser_setena, /0, /cpu/0/nvic/interrupt/14/iser_setena, /0, /cpu/0/nvic/interrupt/15/iser_setena, /1, /cpu/0/nvic/interrupt/16/iser_setena, /0, /cpu/0/nvic/interrupt/17/iser_setena, /0, /cpu/0/nvic/interrupt/18/iser_setena, /0, /cpu/0/nvic/interrupt/19/iser_setena, /0, /cpu/0/nvic/interrupt/2/iser_setena, /0, /cpu/0/nvic/interrupt/20/iser_setena, /0, /cpu/0/nvic/interrupt/21/iser_setena, /0, /cpu/0/nvic/interrupt/22/iser_setena, /0, /cpu/0/nvic/interrupt/23/iser_setena, /0, /cpu/0/nvic/interrupt/24/iser_setena, /0, /cpu/0/nvic/interrupt/25/iser_setena, /0, /cpu/0/nvic/interrupt/26/iser_setena, /0, /cpu/0/nvic/interrupt/27/iser_setena, /0, /cpu/0/nvic/interrupt/28/iser_setena, /0, /cpu/0/nvic/interrupt/29/iser_setena, /0, /cpu/0/nvic/interrupt/3/iser_setena, /0, /cpu/0/nvic/interrupt/30/iser_setena, /0, /cpu/0/nvic/interrupt/31/iser_setena, /0, /cpu/0/nvic/interrupt/4/iser_setena, /0, /cpu/0/nvic/interrupt/5/iser_setena, /0, /cpu/0/nvic/interrupt/6/iser_setena, /0, /cpu/0/nvic/interrupt/7/iser_setena, /0, /cpu/0/nvic/interrupt/9/iser_setena, /0, /eru/0/ers_etl/0/exicon_pe, /0, /eru/0/ers_etl/0/exicon_ocs, /0, /eru/0/ers_etl/0/exisel_exsxb, /0, /eru/0/ers_etl/0/exisel_exsxa, /0, /eru/0/ers_etl/1/exicon_pe, /0, /eru/0/ers_etl/1/exicon_ocs, /0, /eru/0/ers_etl/1/exisel_exsxb, /0, /eru/0/ers_etl/1/exisel_exsxa, /0, /eru/0/ers_etl/2/exicon_pe, /0, /eru/0/ers_etl/2/exicon_ocs, /0, /eru/0/ers_etl/2/exisel_exsxb, /0, /eru/0/ers_etl/2/exisel_exsxa, /0, /eru/0/ers_etl/3/exicon_pe, /0, /eru/0/ers_etl/3/exicon_ocs, /0, /eru/0/ers_etl/3/exisel_exsxb, /0, /eru/0/ers_etl/3/exisel_exsxa, /0, /eru/0/ogu/0/exocon_iss, /0, /eru/0/ogu/0/exocon_ipen0, /0, /eru/0/ogu/0/exocon_ipen1, /0, /eru/0/ogu/0/exocon_ipen2, /0, /eru/0/ogu/0/exocon_ipen3, /0, /eru/0/ogu/1/exocon_iss, /0, /eru/0/ogu/1/exocon_ipen0, /0, /eru/0/ogu/1/exocon_ipen1, /0, /eru/0/ogu/1/exocon_ipen2, /0, /eru/0/ogu/1/exocon_ipen3, /0, /eru/0/ogu/2/exocon_iss, /0, /eru/0/ogu/2/exocon_ipen0, /0, /eru/0/ogu/2/exocon_ipen1, /0, /eru/0/ogu/2/exocon_ipen2, /0, /eru/0/ogu/2/exocon_ipen3, /0, /eru/0/ogu/3/exocon_iss, /0, /eru/0/ogu/3/exocon_ipen0, /0, /eru/0/ogu/3/exocon_ipen1, /0, /eru/0/ogu/3/exocon_ipen2, /0, /eru/0/ogu/3/exocon_ipen3, /0, /scu/0/ccu/config/clkcr_rtcclksel, /0, /usic/0/channel/0/ccr_hpcen, /0, /usic/0/channel/0/dx1cr_dsel, /0, /usic/0/channel/0/dx0cr_dsel, /0, /usic/0/channel/0/dx5cr_dsel, /0, /usic/0/channel/0/dx3cr_dsel, /0, /usic/0/channel/0/dx4cr_dsel, /0, /usic/0/channel/0/dx2cr_dsel, /0, /usic/0/channel/0/rbctr_arbien, /0, /usic/0/channel/0/rbctr_arbinp, /0, /usic/0/channel/0/ccr_aien, /0, /usic/0/channel/0/inpr_ainp, /0, /usic/0/channel/0/ccr_brgien, /0, /usic/0/channel/0/inpr_pinp, /0, /usic/0/channel/0/ccr_dlien, /0, /usic/0/channel/0/rbctr_rberien, /0, /usic/0/channel/0/ccr_rsien, /0, /usic/0/channel/0/inpr_tbinp, /0, /usic/0/channel/0/rbctr_srbien, /0, /usic/0/channel/0/rbctr_srbinp, /0, /usic/0/channel/0/ccr_rien, /0, /usic/0/channel/0/inpr_rinp, /0, /usic/0/channel/0/tbctr_stbien, /0, /usic/0/channel/0/tbctr_stbinp, /0, /usic/0/channel/0/tbctr_tberien, /0, /usic/0/channel/0/tbctr_atbinp, /0, /usic/0/channel/0/ccr_tbien, /0, /usic/0/channel/0/ccr_tsien, /0, /usic/0/channel/0/inpr_tsinp, /0, /usic/0/channel/0/rbctr_dptr, /0, /usic/0/channel/0/rbctr_size, /0, /usic/0/channel/0/tbctr_dptr, /0, /usic/0/channel/0/tbctr_size, /0, /usic/0/channel/1/ccr_hpcen, /0, /usic/0/channel/1/dx1cr_dsel, /0, /usic/0/channel/1/dx0cr_dsel, /0, /usic/0/channel/1/dx5cr_dsel, /0, /usic/0/channel/1/dx3cr_dsel, /0, /usic/0/channel/1/dx4cr_dsel, /0, /usic/0/channel/1/dx2cr_dsel, /0, /usic/0/channel/1/rbctr_arbien, /0, /usic/0/channel/1/rbctr_arbinp, /0, /usic/0/channel/1/ccr_aien, /0, /usic/0/channel/1/inpr_ainp, /0, /usic/0/channel/1/ccr_brgien, /0, /usic/0/channel/1/inpr_pinp, /0, /usic/0/channel/1/ccr_dlien, /0, /usic/0/channel/1/rbctr_rberien, /0, /usic/0/channel/1/ccr_rsien, /0, /usic/0/channel/1/inpr_tbinp, /0, /usic/0/channel/1/rbctr_srbien, /0, /usic/0/channel/1/rbctr_srbinp, /0, /usic/0/channel/1/ccr_rien, /0, /usic/0/channel/1/inpr_rinp, /0, /usic/0/channel/1/tbctr_stbien, /0, /usic/0/channel/1/tbctr_stbinp, /0, /usic/0/channel/1/tbctr_tberien, /0, /usic/0/channel/1/tbctr_atbinp, /0, /usic/0/channel/1/ccr_tbien, /0, /usic/0/channel/1/ccr_tsien, /0, /usic/0/channel/1/inpr_tsinp, /0, /usic/0/channel/1/rbctr_dptr, /0, /usic/0/channel/1/rbctr_size, /0, /usic/0/channel/1/tbctr_dptr, /0, /usic/0/channel/1/tbctr_size, /0, /vadc/0/backgnd/brsctrl_xtsel, /0, /vadc/0/backgnd/brsctrl_xtwc, /0, /vadc/0/backgnd/brsctrl_gtsel, /0, /vadc/0/backgnd/brsctrl_gtwc, /0, /vadc/0/backgnd/globevnp_sev0np, /0, /vadc/0/global/emuxsel_emuxgrp0, /0, /vadc/0/global/emuxsel_emuxgrp1, /0, /vadc/0/global_result/globevnp_revnp, /0]
+
+
+Apr 25, 2018 9:54:44 AM java.util.logging.LogManager$RootLogger log
+INFO: Start of solver :getFeasiblePins() : Wed Apr 25 09:54:43 BST 2018
+
+
+Apr 25, 2018 9:54:44 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+timeout(ask_feasible_mapping([reserved([ccu4,GLOBAL_CCU40sv0,global],'global_ccu4$595667498$0'),
+reserved([scu,_,gcu,ccu4_global_enable,GLOBAL_CCU40sv0],'global_ccu4$507149432$0'),
+reserved([scu,0,dco,_],'clock_xmc1$347764531$0'),
+reserved([scu,0,ccu,config],'clock_xmc1$02010375550$0'),
+reserved([ccu4,_,cc4,_],'pwm$084752152$0'),
+reserved([p,_,pad,_],'pwm$01754918612$0'),
+reserved([devicepackage,0,_],'pwm$0207185738$0'),
+reserved([wdt,_,wdt],'watchdog$01400492666$0'),
+reserved([scu,_,gcu,interrupt,prewarn],'watchdog$0865335036$0'),
+reserved([vadc,_,global],'global_adc$278079266$0'),
+reserved([vadc,_,group,0,config],'global_adc$283639056$0'),
+reserved([vadc,_,backgnd],'adc_measurement$0960477383$0'),
+reserved([vadc,_,class,1],'adc_measurement$0157319968$0'),
+reserved([vadc,_,class,0],'adc_measurement$01167015281$0'),
+reserved([p,_,pad,_],'adc_measurement$0680805286$0'),
+reserved([devicepackage,0,_],'adc_measurement$0124857238$0'),
+reserved([vadc,0,group,_,ch,_],'adc_measurement$0315738293$0'),
+reserved([vadc,_,global_result],'adc_measurement$01671456721$0'),
+reserved([cpu,0,nvic,interrupt,_],'adc_measurement$1888029967$0'),
+reserved([p,0,pad,14],'cpu_ctrl_xmc1$355878294$0'),
+reserved([p,0,pad,15],'cpu_ctrl_xmc1$355878295$0'),
+reserved([cpu,0,exception,hardfault],'cpu_ctrl_xmc1$846901778$0'),
+reserved([cpu,0,nvic,interrupt,GLOBAL_SCU_XMC10sv0],'global_scu_xmc1$85239467$0'),
+reserved([cpu,0,nvic,interrupt,GLOBAL_SCU_XMC10sv1],'global_scu_xmc1$01722214996$0'),
+signal('global_ccu4$595667498$0',global_signal,'global_ccu4$595667498$0$global_signal'),
+signal('global_ccu4$595667498$0',clk,'global_ccu4$595667498$0$clk'),
+signal('global_ccu4$507149432$0',gsc_enable,'global_ccu4$507149432$0$gsc_enable'),
+signal('clock_xmc1$347764531$0',clkout,'clock_xmc1$347764531$0$clkout'),
+signal('clock_xmc1$02010375550$0',frtc,'clock_xmc1$02010375550$0$frtc'),
+signal('pwm$084752152$0',global_signal,'pwm$084752152$0$global_signal'),
+signal('pwm$084752152$0',cmds_cmus,'pwm$084752152$0$cmds_cmus'),
+signal('pwm$084752152$0',pmus_omds,'pwm$084752152$0$pmus_omds'),
+signal('pwm$084752152$0',st,'pwm$084752152$0$st'),
+signal('pwm$084752152$0',out,'pwm$084752152$0$out'),
+signal('pwm$01754918612$0',pad,'pwm$01754918612$0$pad'),
+signal('pwm$0207185738$0',pin,'pwm$0207185738$0$pin'),
+signal('watchdog$01400492666$0',wdt_srv_request,'watchdog$01400492666$0$wdt_srv_request'),
+signal('watchdog$0865335036$0',int,'watchdog$0865335036$0$int'),
+signal('global_adc$278079266$0',global_signal,'global_adc$278079266$0$global_signal'),
+signal('adc_measurement$0315738293$0',gch,'adc_measurement$0315738293$0$gch'),
+signal('adc_measurement$0680805286$0',pad,'adc_measurement$0680805286$0$pad'),
+signal('adc_measurement$0124857238$0',pin,'adc_measurement$0124857238$0$pin'),
+signal('adc_measurement$0315738293$0',select,'adc_measurement$0315738293$0$select'),
+signal('adc_measurement$01671456721$0',rev0,'adc_measurement$01671456721$0$rev0'),
+signal('adc_measurement$0960477383$0',bgreqtrsel,'adc_measurement$0960477383$0$bgreqtrsel'),
+signal('adc_measurement$0960477383$0',bgreqgtsel,'adc_measurement$0960477383$0$bgreqgtsel'),
+signal('adc_measurement$0960477383$0',global_signal,'adc_measurement$0960477383$0$global_signal'),
+signal('adc_measurement$1888029967$0',signal_in,'adc_measurement$1888029967$0$signal_in'),
+signal('global_scu_xmc1$85239467$0',signal_in,'global_scu_xmc1$85239467$0$signal_in'),
+signal('global_scu_xmc1$01722214996$0',signal_in,'global_scu_xmc1$01722214996$0$signal_in'),
+connected('clock_xmc1$347764531$0$clkout','clock_xmc1$02010375550$0$frtc',1),
+connected('pwm$0207185738$0$pin','pwm$01754918612$0$pad',1),
+connected('pwm$084752152$0$out','pwm$01754918612$0$pad',1),
+connected('pwm$01754918612$0$pad','pwm$0207185738$0$pin',1),
+connected('global_ccu4$595667498$0$global_signal','pwm$084752152$0$global_signal',1),
+connected('watchdog$0865335036$0$int','global_scu_xmc1$01722214996$0$signal_in',1),
+connected('global_adc$278079266$0$global_signal','adc_measurement$0960477383$0$global_signal',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0315738293$0$gch',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0124857238$0$pin',1),
+connected('adc_measurement$01671456721$0$rev0','adc_measurement$1888029967$0$signal_in',1),
+connected('adc_measurement$0124857238$0$pin','adc_measurement$0680805286$0$pad',1),
+linear_constraint(GLOBAL_SCU_XMC10sv1,GLOBAL_SCU_XMC10sv0,1),
+uri_element_range(GLOBAL_SCU_XMC10sv0,[0]),
+uri_element_range(GLOBAL_SCU_XMC10sv1,[1])],'adc_measurement$0124857238$0',Result),15,writeln(timeout),all_solution, Timer, Due, Remainder).
+
+
+
+Apr 25, 2018 9:54:44 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+End of solver : getFeasiblePins() :  Difference in ms 40
+
+
+Apr 25, 2018 9:54:44 AM java.util.logging.LogManager$RootLogger log
+INFO: [/devicepackage/0/8, /devicepackage/0/5, /devicepackage/0/4, /devicepackage/0/7, /devicepackage/0/6, /devicepackage/0/1, /devicepackage/0/3, /devicepackage/0/2]
+
+
+Apr 25, 2018 9:54:47 AM java.util.logging.LogManager$RootLogger log
+INFO: Start of solver :getFeasibleVirtualResources() : Wed Apr 25 09:54:47 BST 2018
+
+
+Apr 25, 2018 9:54:47 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+timeout(ask_feasible_virtual_resource([reserved([ccu4,GLOBAL_CCU40sv0,global],'global_ccu4$595667498$0'),
+reserved([scu,_,gcu,ccu4_global_enable,GLOBAL_CCU40sv0],'global_ccu4$507149432$0'),
+reserved([scu,0,dco,_],'clock_xmc1$347764531$0'),
+reserved([scu,0,ccu,config],'clock_xmc1$02010375550$0'),
+reserved([ccu4,_,cc4,_],'pwm$084752152$0'),
+reserved([p,_,pad,_],'pwm$01754918612$0'),
+reserved([devicepackage,0,_],'pwm$0207185738$0'),
+reserved([wdt,_,wdt],'watchdog$01400492666$0'),
+reserved([scu,_,gcu,interrupt,prewarn],'watchdog$0865335036$0'),
+reserved([vadc,_,global],'global_adc$278079266$0'),
+reserved([vadc,_,group,0,config],'global_adc$283639056$0'),
+reserved([vadc,_,backgnd],'adc_measurement$0960477383$0'),
+reserved([vadc,_,class,1],'adc_measurement$0157319968$0'),
+reserved([vadc,_,class,0],'adc_measurement$01167015281$0'),
+reserved([p,_,pad,_],'adc_measurement$0680805286$0'),
+reserved([devicepackage,0,_],'adc_measurement$0124857238$0'),
+reserved([vadc,0,group,_,ch,_],'adc_measurement$0315738293$0'),
+reserved([vadc,_,global_result],'adc_measurement$01671456721$0'),
+reserved([cpu,0,nvic,interrupt,_],'adc_measurement$1888029967$0'),
+reserved([p,0,pad,14],'cpu_ctrl_xmc1$355878294$0'),
+reserved([p,0,pad,15],'cpu_ctrl_xmc1$355878295$0'),
+reserved([cpu,0,exception,hardfault],'cpu_ctrl_xmc1$846901778$0'),
+reserved([cpu,0,nvic,interrupt,GLOBAL_SCU_XMC10sv0],'global_scu_xmc1$85239467$0'),
+reserved([cpu,0,nvic,interrupt,GLOBAL_SCU_XMC10sv1],'global_scu_xmc1$01722214996$0'),
+signal('global_ccu4$595667498$0',global_signal,'global_ccu4$595667498$0$global_signal'),
+signal('global_ccu4$595667498$0',clk,'global_ccu4$595667498$0$clk'),
+signal('global_ccu4$507149432$0',gsc_enable,'global_ccu4$507149432$0$gsc_enable'),
+signal('clock_xmc1$347764531$0',clkout,'clock_xmc1$347764531$0$clkout'),
+signal('clock_xmc1$02010375550$0',frtc,'clock_xmc1$02010375550$0$frtc'),
+signal('pwm$084752152$0',global_signal,'pwm$084752152$0$global_signal'),
+signal('pwm$084752152$0',cmds_cmus,'pwm$084752152$0$cmds_cmus'),
+signal('pwm$084752152$0',pmus_omds,'pwm$084752152$0$pmus_omds'),
+signal('pwm$084752152$0',st,'pwm$084752152$0$st'),
+signal('pwm$084752152$0',out,'pwm$084752152$0$out'),
+signal('pwm$01754918612$0',pad,'pwm$01754918612$0$pad'),
+signal('pwm$0207185738$0',pin,'pwm$0207185738$0$pin'),
+signal('watchdog$01400492666$0',wdt_srv_request,'watchdog$01400492666$0$wdt_srv_request'),
+signal('watchdog$0865335036$0',int,'watchdog$0865335036$0$int'),
+signal('global_adc$278079266$0',global_signal,'global_adc$278079266$0$global_signal'),
+signal('adc_measurement$0315738293$0',gch,'adc_measurement$0315738293$0$gch'),
+signal('adc_measurement$0680805286$0',pad,'adc_measurement$0680805286$0$pad'),
+signal('adc_measurement$0124857238$0',pin,'adc_measurement$0124857238$0$pin'),
+signal('adc_measurement$0315738293$0',select,'adc_measurement$0315738293$0$select'),
+signal('adc_measurement$01671456721$0',rev0,'adc_measurement$01671456721$0$rev0'),
+signal('adc_measurement$0960477383$0',bgreqtrsel,'adc_measurement$0960477383$0$bgreqtrsel'),
+signal('adc_measurement$0960477383$0',bgreqgtsel,'adc_measurement$0960477383$0$bgreqgtsel'),
+signal('adc_measurement$0960477383$0',global_signal,'adc_measurement$0960477383$0$global_signal'),
+signal('adc_measurement$1888029967$0',signal_in,'adc_measurement$1888029967$0$signal_in'),
+signal('global_scu_xmc1$85239467$0',signal_in,'global_scu_xmc1$85239467$0$signal_in'),
+signal('global_scu_xmc1$01722214996$0',signal_in,'global_scu_xmc1$01722214996$0$signal_in'),
+connected('clock_xmc1$347764531$0$clkout','clock_xmc1$02010375550$0$frtc',1),
+connected('pwm$0207185738$0$pin','pwm$01754918612$0$pad',1),
+connected('pwm$084752152$0$out','pwm$01754918612$0$pad',1),
+connected('pwm$01754918612$0$pad','pwm$0207185738$0$pin',1),
+connected('global_ccu4$595667498$0$global_signal','pwm$084752152$0$global_signal',1),
+connected('watchdog$0865335036$0$int','global_scu_xmc1$01722214996$0$signal_in',1),
+connected('global_adc$278079266$0$global_signal','adc_measurement$0960477383$0$global_signal',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0315738293$0$gch',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0124857238$0$pin',1),
+connected('adc_measurement$01671456721$0$rev0','adc_measurement$1888029967$0$signal_in',1),
+connected('adc_measurement$0124857238$0$pin','adc_measurement$0680805286$0$pad',1),
+linear_constraint(GLOBAL_SCU_XMC10sv1,GLOBAL_SCU_XMC10sv0,1),
+uri_element_range(GLOBAL_SCU_XMC10sv0,[0]),
+uri_element_range(GLOBAL_SCU_XMC10sv1,[1])],[devicepackage,0,1],Result),15,writeln(timeout),all_solution, Timer, Due, Remainder).
+
+
+
+Apr 25, 2018 9:54:47 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+End of solver : getFeasibleVirtualResources() :  Difference in ms 24
+
+
+Apr 25, 2018 9:54:47 AM java.util.logging.LogManager$RootLogger log
+INFO: [/adc_measurement$0124857238$0, /pwm$0207185738$0]
+
+
+Apr 25, 2018 9:54:48 AM java.util.logging.LogManager$RootLogger log
+INFO: Start of solver :getSolution() : Wed Apr 25 09:54:48 BST 2018
+
+
+Apr 25, 2018 9:54:48 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+timeout(solve_mapping_problem([ 
+reserved([ccu4,GLOBAL_CCU40sv0,global],'global_ccu4$595667498$0'),
+reserved([scu,_,gcu,ccu4_global_enable,GLOBAL_CCU40sv0],'global_ccu4$507149432$0'),
+reserved([scu,0,dco,_],'clock_xmc1$347764531$0'),
+reserved([scu,0,ccu,config],'clock_xmc1$02010375550$0'),
+reserved([ccu4,_,cc4,_],'pwm$084752152$0'),
+reserved([p,_,pad,_],'pwm$01754918612$0'),
+reserved([devicepackage,0,_],'pwm$0207185738$0'),
+reserved([wdt,_,wdt],'watchdog$01400492666$0'),
+reserved([scu,_,gcu,interrupt,prewarn],'watchdog$0865335036$0'),
+reserved([vadc,_,global],'global_adc$278079266$0'),
+reserved([vadc,_,group,0,config],'global_adc$283639056$0'),
+reserved([vadc,_,backgnd],'adc_measurement$0960477383$0'),
+reserved([vadc,_,class,1],'adc_measurement$0157319968$0'),
+reserved([vadc,_,class,0],'adc_measurement$01167015281$0'),
+reserved([p,_,pad,_],'adc_measurement$0680805286$0'),
+reserved([devicepackage,0,_],'adc_measurement$0124857238$0'),
+uri([devicepackage,0,1],'adc_measurement$0124857238$0'),
+reserved([vadc,0,group,_,ch,_],'adc_measurement$0315738293$0'),
+reserved([vadc,_,global_result],'adc_measurement$01671456721$0'),
+reserved([cpu,0,nvic,interrupt,_],'adc_measurement$1888029967$0'),
+reserved([p,0,pad,14],'cpu_ctrl_xmc1$355878294$0'),
+reserved([p,0,pad,15],'cpu_ctrl_xmc1$355878295$0'),
+reserved([cpu,0,exception,hardfault],'cpu_ctrl_xmc1$846901778$0'),
+reserved([cpu,0,nvic,interrupt,GLOBAL_SCU_XMC10sv0],'global_scu_xmc1$85239467$0'),
+reserved([cpu,0,nvic,interrupt,GLOBAL_SCU_XMC10sv1],'global_scu_xmc1$01722214996$0'),
+signal('global_ccu4$595667498$0',global_signal,'global_ccu4$595667498$0$global_signal'),
+signal('global_ccu4$595667498$0',clk,'global_ccu4$595667498$0$clk'),
+signal('global_ccu4$507149432$0',gsc_enable,'global_ccu4$507149432$0$gsc_enable'),
+signal('clock_xmc1$347764531$0',clkout,'clock_xmc1$347764531$0$clkout'),
+signal('clock_xmc1$02010375550$0',frtc,'clock_xmc1$02010375550$0$frtc'),
+signal('pwm$084752152$0',global_signal,'pwm$084752152$0$global_signal'),
+signal('pwm$084752152$0',cmds_cmus,'pwm$084752152$0$cmds_cmus'),
+signal('pwm$084752152$0',pmus_omds,'pwm$084752152$0$pmus_omds'),
+signal('pwm$084752152$0',st,'pwm$084752152$0$st'),
+signal('pwm$084752152$0',out,'pwm$084752152$0$out'),
+signal('pwm$01754918612$0',pad,'pwm$01754918612$0$pad'),
+signal('pwm$0207185738$0',pin,'pwm$0207185738$0$pin'),
+signal('watchdog$01400492666$0',wdt_srv_request,'watchdog$01400492666$0$wdt_srv_request'),
+signal('watchdog$0865335036$0',int,'watchdog$0865335036$0$int'),
+signal('global_adc$278079266$0',global_signal,'global_adc$278079266$0$global_signal'),
+signal('adc_measurement$0315738293$0',gch,'adc_measurement$0315738293$0$gch'),
+signal('adc_measurement$0680805286$0',pad,'adc_measurement$0680805286$0$pad'),
+signal('adc_measurement$0124857238$0',pin,'adc_measurement$0124857238$0$pin'),
+signal('adc_measurement$0315738293$0',select,'adc_measurement$0315738293$0$select'),
+signal('adc_measurement$01671456721$0',rev0,'adc_measurement$01671456721$0$rev0'),
+signal('adc_measurement$0960477383$0',bgreqtrsel,'adc_measurement$0960477383$0$bgreqtrsel'),
+signal('adc_measurement$0960477383$0',bgreqgtsel,'adc_measurement$0960477383$0$bgreqgtsel'),
+signal('adc_measurement$0960477383$0',global_signal,'adc_measurement$0960477383$0$global_signal'),
+signal('adc_measurement$1888029967$0',signal_in,'adc_measurement$1888029967$0$signal_in'),
+signal('global_scu_xmc1$85239467$0',signal_in,'global_scu_xmc1$85239467$0$signal_in'),
+signal('global_scu_xmc1$01722214996$0',signal_in,'global_scu_xmc1$01722214996$0$signal_in'),
+connected('clock_xmc1$347764531$0$clkout','clock_xmc1$02010375550$0$frtc',1),
+connected('pwm$0207185738$0$pin','pwm$01754918612$0$pad',1),
+connected('pwm$084752152$0$out','pwm$01754918612$0$pad',1),
+connected('pwm$01754918612$0$pad','pwm$0207185738$0$pin',1),
+connected('global_ccu4$595667498$0$global_signal','pwm$084752152$0$global_signal',1),
+connected('watchdog$0865335036$0$int','global_scu_xmc1$01722214996$0$signal_in',1),
+connected('global_adc$278079266$0$global_signal','adc_measurement$0960477383$0$global_signal',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0315738293$0$gch',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0124857238$0$pin',1),
+connected('adc_measurement$01671456721$0$rev0','adc_measurement$1888029967$0$signal_in',1),
+connected('adc_measurement$0124857238$0$pin','adc_measurement$0680805286$0$pad',1),
+linear_constraint(GLOBAL_SCU_XMC10sv1,GLOBAL_SCU_XMC10sv0,1),
+uri_element_range(GLOBAL_SCU_XMC10sv0,[0]),
+uri_element_range(GLOBAL_SCU_XMC10sv1,[1])
+ ],Vars,Regs,Appslocalvars),15,writeln(timeout),all_solution, Timer, Due, Remainder).
+
+
+
+Apr 25, 2018 9:54:48 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+End of solver : getSolution() :  Difference in ms 54
+
+
+Apr 25, 2018 9:54:48 AM java.util.logging.LogManager$RootLogger log
+INFO: [/vadc/0/class/0, /adc_measurement$01167015281$0, /devicepackage/0/1, /adc_measurement$0124857238$0, /vadc/0/class/1, /adc_measurement$0157319968$0, /vadc/0/global_result, /adc_measurement$01671456721$0, /vadc/0/group/0/ch/5, /adc_measurement$0315738293$0, /p/2/pad/0, /adc_measurement$0680805286$0, /vadc/0/backgnd, /adc_measurement$0960477383$0, /cpu/0/nvic/interrupt/15, /adc_measurement$1888029967$0, /scu/0/ccu/config, /clock_xmc1$02010375550$0, /scu/0/dco/2, /clock_xmc1$347764531$0, /p/0/pad/14, /cpu_ctrl_xmc1$355878294$0, /p/0/pad/15, /cpu_ctrl_xmc1$355878295$0, /cpu/0/exception/hardfault, /cpu_ctrl_xmc1$846901778$0, /vadc/0/global, /global_adc$278079266$0, /vadc/0/group/0/config, /global_adc$283639056$0, /scu/0/gcu/ccu4_global_enable/0, /global_ccu4$507149432$0, /ccu4/0/global, /global_ccu4$595667498$0, /cpu/0/nvic/interrupt/1, /global_scu_xmc1$01722214996$0, /cpu/0/nvic/interrupt/0, /global_scu_xmc1$85239467$0, /p/1/pad/0, /pwm$01754918612$0, /devicepackage/0/14, /pwm$0207185738$0, /ccu4/0/cc4/0, /pwm$084752152$0, /wdt/0/wdt, /watchdog$01400492666$0, /scu/0/gcu/interrupt/prewarn, /watchdog$0865335036$0]
+
+
+Apr 25, 2018 9:54:48 AM java.util.logging.LogManager$RootLogger log
+INFO: [/p/1/pad/0/iocr_pcr, /2, /p/1/pad/0/iocr_oe, /1, /p/1/pad/0/hwsel_hw, /0, /p/1/pad/1/iocr_pcr, /0, /p/1/pad/1/iocr_oe, /0, /p/1/pad/1/hwsel_hw, /0, /p/1/pad/2/iocr_pcr, /0, /p/1/pad/2/iocr_oe, /0, /p/1/pad/2/hwsel_hw, /0, /p/1/pad/3/iocr_pcr, /0, /p/1/pad/3/iocr_oe, /0, /p/1/pad/3/hwsel_hw, /0, /p/2/pad/2/iocr_pcr, /0, /p/2/pad/2/iocr_oe, /0, /p/2/pad/2/hwsel_hw, /0, /p/2/pad/2/pdisc_pdis, /1, /p/2/pad/6/iocr_pcr, /0, /p/2/pad/6/iocr_oe, /0, /p/2/pad/6/hwsel_hw, /0, /p/2/pad/6/pdisc_pdis, /1, /p/2/pad/7/iocr_pcr, /0, /p/2/pad/7/iocr_oe, /0, /p/2/pad/7/hwsel_hw, /0, /p/2/pad/7/pdisc_pdis, /1, /p/2/pad/8/iocr_pcr, /0, /p/2/pad/8/iocr_oe, /0, /p/2/pad/8/hwsel_hw, /0, /p/2/pad/8/pdisc_pdis, /1, /p/2/pad/9/iocr_pcr, /0, /p/2/pad/9/iocr_oe, /0, /p/2/pad/9/hwsel_hw, /0, /p/2/pad/9/pdisc_pdis, /1, /p/0/pad/0/iocr_pcr, /0, /p/0/pad/0/iocr_oe, /0, /p/0/pad/0/hwsel_hw, /0, /p/0/pad/12/iocr_pcr, /0, /p/0/pad/12/iocr_oe, /0, /p/0/pad/12/hwsel_hw, /0, /p/0/pad/13/iocr_pcr, /0, /p/0/pad/13/iocr_oe, /0, /p/0/pad/13/hwsel_hw, /0, /p/0/pad/14/iocr_pcr, /0, /p/0/pad/14/iocr_oe, /0, /p/0/pad/14/hwsel_hw, /0, /p/0/pad/15/iocr_pcr, /0, /p/0/pad/15/iocr_oe, /0, /p/0/pad/15/hwsel_hw, /0, /p/0/pad/5/iocr_pcr, /0, /p/0/pad/5/iocr_oe, /0, /p/0/pad/5/hwsel_hw, /0, /p/0/pad/6/iocr_pcr, /0, /p/0/pad/6/iocr_oe, /0, /p/0/pad/6/hwsel_hw, /0, /p/0/pad/7/iocr_pcr, /0, /p/0/pad/7/iocr_oe, /0, /p/0/pad/7/hwsel_hw, /0, /p/0/pad/8/iocr_pcr, /0, /p/0/pad/8/iocr_oe, /0, /p/0/pad/8/hwsel_hw, /0, /p/0/pad/9/iocr_pcr, /0, /p/0/pad/9/iocr_oe, /0, /p/0/pad/9/hwsel_hw, /0, /p/2/pad/0/iocr_pcr, /0, /p/2/pad/0/iocr_oe, /0, /p/2/pad/0/hwsel_hw, /0, /p/2/pad/0/pdisc_pdis, /1, /p/2/pad/1/iocr_pcr, /0, /p/2/pad/1/iocr_oe, /0, /p/2/pad/1/hwsel_hw, /0, /p/2/pad/1/pdisc_pdis, /1, /p/2/pad/10/iocr_pcr, /0, /p/2/pad/10/iocr_oe, /0, /p/2/pad/10/hwsel_hw, /0, /p/2/pad/10/pdisc_pdis, /1, /p/2/pad/11/iocr_pcr, /0, /p/2/pad/11/iocr_oe, /0, /p/2/pad/11/hwsel_hw, /0, /p/2/pad/11/pdisc_pdis, /1, /ccu4/0/cc4/0/srs_cmsr, /0, /ccu4/0/cc4/0/srs_e0sr, /0, /ccu4/0/cc4/0/srs_e1sr, /0, /ccu4/0/cc4/0/srs_e2sr, /0, /ccu4/0/cc4/0/ins_ev0is, /0, /ccu4/0/cc4/0/ins_ev1is, /0, /ccu4/0/cc4/0/ins_ev2is, /0, /ccu4/0/cc4/0/srs_posr, /0, /ccu4/0/cc4/1/srs_cmsr, /0, /ccu4/0/cc4/1/srs_e0sr, /0, /ccu4/0/cc4/1/srs_e1sr, /0, /ccu4/0/cc4/1/srs_e2sr, /0, /ccu4/0/cc4/1/ins_ev0is, /0, /ccu4/0/cc4/1/ins_ev1is, /0, /ccu4/0/cc4/1/ins_ev2is, /0, /ccu4/0/cc4/1/srs_posr, /0, /ccu4/0/cc4/1/cmc_tce, /0, /ccu4/0/cc4/2/srs_cmsr, /0, /ccu4/0/cc4/2/srs_e0sr, /0, /ccu4/0/cc4/2/srs_e1sr, /0, /ccu4/0/cc4/2/srs_e2sr, /0, /ccu4/0/cc4/2/ins_ev0is, /0, /ccu4/0/cc4/2/ins_ev1is, /0, /ccu4/0/cc4/2/ins_ev2is, /0, /ccu4/0/cc4/2/srs_posr, /0, /ccu4/0/cc4/2/cmc_tce, /0, /ccu4/0/cc4/3/srs_cmsr, /0, /ccu4/0/cc4/3/srs_e0sr, /0, /ccu4/0/cc4/3/srs_e1sr, /0, /ccu4/0/cc4/3/srs_e2sr, /0, /ccu4/0/cc4/3/ins_ev0is, /0, /ccu4/0/cc4/3/ins_ev1is, /0, /ccu4/0/cc4/3/ins_ev2is, /0, /ccu4/0/cc4/3/srs_posr, /0, /ccu4/0/cc4/3/cmc_tce, /0, /ccu4/0/global/gctrl_pcis, /0, /cpu/0/nvic/interrupt/0/iser_setena, /0, /cpu/0/nvic/interrupt/1/iser_setena, /1, /cpu/0/nvic/interrupt/10/iser_setena, /0, /cpu/0/nvic/interrupt/11/iser_setena, /0, /cpu/0/nvic/interrupt/12/iser_setena, /0, /cpu/0/nvic/interrupt/13/iser_setena, /0, /cpu/0/nvic/interrupt/14/iser_setena, /0, /cpu/0/nvic/interrupt/15/iser_setena, /1, /cpu/0/nvic/interrupt/16/iser_setena, /0, /cpu/0/nvic/interrupt/17/iser_setena, /0, /cpu/0/nvic/interrupt/18/iser_setena, /0, /cpu/0/nvic/interrupt/19/iser_setena, /0, /cpu/0/nvic/interrupt/2/iser_setena, /0, /cpu/0/nvic/interrupt/20/iser_setena, /0, /cpu/0/nvic/interrupt/21/iser_setena, /0, /cpu/0/nvic/interrupt/22/iser_setena, /0, /cpu/0/nvic/interrupt/23/iser_setena, /0, /cpu/0/nvic/interrupt/24/iser_setena, /0, /cpu/0/nvic/interrupt/25/iser_setena, /0, /cpu/0/nvic/interrupt/26/iser_setena, /0, /cpu/0/nvic/interrupt/27/iser_setena, /0, /cpu/0/nvic/interrupt/28/iser_setena, /0, /cpu/0/nvic/interrupt/29/iser_setena, /0, /cpu/0/nvic/interrupt/3/iser_setena, /0, /cpu/0/nvic/interrupt/30/iser_setena, /0, /cpu/0/nvic/interrupt/31/iser_setena, /0, /cpu/0/nvic/interrupt/4/iser_setena, /0, /cpu/0/nvic/interrupt/5/iser_setena, /0, /cpu/0/nvic/interrupt/6/iser_setena, /0, /cpu/0/nvic/interrupt/7/iser_setena, /0, /cpu/0/nvic/interrupt/9/iser_setena, /0, /eru/0/ers_etl/0/exicon_pe, /0, /eru/0/ers_etl/0/exicon_ocs, /0, /eru/0/ers_etl/0/exisel_exsxb, /0, /eru/0/ers_etl/0/exisel_exsxa, /0, /eru/0/ers_etl/1/exicon_pe, /0, /eru/0/ers_etl/1/exicon_ocs, /0, /eru/0/ers_etl/1/exisel_exsxb, /0, /eru/0/ers_etl/1/exisel_exsxa, /0, /eru/0/ers_etl/2/exicon_pe, /0, /eru/0/ers_etl/2/exicon_ocs, /0, /eru/0/ers_etl/2/exisel_exsxb, /0, /eru/0/ers_etl/2/exisel_exsxa, /0, /eru/0/ers_etl/3/exicon_pe, /0, /eru/0/ers_etl/3/exicon_ocs, /0, /eru/0/ers_etl/3/exisel_exsxb, /0, /eru/0/ers_etl/3/exisel_exsxa, /0, /eru/0/ogu/0/exocon_iss, /0, /eru/0/ogu/0/exocon_ipen0, /0, /eru/0/ogu/0/exocon_ipen1, /0, /eru/0/ogu/0/exocon_ipen2, /0, /eru/0/ogu/0/exocon_ipen3, /0, /eru/0/ogu/1/exocon_iss, /0, /eru/0/ogu/1/exocon_ipen0, /0, /eru/0/ogu/1/exocon_ipen1, /0, /eru/0/ogu/1/exocon_ipen2, /0, /eru/0/ogu/1/exocon_ipen3, /0, /eru/0/ogu/2/exocon_iss, /0, /eru/0/ogu/2/exocon_ipen0, /0, /eru/0/ogu/2/exocon_ipen1, /0, /eru/0/ogu/2/exocon_ipen2, /0, /eru/0/ogu/2/exocon_ipen3, /0, /eru/0/ogu/3/exocon_iss, /0, /eru/0/ogu/3/exocon_ipen0, /0, /eru/0/ogu/3/exocon_ipen1, /0, /eru/0/ogu/3/exocon_ipen2, /0, /eru/0/ogu/3/exocon_ipen3, /0, /scu/0/ccu/config/clkcr_rtcclksel, /0, /usic/0/channel/0/ccr_hpcen, /0, /usic/0/channel/0/dx1cr_dsel, /0, /usic/0/channel/0/dx0cr_dsel, /0, /usic/0/channel/0/dx5cr_dsel, /0, /usic/0/channel/0/dx3cr_dsel, /0, /usic/0/channel/0/dx4cr_dsel, /0, /usic/0/channel/0/dx2cr_dsel, /0, /usic/0/channel/0/rbctr_arbien, /0, /usic/0/channel/0/rbctr_arbinp, /0, /usic/0/channel/0/ccr_aien, /0, /usic/0/channel/0/inpr_ainp, /0, /usic/0/channel/0/ccr_brgien, /0, /usic/0/channel/0/inpr_pinp, /0, /usic/0/channel/0/ccr_dlien, /0, /usic/0/channel/0/rbctr_rberien, /0, /usic/0/channel/0/ccr_rsien, /0, /usic/0/channel/0/inpr_tbinp, /0, /usic/0/channel/0/rbctr_srbien, /0, /usic/0/channel/0/rbctr_srbinp, /0, /usic/0/channel/0/ccr_rien, /0, /usic/0/channel/0/inpr_rinp, /0, /usic/0/channel/0/tbctr_stbien, /0, /usic/0/channel/0/tbctr_stbinp, /0, /usic/0/channel/0/tbctr_tberien, /0, /usic/0/channel/0/tbctr_atbinp, /0, /usic/0/channel/0/ccr_tbien, /0, /usic/0/channel/0/ccr_tsien, /0, /usic/0/channel/0/inpr_tsinp, /0, /usic/0/channel/0/rbctr_dptr, /0, /usic/0/channel/0/rbctr_size, /0, /usic/0/channel/0/tbctr_dptr, /0, /usic/0/channel/0/tbctr_size, /0, /usic/0/channel/1/ccr_hpcen, /0, /usic/0/channel/1/dx1cr_dsel, /0, /usic/0/channel/1/dx0cr_dsel, /0, /usic/0/channel/1/dx5cr_dsel, /0, /usic/0/channel/1/dx3cr_dsel, /0, /usic/0/channel/1/dx4cr_dsel, /0, /usic/0/channel/1/dx2cr_dsel, /0, /usic/0/channel/1/rbctr_arbien, /0, /usic/0/channel/1/rbctr_arbinp, /0, /usic/0/channel/1/ccr_aien, /0, /usic/0/channel/1/inpr_ainp, /0, /usic/0/channel/1/ccr_brgien, /0, /usic/0/channel/1/inpr_pinp, /0, /usic/0/channel/1/ccr_dlien, /0, /usic/0/channel/1/rbctr_rberien, /0, /usic/0/channel/1/ccr_rsien, /0, /usic/0/channel/1/inpr_tbinp, /0, /usic/0/channel/1/rbctr_srbien, /0, /usic/0/channel/1/rbctr_srbinp, /0, /usic/0/channel/1/ccr_rien, /0, /usic/0/channel/1/inpr_rinp, /0, /usic/0/channel/1/tbctr_stbien, /0, /usic/0/channel/1/tbctr_stbinp, /0, /usic/0/channel/1/tbctr_tberien, /0, /usic/0/channel/1/tbctr_atbinp, /0, /usic/0/channel/1/ccr_tbien, /0, /usic/0/channel/1/ccr_tsien, /0, /usic/0/channel/1/inpr_tsinp, /0, /usic/0/channel/1/rbctr_dptr, /0, /usic/0/channel/1/rbctr_size, /0, /usic/0/channel/1/tbctr_dptr, /0, /usic/0/channel/1/tbctr_size, /0, /vadc/0/backgnd/brsctrl_xtsel, /0, /vadc/0/backgnd/brsctrl_xtwc, /0, /vadc/0/backgnd/brsctrl_gtsel, /0, /vadc/0/backgnd/brsctrl_gtwc, /0, /vadc/0/backgnd/globevnp_sev0np, /0, /vadc/0/global/emuxsel_emuxgrp0, /0, /vadc/0/global/emuxsel_emuxgrp1, /0, /vadc/0/global_result/globevnp_revnp, /0]
+
+
+Apr 25, 2018 9:54:49 AM java.util.logging.LogManager$RootLogger log
+INFO: Start of solver :getFeasiblePins() : Wed Apr 25 09:54:49 BST 2018
+
+
+Apr 25, 2018 9:54:49 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+timeout(ask_feasible_mapping([reserved([ccu4,GLOBAL_CCU40sv0,global],'global_ccu4$595667498$0'),
+reserved([scu,_,gcu,ccu4_global_enable,GLOBAL_CCU40sv0],'global_ccu4$507149432$0'),
+reserved([scu,0,dco,_],'clock_xmc1$347764531$0'),
+reserved([scu,0,ccu,config],'clock_xmc1$02010375550$0'),
+reserved([ccu4,_,cc4,_],'pwm$084752152$0'),
+reserved([p,_,pad,_],'pwm$01754918612$0'),
+reserved([devicepackage,0,_],'pwm$0207185738$0'),
+reserved([wdt,_,wdt],'watchdog$01400492666$0'),
+reserved([scu,_,gcu,interrupt,prewarn],'watchdog$0865335036$0'),
+reserved([vadc,_,global],'global_adc$278079266$0'),
+reserved([vadc,_,group,0,config],'global_adc$283639056$0'),
+reserved([vadc,_,backgnd],'adc_measurement$0960477383$0'),
+reserved([vadc,_,class,1],'adc_measurement$0157319968$0'),
+reserved([vadc,_,class,0],'adc_measurement$01167015281$0'),
+reserved([p,_,pad,_],'adc_measurement$0680805286$0'),
+reserved([devicepackage,0,_],'adc_measurement$0124857238$0'),
+reserved([vadc,0,group,_,ch,_],'adc_measurement$0315738293$0'),
+reserved([vadc,_,global_result],'adc_measurement$01671456721$0'),
+reserved([cpu,0,nvic,interrupt,_],'adc_measurement$1888029967$0'),
+reserved([p,0,pad,14],'cpu_ctrl_xmc1$355878294$0'),
+reserved([p,0,pad,15],'cpu_ctrl_xmc1$355878295$0'),
+reserved([cpu,0,exception,hardfault],'cpu_ctrl_xmc1$846901778$0'),
+reserved([cpu,0,nvic,interrupt,GLOBAL_SCU_XMC10sv0],'global_scu_xmc1$85239467$0'),
+reserved([cpu,0,nvic,interrupt,GLOBAL_SCU_XMC10sv1],'global_scu_xmc1$01722214996$0'),
+signal('global_ccu4$595667498$0',global_signal,'global_ccu4$595667498$0$global_signal'),
+signal('global_ccu4$595667498$0',clk,'global_ccu4$595667498$0$clk'),
+signal('global_ccu4$507149432$0',gsc_enable,'global_ccu4$507149432$0$gsc_enable'),
+signal('clock_xmc1$347764531$0',clkout,'clock_xmc1$347764531$0$clkout'),
+signal('clock_xmc1$02010375550$0',frtc,'clock_xmc1$02010375550$0$frtc'),
+signal('pwm$084752152$0',global_signal,'pwm$084752152$0$global_signal'),
+signal('pwm$084752152$0',cmds_cmus,'pwm$084752152$0$cmds_cmus'),
+signal('pwm$084752152$0',pmus_omds,'pwm$084752152$0$pmus_omds'),
+signal('pwm$084752152$0',st,'pwm$084752152$0$st'),
+signal('pwm$084752152$0',out,'pwm$084752152$0$out'),
+signal('pwm$01754918612$0',pad,'pwm$01754918612$0$pad'),
+signal('pwm$0207185738$0',pin,'pwm$0207185738$0$pin'),
+signal('watchdog$01400492666$0',wdt_srv_request,'watchdog$01400492666$0$wdt_srv_request'),
+signal('watchdog$0865335036$0',int,'watchdog$0865335036$0$int'),
+signal('global_adc$278079266$0',global_signal,'global_adc$278079266$0$global_signal'),
+signal('adc_measurement$0315738293$0',gch,'adc_measurement$0315738293$0$gch'),
+signal('adc_measurement$0680805286$0',pad,'adc_measurement$0680805286$0$pad'),
+signal('adc_measurement$0124857238$0',pin,'adc_measurement$0124857238$0$pin'),
+signal('adc_measurement$0315738293$0',select,'adc_measurement$0315738293$0$select'),
+signal('adc_measurement$01671456721$0',rev0,'adc_measurement$01671456721$0$rev0'),
+signal('adc_measurement$0960477383$0',bgreqtrsel,'adc_measurement$0960477383$0$bgreqtrsel'),
+signal('adc_measurement$0960477383$0',bgreqgtsel,'adc_measurement$0960477383$0$bgreqgtsel'),
+signal('adc_measurement$0960477383$0',global_signal,'adc_measurement$0960477383$0$global_signal'),
+signal('adc_measurement$1888029967$0',signal_in,'adc_measurement$1888029967$0$signal_in'),
+signal('global_scu_xmc1$85239467$0',signal_in,'global_scu_xmc1$85239467$0$signal_in'),
+signal('global_scu_xmc1$01722214996$0',signal_in,'global_scu_xmc1$01722214996$0$signal_in'),
+connected('clock_xmc1$347764531$0$clkout','clock_xmc1$02010375550$0$frtc',1),
+connected('pwm$0207185738$0$pin','pwm$01754918612$0$pad',1),
+connected('pwm$084752152$0$out','pwm$01754918612$0$pad',1),
+connected('pwm$01754918612$0$pad','pwm$0207185738$0$pin',1),
+connected('global_ccu4$595667498$0$global_signal','pwm$084752152$0$global_signal',1),
+connected('watchdog$0865335036$0$int','global_scu_xmc1$01722214996$0$signal_in',1),
+connected('global_adc$278079266$0$global_signal','adc_measurement$0960477383$0$global_signal',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0315738293$0$gch',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0124857238$0$pin',1),
+connected('adc_measurement$01671456721$0$rev0','adc_measurement$1888029967$0$signal_in',1),
+connected('adc_measurement$0124857238$0$pin','adc_measurement$0680805286$0$pad',1),
+linear_constraint(GLOBAL_SCU_XMC10sv1,GLOBAL_SCU_XMC10sv0,1),
+uri_element_range(GLOBAL_SCU_XMC10sv0,[0]),
+uri_element_range(GLOBAL_SCU_XMC10sv1,[1])],'adc_measurement$0124857238$0',Result),15,writeln(timeout),all_solution, Timer, Due, Remainder).
+
+
+
+Apr 25, 2018 9:54:49 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+End of solver : getFeasiblePins() :  Difference in ms 40
+
+
+Apr 25, 2018 9:54:49 AM java.util.logging.LogManager$RootLogger log
+INFO: [/devicepackage/0/8, /devicepackage/0/5, /devicepackage/0/4, /devicepackage/0/7, /devicepackage/0/6, /devicepackage/0/1, /devicepackage/0/3, /devicepackage/0/2]
+
+
+Apr 25, 2018 9:54:49 AM java.util.logging.LogManager$RootLogger log
+INFO: Start of solver :getFeasiblePins() : Wed Apr 25 09:54:49 BST 2018
+
+
+Apr 25, 2018 9:54:49 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+timeout(ask_feasible_mapping([reserved([ccu4,GLOBAL_CCU40sv0,global],'global_ccu4$595667498$0'),
+reserved([scu,_,gcu,ccu4_global_enable,GLOBAL_CCU40sv0],'global_ccu4$507149432$0'),
+reserved([scu,0,dco,_],'clock_xmc1$347764531$0'),
+reserved([scu,0,ccu,config],'clock_xmc1$02010375550$0'),
+reserved([ccu4,_,cc4,_],'pwm$084752152$0'),
+reserved([p,_,pad,_],'pwm$01754918612$0'),
+reserved([devicepackage,0,_],'pwm$0207185738$0'),
+reserved([wdt,_,wdt],'watchdog$01400492666$0'),
+reserved([scu,_,gcu,interrupt,prewarn],'watchdog$0865335036$0'),
+reserved([vadc,_,global],'global_adc$278079266$0'),
+reserved([vadc,_,group,0,config],'global_adc$283639056$0'),
+reserved([vadc,_,backgnd],'adc_measurement$0960477383$0'),
+reserved([vadc,_,class,1],'adc_measurement$0157319968$0'),
+reserved([vadc,_,class,0],'adc_measurement$01167015281$0'),
+reserved([p,_,pad,_],'adc_measurement$0680805286$0'),
+reserved([devicepackage,0,_],'adc_measurement$0124857238$0'),
+reserved([vadc,0,group,_,ch,_],'adc_measurement$0315738293$0'),
+reserved([vadc,_,global_result],'adc_measurement$01671456721$0'),
+reserved([cpu,0,nvic,interrupt,_],'adc_measurement$1888029967$0'),
+reserved([p,0,pad,14],'cpu_ctrl_xmc1$355878294$0'),
+reserved([p,0,pad,15],'cpu_ctrl_xmc1$355878295$0'),
+reserved([cpu,0,exception,hardfault],'cpu_ctrl_xmc1$846901778$0'),
+reserved([cpu,0,nvic,interrupt,GLOBAL_SCU_XMC10sv0],'global_scu_xmc1$85239467$0'),
+reserved([cpu,0,nvic,interrupt,GLOBAL_SCU_XMC10sv1],'global_scu_xmc1$01722214996$0'),
+signal('global_ccu4$595667498$0',global_signal,'global_ccu4$595667498$0$global_signal'),
+signal('global_ccu4$595667498$0',clk,'global_ccu4$595667498$0$clk'),
+signal('global_ccu4$507149432$0',gsc_enable,'global_ccu4$507149432$0$gsc_enable'),
+signal('clock_xmc1$347764531$0',clkout,'clock_xmc1$347764531$0$clkout'),
+signal('clock_xmc1$02010375550$0',frtc,'clock_xmc1$02010375550$0$frtc'),
+signal('pwm$084752152$0',global_signal,'pwm$084752152$0$global_signal'),
+signal('pwm$084752152$0',cmds_cmus,'pwm$084752152$0$cmds_cmus'),
+signal('pwm$084752152$0',pmus_omds,'pwm$084752152$0$pmus_omds'),
+signal('pwm$084752152$0',st,'pwm$084752152$0$st'),
+signal('pwm$084752152$0',out,'pwm$084752152$0$out'),
+signal('pwm$01754918612$0',pad,'pwm$01754918612$0$pad'),
+signal('pwm$0207185738$0',pin,'pwm$0207185738$0$pin'),
+signal('watchdog$01400492666$0',wdt_srv_request,'watchdog$01400492666$0$wdt_srv_request'),
+signal('watchdog$0865335036$0',int,'watchdog$0865335036$0$int'),
+signal('global_adc$278079266$0',global_signal,'global_adc$278079266$0$global_signal'),
+signal('adc_measurement$0315738293$0',gch,'adc_measurement$0315738293$0$gch'),
+signal('adc_measurement$0680805286$0',pad,'adc_measurement$0680805286$0$pad'),
+signal('adc_measurement$0124857238$0',pin,'adc_measurement$0124857238$0$pin'),
+signal('adc_measurement$0315738293$0',select,'adc_measurement$0315738293$0$select'),
+signal('adc_measurement$01671456721$0',rev0,'adc_measurement$01671456721$0$rev0'),
+signal('adc_measurement$0960477383$0',bgreqtrsel,'adc_measurement$0960477383$0$bgreqtrsel'),
+signal('adc_measurement$0960477383$0',bgreqgtsel,'adc_measurement$0960477383$0$bgreqgtsel'),
+signal('adc_measurement$0960477383$0',global_signal,'adc_measurement$0960477383$0$global_signal'),
+signal('adc_measurement$1888029967$0',signal_in,'adc_measurement$1888029967$0$signal_in'),
+signal('global_scu_xmc1$85239467$0',signal_in,'global_scu_xmc1$85239467$0$signal_in'),
+signal('global_scu_xmc1$01722214996$0',signal_in,'global_scu_xmc1$01722214996$0$signal_in'),
+connected('clock_xmc1$347764531$0$clkout','clock_xmc1$02010375550$0$frtc',1),
+connected('pwm$0207185738$0$pin','pwm$01754918612$0$pad',1),
+connected('pwm$084752152$0$out','pwm$01754918612$0$pad',1),
+connected('pwm$01754918612$0$pad','pwm$0207185738$0$pin',1),
+connected('global_ccu4$595667498$0$global_signal','pwm$084752152$0$global_signal',1),
+connected('watchdog$0865335036$0$int','global_scu_xmc1$01722214996$0$signal_in',1),
+connected('global_adc$278079266$0$global_signal','adc_measurement$0960477383$0$global_signal',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0315738293$0$gch',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0124857238$0$pin',1),
+connected('adc_measurement$01671456721$0$rev0','adc_measurement$1888029967$0$signal_in',1),
+connected('adc_measurement$0124857238$0$pin','adc_measurement$0680805286$0$pad',1),
+linear_constraint(GLOBAL_SCU_XMC10sv1,GLOBAL_SCU_XMC10sv0,1),
+uri_element_range(GLOBAL_SCU_XMC10sv0,[0]),
+uri_element_range(GLOBAL_SCU_XMC10sv1,[1])],'adc_measurement$0124857238$0',Result),15,writeln(timeout),all_solution, Timer, Due, Remainder).
+
+
+
+Apr 25, 2018 9:54:50 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+End of solver : getFeasiblePins() :  Difference in ms 34
+
+
+Apr 25, 2018 9:54:50 AM java.util.logging.LogManager$RootLogger log
+INFO: [/devicepackage/0/8, /devicepackage/0/5, /devicepackage/0/4, /devicepackage/0/7, /devicepackage/0/6, /devicepackage/0/1, /devicepackage/0/3, /devicepackage/0/2]
+
+
+Apr 25, 2018 9:54:52 AM java.util.logging.LogManager$RootLogger log
+INFO: Start of solver :getFeasiblePins() : Wed Apr 25 09:54:52 BST 2018
+
+
+Apr 25, 2018 9:54:52 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+timeout(ask_feasible_mapping([reserved([ccu4,GLOBAL_CCU40sv0,global],'global_ccu4$595667498$0'),
+reserved([scu,_,gcu,ccu4_global_enable,GLOBAL_CCU40sv0],'global_ccu4$507149432$0'),
+reserved([scu,0,dco,_],'clock_xmc1$347764531$0'),
+reserved([scu,0,ccu,config],'clock_xmc1$02010375550$0'),
+reserved([ccu4,_,cc4,_],'pwm$084752152$0'),
+reserved([p,_,pad,_],'pwm$01754918612$0'),
+reserved([devicepackage,0,_],'pwm$0207185738$0'),
+reserved([wdt,_,wdt],'watchdog$01400492666$0'),
+reserved([scu,_,gcu,interrupt,prewarn],'watchdog$0865335036$0'),
+reserved([vadc,_,global],'global_adc$278079266$0'),
+reserved([vadc,_,group,0,config],'global_adc$283639056$0'),
+reserved([vadc,_,backgnd],'adc_measurement$0960477383$0'),
+reserved([vadc,_,class,1],'adc_measurement$0157319968$0'),
+reserved([vadc,_,class,0],'adc_measurement$01167015281$0'),
+reserved([p,_,pad,_],'adc_measurement$0680805286$0'),
+reserved([devicepackage,0,_],'adc_measurement$0124857238$0'),
+uri([devicepackage,0,1],'adc_measurement$0124857238$0'),
+reserved([vadc,0,group,_,ch,_],'adc_measurement$0315738293$0'),
+reserved([vadc,_,global_result],'adc_measurement$01671456721$0'),
+reserved([cpu,0,nvic,interrupt,_],'adc_measurement$1888029967$0'),
+reserved([p,0,pad,14],'cpu_ctrl_xmc1$355878294$0'),
+reserved([p,0,pad,15],'cpu_ctrl_xmc1$355878295$0'),
+reserved([cpu,0,exception,hardfault],'cpu_ctrl_xmc1$846901778$0'),
+reserved([cpu,0,nvic,interrupt,GLOBAL_SCU_XMC10sv0],'global_scu_xmc1$85239467$0'),
+reserved([cpu,0,nvic,interrupt,GLOBAL_SCU_XMC10sv1],'global_scu_xmc1$01722214996$0'),
+signal('global_ccu4$595667498$0',global_signal,'global_ccu4$595667498$0$global_signal'),
+signal('global_ccu4$595667498$0',clk,'global_ccu4$595667498$0$clk'),
+signal('global_ccu4$507149432$0',gsc_enable,'global_ccu4$507149432$0$gsc_enable'),
+signal('clock_xmc1$347764531$0',clkout,'clock_xmc1$347764531$0$clkout'),
+signal('clock_xmc1$02010375550$0',frtc,'clock_xmc1$02010375550$0$frtc'),
+signal('pwm$084752152$0',global_signal,'pwm$084752152$0$global_signal'),
+signal('pwm$084752152$0',cmds_cmus,'pwm$084752152$0$cmds_cmus'),
+signal('pwm$084752152$0',pmus_omds,'pwm$084752152$0$pmus_omds'),
+signal('pwm$084752152$0',st,'pwm$084752152$0$st'),
+signal('pwm$084752152$0',out,'pwm$084752152$0$out'),
+signal('pwm$01754918612$0',pad,'pwm$01754918612$0$pad'),
+signal('pwm$0207185738$0',pin,'pwm$0207185738$0$pin'),
+signal('watchdog$01400492666$0',wdt_srv_request,'watchdog$01400492666$0$wdt_srv_request'),
+signal('watchdog$0865335036$0',int,'watchdog$0865335036$0$int'),
+signal('global_adc$278079266$0',global_signal,'global_adc$278079266$0$global_signal'),
+signal('adc_measurement$0315738293$0',gch,'adc_measurement$0315738293$0$gch'),
+signal('adc_measurement$0680805286$0',pad,'adc_measurement$0680805286$0$pad'),
+signal('adc_measurement$0124857238$0',pin,'adc_measurement$0124857238$0$pin'),
+signal('adc_measurement$0315738293$0',select,'adc_measurement$0315738293$0$select'),
+signal('adc_measurement$01671456721$0',rev0,'adc_measurement$01671456721$0$rev0'),
+signal('adc_measurement$0960477383$0',bgreqtrsel,'adc_measurement$0960477383$0$bgreqtrsel'),
+signal('adc_measurement$0960477383$0',bgreqgtsel,'adc_measurement$0960477383$0$bgreqgtsel'),
+signal('adc_measurement$0960477383$0',global_signal,'adc_measurement$0960477383$0$global_signal'),
+signal('adc_measurement$1888029967$0',signal_in,'adc_measurement$1888029967$0$signal_in'),
+signal('global_scu_xmc1$85239467$0',signal_in,'global_scu_xmc1$85239467$0$signal_in'),
+signal('global_scu_xmc1$01722214996$0',signal_in,'global_scu_xmc1$01722214996$0$signal_in'),
+connected('clock_xmc1$347764531$0$clkout','clock_xmc1$02010375550$0$frtc',1),
+connected('pwm$0207185738$0$pin','pwm$01754918612$0$pad',1),
+connected('pwm$084752152$0$out','pwm$01754918612$0$pad',1),
+connected('pwm$01754918612$0$pad','pwm$0207185738$0$pin',1),
+connected('global_ccu4$595667498$0$global_signal','pwm$084752152$0$global_signal',1),
+connected('watchdog$0865335036$0$int','global_scu_xmc1$01722214996$0$signal_in',1),
+connected('global_adc$278079266$0$global_signal','adc_measurement$0960477383$0$global_signal',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0315738293$0$gch',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0124857238$0$pin',1),
+connected('adc_measurement$01671456721$0$rev0','adc_measurement$1888029967$0$signal_in',1),
+connected('adc_measurement$0124857238$0$pin','adc_measurement$0680805286$0$pad',1),
+linear_constraint(GLOBAL_SCU_XMC10sv1,GLOBAL_SCU_XMC10sv0,1),
+uri_element_range(GLOBAL_SCU_XMC10sv0,[0]),
+uri_element_range(GLOBAL_SCU_XMC10sv1,[1])],'pwm$0207185738$0',Result),15,writeln(timeout),all_solution, Timer, Due, Remainder).
+
+
+
+Apr 25, 2018 9:54:52 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+End of solver : getFeasiblePins() :  Difference in ms 44
+
+
+Apr 25, 2018 9:54:52 AM java.util.logging.LogManager$RootLogger log
+INFO: [/devicepackage/0/8, /devicepackage/0/19, /devicepackage/0/13, /devicepackage/0/14, /devicepackage/0/11, /devicepackage/0/12, /devicepackage/0/17, /devicepackage/0/18, /devicepackage/0/15, /devicepackage/0/16, /devicepackage/0/20, /devicepackage/0/7, /devicepackage/0/2]
+
+
+Apr 25, 2018 9:54:54 AM java.util.logging.LogManager$RootLogger log
+INFO: Start of solver :getFeasibleVirtualResources() : Wed Apr 25 09:54:54 BST 2018
+
+
+Apr 25, 2018 9:54:54 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+timeout(ask_feasible_virtual_resource([reserved([ccu4,GLOBAL_CCU40sv0,global],'global_ccu4$595667498$0'),
+reserved([scu,_,gcu,ccu4_global_enable,GLOBAL_CCU40sv0],'global_ccu4$507149432$0'),
+reserved([scu,0,dco,_],'clock_xmc1$347764531$0'),
+reserved([scu,0,ccu,config],'clock_xmc1$02010375550$0'),
+reserved([ccu4,_,cc4,_],'pwm$084752152$0'),
+reserved([p,_,pad,_],'pwm$01754918612$0'),
+reserved([devicepackage,0,_],'pwm$0207185738$0'),
+reserved([wdt,_,wdt],'watchdog$01400492666$0'),
+reserved([scu,_,gcu,interrupt,prewarn],'watchdog$0865335036$0'),
+reserved([vadc,_,global],'global_adc$278079266$0'),
+reserved([vadc,_,group,0,config],'global_adc$283639056$0'),
+reserved([vadc,_,backgnd],'adc_measurement$0960477383$0'),
+reserved([vadc,_,class,1],'adc_measurement$0157319968$0'),
+reserved([vadc,_,class,0],'adc_measurement$01167015281$0'),
+reserved([p,_,pad,_],'adc_measurement$0680805286$0'),
+reserved([devicepackage,0,_],'adc_measurement$0124857238$0'),
+uri([devicepackage,0,1],'adc_measurement$0124857238$0'),
+reserved([vadc,0,group,_,ch,_],'adc_measurement$0315738293$0'),
+reserved([vadc,_,global_result],'adc_measurement$01671456721$0'),
+reserved([cpu,0,nvic,interrupt,_],'adc_measurement$1888029967$0'),
+reserved([p,0,pad,14],'cpu_ctrl_xmc1$355878294$0'),
+reserved([p,0,pad,15],'cpu_ctrl_xmc1$355878295$0'),
+reserved([cpu,0,exception,hardfault],'cpu_ctrl_xmc1$846901778$0'),
+reserved([cpu,0,nvic,interrupt,GLOBAL_SCU_XMC10sv0],'global_scu_xmc1$85239467$0'),
+reserved([cpu,0,nvic,interrupt,GLOBAL_SCU_XMC10sv1],'global_scu_xmc1$01722214996$0'),
+signal('global_ccu4$595667498$0',global_signal,'global_ccu4$595667498$0$global_signal'),
+signal('global_ccu4$595667498$0',clk,'global_ccu4$595667498$0$clk'),
+signal('global_ccu4$507149432$0',gsc_enable,'global_ccu4$507149432$0$gsc_enable'),
+signal('clock_xmc1$347764531$0',clkout,'clock_xmc1$347764531$0$clkout'),
+signal('clock_xmc1$02010375550$0',frtc,'clock_xmc1$02010375550$0$frtc'),
+signal('pwm$084752152$0',global_signal,'pwm$084752152$0$global_signal'),
+signal('pwm$084752152$0',cmds_cmus,'pwm$084752152$0$cmds_cmus'),
+signal('pwm$084752152$0',pmus_omds,'pwm$084752152$0$pmus_omds'),
+signal('pwm$084752152$0',st,'pwm$084752152$0$st'),
+signal('pwm$084752152$0',out,'pwm$084752152$0$out'),
+signal('pwm$01754918612$0',pad,'pwm$01754918612$0$pad'),
+signal('pwm$0207185738$0',pin,'pwm$0207185738$0$pin'),
+signal('watchdog$01400492666$0',wdt_srv_request,'watchdog$01400492666$0$wdt_srv_request'),
+signal('watchdog$0865335036$0',int,'watchdog$0865335036$0$int'),
+signal('global_adc$278079266$0',global_signal,'global_adc$278079266$0$global_signal'),
+signal('adc_measurement$0315738293$0',gch,'adc_measurement$0315738293$0$gch'),
+signal('adc_measurement$0680805286$0',pad,'adc_measurement$0680805286$0$pad'),
+signal('adc_measurement$0124857238$0',pin,'adc_measurement$0124857238$0$pin'),
+signal('adc_measurement$0315738293$0',select,'adc_measurement$0315738293$0$select'),
+signal('adc_measurement$01671456721$0',rev0,'adc_measurement$01671456721$0$rev0'),
+signal('adc_measurement$0960477383$0',bgreqtrsel,'adc_measurement$0960477383$0$bgreqtrsel'),
+signal('adc_measurement$0960477383$0',bgreqgtsel,'adc_measurement$0960477383$0$bgreqgtsel'),
+signal('adc_measurement$0960477383$0',global_signal,'adc_measurement$0960477383$0$global_signal'),
+signal('adc_measurement$1888029967$0',signal_in,'adc_measurement$1888029967$0$signal_in'),
+signal('global_scu_xmc1$85239467$0',signal_in,'global_scu_xmc1$85239467$0$signal_in'),
+signal('global_scu_xmc1$01722214996$0',signal_in,'global_scu_xmc1$01722214996$0$signal_in'),
+connected('clock_xmc1$347764531$0$clkout','clock_xmc1$02010375550$0$frtc',1),
+connected('pwm$0207185738$0$pin','pwm$01754918612$0$pad',1),
+connected('pwm$084752152$0$out','pwm$01754918612$0$pad',1),
+connected('pwm$01754918612$0$pad','pwm$0207185738$0$pin',1),
+connected('global_ccu4$595667498$0$global_signal','pwm$084752152$0$global_signal',1),
+connected('watchdog$0865335036$0$int','global_scu_xmc1$01722214996$0$signal_in',1),
+connected('global_adc$278079266$0$global_signal','adc_measurement$0960477383$0$global_signal',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0315738293$0$gch',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0124857238$0$pin',1),
+connected('adc_measurement$01671456721$0$rev0','adc_measurement$1888029967$0$signal_in',1),
+connected('adc_measurement$0124857238$0$pin','adc_measurement$0680805286$0$pad',1),
+linear_constraint(GLOBAL_SCU_XMC10sv1,GLOBAL_SCU_XMC10sv0,1),
+uri_element_range(GLOBAL_SCU_XMC10sv0,[0]),
+uri_element_range(GLOBAL_SCU_XMC10sv1,[1])],[devicepackage,0,14],Result),15,writeln(timeout),all_solution, Timer, Due, Remainder).
+
+
+
+Apr 25, 2018 9:54:54 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+End of solver : getFeasibleVirtualResources() :  Difference in ms 23
+
+
+Apr 25, 2018 9:54:54 AM java.util.logging.LogManager$RootLogger log
+INFO: [/pwm$0207185738$0]
+
+
+Apr 25, 2018 9:54:55 AM java.util.logging.LogManager$RootLogger log
+INFO: Start of solver :getSolution() : Wed Apr 25 09:54:55 BST 2018
+
+
+Apr 25, 2018 9:54:55 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+timeout(solve_mapping_problem([ 
+reserved([ccu4,GLOBAL_CCU40sv0,global],'global_ccu4$595667498$0'),
+reserved([scu,_,gcu,ccu4_global_enable,GLOBAL_CCU40sv0],'global_ccu4$507149432$0'),
+reserved([scu,0,dco,_],'clock_xmc1$347764531$0'),
+reserved([scu,0,ccu,config],'clock_xmc1$02010375550$0'),
+reserved([ccu4,_,cc4,_],'pwm$084752152$0'),
+reserved([p,_,pad,_],'pwm$01754918612$0'),
+reserved([devicepackage,0,_],'pwm$0207185738$0'),
+uri([devicepackage,0,14],'pwm$0207185738$0'),
+reserved([wdt,_,wdt],'watchdog$01400492666$0'),
+reserved([scu,_,gcu,interrupt,prewarn],'watchdog$0865335036$0'),
+reserved([vadc,_,global],'global_adc$278079266$0'),
+reserved([vadc,_,group,0,config],'global_adc$283639056$0'),
+reserved([vadc,_,backgnd],'adc_measurement$0960477383$0'),
+reserved([vadc,_,class,1],'adc_measurement$0157319968$0'),
+reserved([vadc,_,class,0],'adc_measurement$01167015281$0'),
+reserved([p,_,pad,_],'adc_measurement$0680805286$0'),
+reserved([devicepackage,0,_],'adc_measurement$0124857238$0'),
+uri([devicepackage,0,1],'adc_measurement$0124857238$0'),
+reserved([vadc,0,group,_,ch,_],'adc_measurement$0315738293$0'),
+reserved([vadc,_,global_result],'adc_measurement$01671456721$0'),
+reserved([cpu,0,nvic,interrupt,_],'adc_measurement$1888029967$0'),
+reserved([p,0,pad,14],'cpu_ctrl_xmc1$355878294$0'),
+reserved([p,0,pad,15],'cpu_ctrl_xmc1$355878295$0'),
+reserved([cpu,0,exception,hardfault],'cpu_ctrl_xmc1$846901778$0'),
+reserved([cpu,0,nvic,interrupt,GLOBAL_SCU_XMC10sv0],'global_scu_xmc1$85239467$0'),
+reserved([cpu,0,nvic,interrupt,GLOBAL_SCU_XMC10sv1],'global_scu_xmc1$01722214996$0'),
+signal('global_ccu4$595667498$0',global_signal,'global_ccu4$595667498$0$global_signal'),
+signal('global_ccu4$595667498$0',clk,'global_ccu4$595667498$0$clk'),
+signal('global_ccu4$507149432$0',gsc_enable,'global_ccu4$507149432$0$gsc_enable'),
+signal('clock_xmc1$347764531$0',clkout,'clock_xmc1$347764531$0$clkout'),
+signal('clock_xmc1$02010375550$0',frtc,'clock_xmc1$02010375550$0$frtc'),
+signal('pwm$084752152$0',global_signal,'pwm$084752152$0$global_signal'),
+signal('pwm$084752152$0',cmds_cmus,'pwm$084752152$0$cmds_cmus'),
+signal('pwm$084752152$0',pmus_omds,'pwm$084752152$0$pmus_omds'),
+signal('pwm$084752152$0',st,'pwm$084752152$0$st'),
+signal('pwm$084752152$0',out,'pwm$084752152$0$out'),
+signal('pwm$01754918612$0',pad,'pwm$01754918612$0$pad'),
+signal('pwm$0207185738$0',pin,'pwm$0207185738$0$pin'),
+signal('watchdog$01400492666$0',wdt_srv_request,'watchdog$01400492666$0$wdt_srv_request'),
+signal('watchdog$0865335036$0',int,'watchdog$0865335036$0$int'),
+signal('global_adc$278079266$0',global_signal,'global_adc$278079266$0$global_signal'),
+signal('adc_measurement$0315738293$0',gch,'adc_measurement$0315738293$0$gch'),
+signal('adc_measurement$0680805286$0',pad,'adc_measurement$0680805286$0$pad'),
+signal('adc_measurement$0124857238$0',pin,'adc_measurement$0124857238$0$pin'),
+signal('adc_measurement$0315738293$0',select,'adc_measurement$0315738293$0$select'),
+signal('adc_measurement$01671456721$0',rev0,'adc_measurement$01671456721$0$rev0'),
+signal('adc_measurement$0960477383$0',bgreqtrsel,'adc_measurement$0960477383$0$bgreqtrsel'),
+signal('adc_measurement$0960477383$0',bgreqgtsel,'adc_measurement$0960477383$0$bgreqgtsel'),
+signal('adc_measurement$0960477383$0',global_signal,'adc_measurement$0960477383$0$global_signal'),
+signal('adc_measurement$1888029967$0',signal_in,'adc_measurement$1888029967$0$signal_in'),
+signal('global_scu_xmc1$85239467$0',signal_in,'global_scu_xmc1$85239467$0$signal_in'),
+signal('global_scu_xmc1$01722214996$0',signal_in,'global_scu_xmc1$01722214996$0$signal_in'),
+connected('clock_xmc1$347764531$0$clkout','clock_xmc1$02010375550$0$frtc',1),
+connected('pwm$0207185738$0$pin','pwm$01754918612$0$pad',1),
+connected('pwm$084752152$0$out','pwm$01754918612$0$pad',1),
+connected('pwm$01754918612$0$pad','pwm$0207185738$0$pin',1),
+connected('global_ccu4$595667498$0$global_signal','pwm$084752152$0$global_signal',1),
+connected('watchdog$0865335036$0$int','global_scu_xmc1$01722214996$0$signal_in',1),
+connected('global_adc$278079266$0$global_signal','adc_measurement$0960477383$0$global_signal',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0315738293$0$gch',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0124857238$0$pin',1),
+connected('adc_measurement$01671456721$0$rev0','adc_measurement$1888029967$0$signal_in',1),
+connected('adc_measurement$0124857238$0$pin','adc_measurement$0680805286$0$pad',1),
+linear_constraint(GLOBAL_SCU_XMC10sv1,GLOBAL_SCU_XMC10sv0,1),
+uri_element_range(GLOBAL_SCU_XMC10sv0,[0]),
+uri_element_range(GLOBAL_SCU_XMC10sv1,[1])
+ ],Vars,Regs,Appslocalvars),15,writeln(timeout),all_solution, Timer, Due, Remainder).
+
+
+
+Apr 25, 2018 9:54:55 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+End of solver : getSolution() :  Difference in ms 68
+
+
+Apr 25, 2018 9:54:55 AM java.util.logging.LogManager$RootLogger log
+INFO: [/vadc/0/class/0, /adc_measurement$01167015281$0, /devicepackage/0/1, /adc_measurement$0124857238$0, /vadc/0/class/1, /adc_measurement$0157319968$0, /vadc/0/global_result, /adc_measurement$01671456721$0, /vadc/0/group/0/ch/5, /adc_measurement$0315738293$0, /p/2/pad/0, /adc_measurement$0680805286$0, /vadc/0/backgnd, /adc_measurement$0960477383$0, /cpu/0/nvic/interrupt/15, /adc_measurement$1888029967$0, /scu/0/ccu/config, /clock_xmc1$02010375550$0, /scu/0/dco/2, /clock_xmc1$347764531$0, /p/0/pad/14, /cpu_ctrl_xmc1$355878294$0, /p/0/pad/15, /cpu_ctrl_xmc1$355878295$0, /cpu/0/exception/hardfault, /cpu_ctrl_xmc1$846901778$0, /vadc/0/global, /global_adc$278079266$0, /vadc/0/group/0/config, /global_adc$283639056$0, /scu/0/gcu/ccu4_global_enable/0, /global_ccu4$507149432$0, /ccu4/0/global, /global_ccu4$595667498$0, /cpu/0/nvic/interrupt/1, /global_scu_xmc1$01722214996$0, /cpu/0/nvic/interrupt/0, /global_scu_xmc1$85239467$0, /p/1/pad/0, /pwm$01754918612$0, /devicepackage/0/14, /pwm$0207185738$0, /ccu4/0/cc4/0, /pwm$084752152$0, /wdt/0/wdt, /watchdog$01400492666$0, /scu/0/gcu/interrupt/prewarn, /watchdog$0865335036$0]
+
+
+Apr 25, 2018 9:54:55 AM java.util.logging.LogManager$RootLogger log
+INFO: [/p/1/pad/0/iocr_pcr, /2, /p/1/pad/0/iocr_oe, /1, /p/1/pad/0/hwsel_hw, /0, /p/1/pad/1/iocr_pcr, /0, /p/1/pad/1/iocr_oe, /0, /p/1/pad/1/hwsel_hw, /0, /p/1/pad/2/iocr_pcr, /0, /p/1/pad/2/iocr_oe, /0, /p/1/pad/2/hwsel_hw, /0, /p/1/pad/3/iocr_pcr, /0, /p/1/pad/3/iocr_oe, /0, /p/1/pad/3/hwsel_hw, /0, /p/2/pad/2/iocr_pcr, /0, /p/2/pad/2/iocr_oe, /0, /p/2/pad/2/hwsel_hw, /0, /p/2/pad/2/pdisc_pdis, /1, /p/2/pad/6/iocr_pcr, /0, /p/2/pad/6/iocr_oe, /0, /p/2/pad/6/hwsel_hw, /0, /p/2/pad/6/pdisc_pdis, /1, /p/2/pad/7/iocr_pcr, /0, /p/2/pad/7/iocr_oe, /0, /p/2/pad/7/hwsel_hw, /0, /p/2/pad/7/pdisc_pdis, /1, /p/2/pad/8/iocr_pcr, /0, /p/2/pad/8/iocr_oe, /0, /p/2/pad/8/hwsel_hw, /0, /p/2/pad/8/pdisc_pdis, /1, /p/2/pad/9/iocr_pcr, /0, /p/2/pad/9/iocr_oe, /0, /p/2/pad/9/hwsel_hw, /0, /p/2/pad/9/pdisc_pdis, /1, /p/0/pad/0/iocr_pcr, /0, /p/0/pad/0/iocr_oe, /0, /p/0/pad/0/hwsel_hw, /0, /p/0/pad/12/iocr_pcr, /0, /p/0/pad/12/iocr_oe, /0, /p/0/pad/12/hwsel_hw, /0, /p/0/pad/13/iocr_pcr, /0, /p/0/pad/13/iocr_oe, /0, /p/0/pad/13/hwsel_hw, /0, /p/0/pad/14/iocr_pcr, /0, /p/0/pad/14/iocr_oe, /0, /p/0/pad/14/hwsel_hw, /0, /p/0/pad/15/iocr_pcr, /0, /p/0/pad/15/iocr_oe, /0, /p/0/pad/15/hwsel_hw, /0, /p/0/pad/5/iocr_pcr, /0, /p/0/pad/5/iocr_oe, /0, /p/0/pad/5/hwsel_hw, /0, /p/0/pad/6/iocr_pcr, /0, /p/0/pad/6/iocr_oe, /0, /p/0/pad/6/hwsel_hw, /0, /p/0/pad/7/iocr_pcr, /0, /p/0/pad/7/iocr_oe, /0, /p/0/pad/7/hwsel_hw, /0, /p/0/pad/8/iocr_pcr, /0, /p/0/pad/8/iocr_oe, /0, /p/0/pad/8/hwsel_hw, /0, /p/0/pad/9/iocr_pcr, /0, /p/0/pad/9/iocr_oe, /0, /p/0/pad/9/hwsel_hw, /0, /p/2/pad/0/iocr_pcr, /0, /p/2/pad/0/iocr_oe, /0, /p/2/pad/0/hwsel_hw, /0, /p/2/pad/0/pdisc_pdis, /1, /p/2/pad/1/iocr_pcr, /0, /p/2/pad/1/iocr_oe, /0, /p/2/pad/1/hwsel_hw, /0, /p/2/pad/1/pdisc_pdis, /1, /p/2/pad/10/iocr_pcr, /0, /p/2/pad/10/iocr_oe, /0, /p/2/pad/10/hwsel_hw, /0, /p/2/pad/10/pdisc_pdis, /1, /p/2/pad/11/iocr_pcr, /0, /p/2/pad/11/iocr_oe, /0, /p/2/pad/11/hwsel_hw, /0, /p/2/pad/11/pdisc_pdis, /1, /ccu4/0/cc4/0/srs_cmsr, /0, /ccu4/0/cc4/0/srs_e0sr, /0, /ccu4/0/cc4/0/srs_e1sr, /0, /ccu4/0/cc4/0/srs_e2sr, /0, /ccu4/0/cc4/0/ins_ev0is, /0, /ccu4/0/cc4/0/ins_ev1is, /0, /ccu4/0/cc4/0/ins_ev2is, /0, /ccu4/0/cc4/0/srs_posr, /0, /ccu4/0/cc4/1/srs_cmsr, /0, /ccu4/0/cc4/1/srs_e0sr, /0, /ccu4/0/cc4/1/srs_e1sr, /0, /ccu4/0/cc4/1/srs_e2sr, /0, /ccu4/0/cc4/1/ins_ev0is, /0, /ccu4/0/cc4/1/ins_ev1is, /0, /ccu4/0/cc4/1/ins_ev2is, /0, /ccu4/0/cc4/1/srs_posr, /0, /ccu4/0/cc4/1/cmc_tce, /0, /ccu4/0/cc4/2/srs_cmsr, /0, /ccu4/0/cc4/2/srs_e0sr, /0, /ccu4/0/cc4/2/srs_e1sr, /0, /ccu4/0/cc4/2/srs_e2sr, /0, /ccu4/0/cc4/2/ins_ev0is, /0, /ccu4/0/cc4/2/ins_ev1is, /0, /ccu4/0/cc4/2/ins_ev2is, /0, /ccu4/0/cc4/2/srs_posr, /0, /ccu4/0/cc4/2/cmc_tce, /0, /ccu4/0/cc4/3/srs_cmsr, /0, /ccu4/0/cc4/3/srs_e0sr, /0, /ccu4/0/cc4/3/srs_e1sr, /0, /ccu4/0/cc4/3/srs_e2sr, /0, /ccu4/0/cc4/3/ins_ev0is, /0, /ccu4/0/cc4/3/ins_ev1is, /0, /ccu4/0/cc4/3/ins_ev2is, /0, /ccu4/0/cc4/3/srs_posr, /0, /ccu4/0/cc4/3/cmc_tce, /0, /ccu4/0/global/gctrl_pcis, /0, /cpu/0/nvic/interrupt/0/iser_setena, /0, /cpu/0/nvic/interrupt/1/iser_setena, /1, /cpu/0/nvic/interrupt/10/iser_setena, /0, /cpu/0/nvic/interrupt/11/iser_setena, /0, /cpu/0/nvic/interrupt/12/iser_setena, /0, /cpu/0/nvic/interrupt/13/iser_setena, /0, /cpu/0/nvic/interrupt/14/iser_setena, /0, /cpu/0/nvic/interrupt/15/iser_setena, /1, /cpu/0/nvic/interrupt/16/iser_setena, /0, /cpu/0/nvic/interrupt/17/iser_setena, /0, /cpu/0/nvic/interrupt/18/iser_setena, /0, /cpu/0/nvic/interrupt/19/iser_setena, /0, /cpu/0/nvic/interrupt/2/iser_setena, /0, /cpu/0/nvic/interrupt/20/iser_setena, /0, /cpu/0/nvic/interrupt/21/iser_setena, /0, /cpu/0/nvic/interrupt/22/iser_setena, /0, /cpu/0/nvic/interrupt/23/iser_setena, /0, /cpu/0/nvic/interrupt/24/iser_setena, /0, /cpu/0/nvic/interrupt/25/iser_setena, /0, /cpu/0/nvic/interrupt/26/iser_setena, /0, /cpu/0/nvic/interrupt/27/iser_setena, /0, /cpu/0/nvic/interrupt/28/iser_setena, /0, /cpu/0/nvic/interrupt/29/iser_setena, /0, /cpu/0/nvic/interrupt/3/iser_setena, /0, /cpu/0/nvic/interrupt/30/iser_setena, /0, /cpu/0/nvic/interrupt/31/iser_setena, /0, /cpu/0/nvic/interrupt/4/iser_setena, /0, /cpu/0/nvic/interrupt/5/iser_setena, /0, /cpu/0/nvic/interrupt/6/iser_setena, /0, /cpu/0/nvic/interrupt/7/iser_setena, /0, /cpu/0/nvic/interrupt/9/iser_setena, /0, /eru/0/ers_etl/0/exicon_pe, /0, /eru/0/ers_etl/0/exicon_ocs, /0, /eru/0/ers_etl/0/exisel_exsxb, /0, /eru/0/ers_etl/0/exisel_exsxa, /0, /eru/0/ers_etl/1/exicon_pe, /0, /eru/0/ers_etl/1/exicon_ocs, /0, /eru/0/ers_etl/1/exisel_exsxb, /0, /eru/0/ers_etl/1/exisel_exsxa, /0, /eru/0/ers_etl/2/exicon_pe, /0, /eru/0/ers_etl/2/exicon_ocs, /0, /eru/0/ers_etl/2/exisel_exsxb, /0, /eru/0/ers_etl/2/exisel_exsxa, /0, /eru/0/ers_etl/3/exicon_pe, /0, /eru/0/ers_etl/3/exicon_ocs, /0, /eru/0/ers_etl/3/exisel_exsxb, /0, /eru/0/ers_etl/3/exisel_exsxa, /0, /eru/0/ogu/0/exocon_iss, /0, /eru/0/ogu/0/exocon_ipen0, /0, /eru/0/ogu/0/exocon_ipen1, /0, /eru/0/ogu/0/exocon_ipen2, /0, /eru/0/ogu/0/exocon_ipen3, /0, /eru/0/ogu/1/exocon_iss, /0, /eru/0/ogu/1/exocon_ipen0, /0, /eru/0/ogu/1/exocon_ipen1, /0, /eru/0/ogu/1/exocon_ipen2, /0, /eru/0/ogu/1/exocon_ipen3, /0, /eru/0/ogu/2/exocon_iss, /0, /eru/0/ogu/2/exocon_ipen0, /0, /eru/0/ogu/2/exocon_ipen1, /0, /eru/0/ogu/2/exocon_ipen2, /0, /eru/0/ogu/2/exocon_ipen3, /0, /eru/0/ogu/3/exocon_iss, /0, /eru/0/ogu/3/exocon_ipen0, /0, /eru/0/ogu/3/exocon_ipen1, /0, /eru/0/ogu/3/exocon_ipen2, /0, /eru/0/ogu/3/exocon_ipen3, /0, /scu/0/ccu/config/clkcr_rtcclksel, /0, /usic/0/channel/0/ccr_hpcen, /0, /usic/0/channel/0/dx1cr_dsel, /0, /usic/0/channel/0/dx0cr_dsel, /0, /usic/0/channel/0/dx5cr_dsel, /0, /usic/0/channel/0/dx3cr_dsel, /0, /usic/0/channel/0/dx4cr_dsel, /0, /usic/0/channel/0/dx2cr_dsel, /0, /usic/0/channel/0/rbctr_arbien, /0, /usic/0/channel/0/rbctr_arbinp, /0, /usic/0/channel/0/ccr_aien, /0, /usic/0/channel/0/inpr_ainp, /0, /usic/0/channel/0/ccr_brgien, /0, /usic/0/channel/0/inpr_pinp, /0, /usic/0/channel/0/ccr_dlien, /0, /usic/0/channel/0/rbctr_rberien, /0, /usic/0/channel/0/ccr_rsien, /0, /usic/0/channel/0/inpr_tbinp, /0, /usic/0/channel/0/rbctr_srbien, /0, /usic/0/channel/0/rbctr_srbinp, /0, /usic/0/channel/0/ccr_rien, /0, /usic/0/channel/0/inpr_rinp, /0, /usic/0/channel/0/tbctr_stbien, /0, /usic/0/channel/0/tbctr_stbinp, /0, /usic/0/channel/0/tbctr_tberien, /0, /usic/0/channel/0/tbctr_atbinp, /0, /usic/0/channel/0/ccr_tbien, /0, /usic/0/channel/0/ccr_tsien, /0, /usic/0/channel/0/inpr_tsinp, /0, /usic/0/channel/0/rbctr_dptr, /0, /usic/0/channel/0/rbctr_size, /0, /usic/0/channel/0/tbctr_dptr, /0, /usic/0/channel/0/tbctr_size, /0, /usic/0/channel/1/ccr_hpcen, /0, /usic/0/channel/1/dx1cr_dsel, /0, /usic/0/channel/1/dx0cr_dsel, /0, /usic/0/channel/1/dx5cr_dsel, /0, /usic/0/channel/1/dx3cr_dsel, /0, /usic/0/channel/1/dx4cr_dsel, /0, /usic/0/channel/1/dx2cr_dsel, /0, /usic/0/channel/1/rbctr_arbien, /0, /usic/0/channel/1/rbctr_arbinp, /0, /usic/0/channel/1/ccr_aien, /0, /usic/0/channel/1/inpr_ainp, /0, /usic/0/channel/1/ccr_brgien, /0, /usic/0/channel/1/inpr_pinp, /0, /usic/0/channel/1/ccr_dlien, /0, /usic/0/channel/1/rbctr_rberien, /0, /usic/0/channel/1/ccr_rsien, /0, /usic/0/channel/1/inpr_tbinp, /0, /usic/0/channel/1/rbctr_srbien, /0, /usic/0/channel/1/rbctr_srbinp, /0, /usic/0/channel/1/ccr_rien, /0, /usic/0/channel/1/inpr_rinp, /0, /usic/0/channel/1/tbctr_stbien, /0, /usic/0/channel/1/tbctr_stbinp, /0, /usic/0/channel/1/tbctr_tberien, /0, /usic/0/channel/1/tbctr_atbinp, /0, /usic/0/channel/1/ccr_tbien, /0, /usic/0/channel/1/ccr_tsien, /0, /usic/0/channel/1/inpr_tsinp, /0, /usic/0/channel/1/rbctr_dptr, /0, /usic/0/channel/1/rbctr_size, /0, /usic/0/channel/1/tbctr_dptr, /0, /usic/0/channel/1/tbctr_size, /0, /vadc/0/backgnd/brsctrl_xtsel, /0, /vadc/0/backgnd/brsctrl_xtwc, /0, /vadc/0/backgnd/brsctrl_gtsel, /0, /vadc/0/backgnd/brsctrl_gtwc, /0, /vadc/0/backgnd/globevnp_sev0np, /0, /vadc/0/global/emuxsel_emuxgrp0, /0, /vadc/0/global/emuxsel_emuxgrp1, /0, /vadc/0/global_result/globevnp_revnp, /0]
+
+
+Apr 25, 2018 9:54:56 AM java.util.logging.LogManager$RootLogger log
+INFO: Start of solver :getFeasiblePins() : Wed Apr 25 09:54:56 BST 2018
+
+
+Apr 25, 2018 9:54:56 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+timeout(ask_feasible_mapping([reserved([ccu4,GLOBAL_CCU40sv0,global],'global_ccu4$595667498$0'),
+reserved([scu,_,gcu,ccu4_global_enable,GLOBAL_CCU40sv0],'global_ccu4$507149432$0'),
+reserved([scu,0,dco,_],'clock_xmc1$347764531$0'),
+reserved([scu,0,ccu,config],'clock_xmc1$02010375550$0'),
+reserved([ccu4,_,cc4,_],'pwm$084752152$0'),
+reserved([p,_,pad,_],'pwm$01754918612$0'),
+reserved([devicepackage,0,_],'pwm$0207185738$0'),
+reserved([wdt,_,wdt],'watchdog$01400492666$0'),
+reserved([scu,_,gcu,interrupt,prewarn],'watchdog$0865335036$0'),
+reserved([vadc,_,global],'global_adc$278079266$0'),
+reserved([vadc,_,group,0,config],'global_adc$283639056$0'),
+reserved([vadc,_,backgnd],'adc_measurement$0960477383$0'),
+reserved([vadc,_,class,1],'adc_measurement$0157319968$0'),
+reserved([vadc,_,class,0],'adc_measurement$01167015281$0'),
+reserved([p,_,pad,_],'adc_measurement$0680805286$0'),
+reserved([devicepackage,0,_],'adc_measurement$0124857238$0'),
+uri([devicepackage,0,1],'adc_measurement$0124857238$0'),
+reserved([vadc,0,group,_,ch,_],'adc_measurement$0315738293$0'),
+reserved([vadc,_,global_result],'adc_measurement$01671456721$0'),
+reserved([cpu,0,nvic,interrupt,_],'adc_measurement$1888029967$0'),
+reserved([p,0,pad,14],'cpu_ctrl_xmc1$355878294$0'),
+reserved([p,0,pad,15],'cpu_ctrl_xmc1$355878295$0'),
+reserved([cpu,0,exception,hardfault],'cpu_ctrl_xmc1$846901778$0'),
+reserved([cpu,0,nvic,interrupt,GLOBAL_SCU_XMC10sv0],'global_scu_xmc1$85239467$0'),
+reserved([cpu,0,nvic,interrupt,GLOBAL_SCU_XMC10sv1],'global_scu_xmc1$01722214996$0'),
+signal('global_ccu4$595667498$0',global_signal,'global_ccu4$595667498$0$global_signal'),
+signal('global_ccu4$595667498$0',clk,'global_ccu4$595667498$0$clk'),
+signal('global_ccu4$507149432$0',gsc_enable,'global_ccu4$507149432$0$gsc_enable'),
+signal('clock_xmc1$347764531$0',clkout,'clock_xmc1$347764531$0$clkout'),
+signal('clock_xmc1$02010375550$0',frtc,'clock_xmc1$02010375550$0$frtc'),
+signal('pwm$084752152$0',global_signal,'pwm$084752152$0$global_signal'),
+signal('pwm$084752152$0',cmds_cmus,'pwm$084752152$0$cmds_cmus'),
+signal('pwm$084752152$0',pmus_omds,'pwm$084752152$0$pmus_omds'),
+signal('pwm$084752152$0',st,'pwm$084752152$0$st'),
+signal('pwm$084752152$0',out,'pwm$084752152$0$out'),
+signal('pwm$01754918612$0',pad,'pwm$01754918612$0$pad'),
+signal('pwm$0207185738$0',pin,'pwm$0207185738$0$pin'),
+signal('watchdog$01400492666$0',wdt_srv_request,'watchdog$01400492666$0$wdt_srv_request'),
+signal('watchdog$0865335036$0',int,'watchdog$0865335036$0$int'),
+signal('global_adc$278079266$0',global_signal,'global_adc$278079266$0$global_signal'),
+signal('adc_measurement$0315738293$0',gch,'adc_measurement$0315738293$0$gch'),
+signal('adc_measurement$0680805286$0',pad,'adc_measurement$0680805286$0$pad'),
+signal('adc_measurement$0124857238$0',pin,'adc_measurement$0124857238$0$pin'),
+signal('adc_measurement$0315738293$0',select,'adc_measurement$0315738293$0$select'),
+signal('adc_measurement$01671456721$0',rev0,'adc_measurement$01671456721$0$rev0'),
+signal('adc_measurement$0960477383$0',bgreqtrsel,'adc_measurement$0960477383$0$bgreqtrsel'),
+signal('adc_measurement$0960477383$0',bgreqgtsel,'adc_measurement$0960477383$0$bgreqgtsel'),
+signal('adc_measurement$0960477383$0',global_signal,'adc_measurement$0960477383$0$global_signal'),
+signal('adc_measurement$1888029967$0',signal_in,'adc_measurement$1888029967$0$signal_in'),
+signal('global_scu_xmc1$85239467$0',signal_in,'global_scu_xmc1$85239467$0$signal_in'),
+signal('global_scu_xmc1$01722214996$0',signal_in,'global_scu_xmc1$01722214996$0$signal_in'),
+connected('clock_xmc1$347764531$0$clkout','clock_xmc1$02010375550$0$frtc',1),
+connected('pwm$0207185738$0$pin','pwm$01754918612$0$pad',1),
+connected('pwm$084752152$0$out','pwm$01754918612$0$pad',1),
+connected('pwm$01754918612$0$pad','pwm$0207185738$0$pin',1),
+connected('global_ccu4$595667498$0$global_signal','pwm$084752152$0$global_signal',1),
+connected('watchdog$0865335036$0$int','global_scu_xmc1$01722214996$0$signal_in',1),
+connected('global_adc$278079266$0$global_signal','adc_measurement$0960477383$0$global_signal',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0315738293$0$gch',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0124857238$0$pin',1),
+connected('adc_measurement$01671456721$0$rev0','adc_measurement$1888029967$0$signal_in',1),
+connected('adc_measurement$0124857238$0$pin','adc_measurement$0680805286$0$pad',1),
+linear_constraint(GLOBAL_SCU_XMC10sv1,GLOBAL_SCU_XMC10sv0,1),
+uri_element_range(GLOBAL_SCU_XMC10sv0,[0]),
+uri_element_range(GLOBAL_SCU_XMC10sv1,[1])],'pwm$0207185738$0',Result),15,writeln(timeout),all_solution, Timer, Due, Remainder).
+
+
+
+Apr 25, 2018 9:54:56 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+End of solver : getFeasiblePins() :  Difference in ms 28
+
+
+Apr 25, 2018 9:54:56 AM java.util.logging.LogManager$RootLogger log
+INFO: [/devicepackage/0/8, /devicepackage/0/19, /devicepackage/0/13, /devicepackage/0/14, /devicepackage/0/11, /devicepackage/0/12, /devicepackage/0/17, /devicepackage/0/18, /devicepackage/0/15, /devicepackage/0/16, /devicepackage/0/20, /devicepackage/0/7, /devicepackage/0/2]
+
+
+Apr 25, 2018 9:54:56 AM java.util.logging.LogManager$RootLogger log
+INFO: Start of solver :getFeasiblePins() : Wed Apr 25 09:54:56 BST 2018
+
+
+Apr 25, 2018 9:54:56 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+timeout(ask_feasible_mapping([reserved([ccu4,GLOBAL_CCU40sv0,global],'global_ccu4$595667498$0'),
+reserved([scu,_,gcu,ccu4_global_enable,GLOBAL_CCU40sv0],'global_ccu4$507149432$0'),
+reserved([scu,0,dco,_],'clock_xmc1$347764531$0'),
+reserved([scu,0,ccu,config],'clock_xmc1$02010375550$0'),
+reserved([ccu4,_,cc4,_],'pwm$084752152$0'),
+reserved([p,_,pad,_],'pwm$01754918612$0'),
+reserved([devicepackage,0,_],'pwm$0207185738$0'),
+reserved([wdt,_,wdt],'watchdog$01400492666$0'),
+reserved([scu,_,gcu,interrupt,prewarn],'watchdog$0865335036$0'),
+reserved([vadc,_,global],'global_adc$278079266$0'),
+reserved([vadc,_,group,0,config],'global_adc$283639056$0'),
+reserved([vadc,_,backgnd],'adc_measurement$0960477383$0'),
+reserved([vadc,_,class,1],'adc_measurement$0157319968$0'),
+reserved([vadc,_,class,0],'adc_measurement$01167015281$0'),
+reserved([p,_,pad,_],'adc_measurement$0680805286$0'),
+reserved([devicepackage,0,_],'adc_measurement$0124857238$0'),
+uri([devicepackage,0,1],'adc_measurement$0124857238$0'),
+reserved([vadc,0,group,_,ch,_],'adc_measurement$0315738293$0'),
+reserved([vadc,_,global_result],'adc_measurement$01671456721$0'),
+reserved([cpu,0,nvic,interrupt,_],'adc_measurement$1888029967$0'),
+reserved([p,0,pad,14],'cpu_ctrl_xmc1$355878294$0'),
+reserved([p,0,pad,15],'cpu_ctrl_xmc1$355878295$0'),
+reserved([cpu,0,exception,hardfault],'cpu_ctrl_xmc1$846901778$0'),
+reserved([cpu,0,nvic,interrupt,GLOBAL_SCU_XMC10sv0],'global_scu_xmc1$85239467$0'),
+reserved([cpu,0,nvic,interrupt,GLOBAL_SCU_XMC10sv1],'global_scu_xmc1$01722214996$0'),
+signal('global_ccu4$595667498$0',global_signal,'global_ccu4$595667498$0$global_signal'),
+signal('global_ccu4$595667498$0',clk,'global_ccu4$595667498$0$clk'),
+signal('global_ccu4$507149432$0',gsc_enable,'global_ccu4$507149432$0$gsc_enable'),
+signal('clock_xmc1$347764531$0',clkout,'clock_xmc1$347764531$0$clkout'),
+signal('clock_xmc1$02010375550$0',frtc,'clock_xmc1$02010375550$0$frtc'),
+signal('pwm$084752152$0',global_signal,'pwm$084752152$0$global_signal'),
+signal('pwm$084752152$0',cmds_cmus,'pwm$084752152$0$cmds_cmus'),
+signal('pwm$084752152$0',pmus_omds,'pwm$084752152$0$pmus_omds'),
+signal('pwm$084752152$0',st,'pwm$084752152$0$st'),
+signal('pwm$084752152$0',out,'pwm$084752152$0$out'),
+signal('pwm$01754918612$0',pad,'pwm$01754918612$0$pad'),
+signal('pwm$0207185738$0',pin,'pwm$0207185738$0$pin'),
+signal('watchdog$01400492666$0',wdt_srv_request,'watchdog$01400492666$0$wdt_srv_request'),
+signal('watchdog$0865335036$0',int,'watchdog$0865335036$0$int'),
+signal('global_adc$278079266$0',global_signal,'global_adc$278079266$0$global_signal'),
+signal('adc_measurement$0315738293$0',gch,'adc_measurement$0315738293$0$gch'),
+signal('adc_measurement$0680805286$0',pad,'adc_measurement$0680805286$0$pad'),
+signal('adc_measurement$0124857238$0',pin,'adc_measurement$0124857238$0$pin'),
+signal('adc_measurement$0315738293$0',select,'adc_measurement$0315738293$0$select'),
+signal('adc_measurement$01671456721$0',rev0,'adc_measurement$01671456721$0$rev0'),
+signal('adc_measurement$0960477383$0',bgreqtrsel,'adc_measurement$0960477383$0$bgreqtrsel'),
+signal('adc_measurement$0960477383$0',bgreqgtsel,'adc_measurement$0960477383$0$bgreqgtsel'),
+signal('adc_measurement$0960477383$0',global_signal,'adc_measurement$0960477383$0$global_signal'),
+signal('adc_measurement$1888029967$0',signal_in,'adc_measurement$1888029967$0$signal_in'),
+signal('global_scu_xmc1$85239467$0',signal_in,'global_scu_xmc1$85239467$0$signal_in'),
+signal('global_scu_xmc1$01722214996$0',signal_in,'global_scu_xmc1$01722214996$0$signal_in'),
+connected('clock_xmc1$347764531$0$clkout','clock_xmc1$02010375550$0$frtc',1),
+connected('pwm$0207185738$0$pin','pwm$01754918612$0$pad',1),
+connected('pwm$084752152$0$out','pwm$01754918612$0$pad',1),
+connected('pwm$01754918612$0$pad','pwm$0207185738$0$pin',1),
+connected('global_ccu4$595667498$0$global_signal','pwm$084752152$0$global_signal',1),
+connected('watchdog$0865335036$0$int','global_scu_xmc1$01722214996$0$signal_in',1),
+connected('global_adc$278079266$0$global_signal','adc_measurement$0960477383$0$global_signal',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0315738293$0$gch',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0124857238$0$pin',1),
+connected('adc_measurement$01671456721$0$rev0','adc_measurement$1888029967$0$signal_in',1),
+connected('adc_measurement$0124857238$0$pin','adc_measurement$0680805286$0$pad',1),
+linear_constraint(GLOBAL_SCU_XMC10sv1,GLOBAL_SCU_XMC10sv0,1),
+uri_element_range(GLOBAL_SCU_XMC10sv0,[0]),
+uri_element_range(GLOBAL_SCU_XMC10sv1,[1])],'pwm$0207185738$0',Result),15,writeln(timeout),all_solution, Timer, Due, Remainder).
+
+
+
+Apr 25, 2018 9:54:56 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+End of solver : getFeasiblePins() :  Difference in ms 28
+
+
+Apr 25, 2018 9:54:56 AM java.util.logging.LogManager$RootLogger log
+INFO: [/devicepackage/0/8, /devicepackage/0/19, /devicepackage/0/13, /devicepackage/0/14, /devicepackage/0/11, /devicepackage/0/12, /devicepackage/0/17, /devicepackage/0/18, /devicepackage/0/15, /devicepackage/0/16, /devicepackage/0/20, /devicepackage/0/7, /devicepackage/0/2]
+
+
+Apr 25, 2018 10:05:07 AM java.util.logging.LogManager$RootLogger log
+INFO: Start of solver :getFeasiblePins() : Wed Apr 25 10:05:07 BST 2018
+
+
+Apr 25, 2018 10:05:07 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+timeout(ask_feasible_mapping([reserved([ccu4,GLOBAL_CCU40sv0,global],'global_ccu4$595667498$0'),
+reserved([scu,_,gcu,ccu4_global_enable,GLOBAL_CCU40sv0],'global_ccu4$507149432$0'),
+reserved([scu,0,dco,_],'clock_xmc1$347764531$0'),
+reserved([scu,0,ccu,config],'clock_xmc1$02010375550$0'),
+reserved([ccu4,_,cc4,_],'pwm$084752152$0'),
+reserved([p,_,pad,_],'pwm$01754918612$0'),
+reserved([devicepackage,0,_],'pwm$0207185738$0'),
+reserved([wdt,_,wdt],'watchdog$01400492666$0'),
+reserved([scu,_,gcu,interrupt,prewarn],'watchdog$0865335036$0'),
+reserved([vadc,_,global],'global_adc$278079266$0'),
+reserved([vadc,_,group,0,config],'global_adc$283639056$0'),
+reserved([vadc,_,backgnd],'adc_measurement$0960477383$0'),
+reserved([vadc,_,class,1],'adc_measurement$0157319968$0'),
+reserved([vadc,_,class,0],'adc_measurement$01167015281$0'),
+reserved([p,_,pad,_],'adc_measurement$0680805286$0'),
+reserved([devicepackage,0,_],'adc_measurement$0124857238$0'),
+uri([devicepackage,0,1],'adc_measurement$0124857238$0'),
+reserved([vadc,0,group,_,ch,_],'adc_measurement$0315738293$0'),
+reserved([vadc,_,global_result],'adc_measurement$01671456721$0'),
+reserved([cpu,0,nvic,interrupt,_],'adc_measurement$1888029967$0'),
+reserved([p,0,pad,14],'cpu_ctrl_xmc1$355878294$0'),
+reserved([p,0,pad,15],'cpu_ctrl_xmc1$355878295$0'),
+reserved([cpu,0,exception,hardfault],'cpu_ctrl_xmc1$846901778$0'),
+reserved([cpu,0,nvic,interrupt,GLOBAL_SCU_XMC10sv0],'global_scu_xmc1$85239467$0'),
+reserved([cpu,0,nvic,interrupt,GLOBAL_SCU_XMC10sv1],'global_scu_xmc1$01722214996$0'),
+signal('global_ccu4$595667498$0',global_signal,'global_ccu4$595667498$0$global_signal'),
+signal('global_ccu4$595667498$0',clk,'global_ccu4$595667498$0$clk'),
+signal('global_ccu4$507149432$0',gsc_enable,'global_ccu4$507149432$0$gsc_enable'),
+signal('clock_xmc1$347764531$0',clkout,'clock_xmc1$347764531$0$clkout'),
+signal('clock_xmc1$02010375550$0',frtc,'clock_xmc1$02010375550$0$frtc'),
+signal('pwm$084752152$0',global_signal,'pwm$084752152$0$global_signal'),
+signal('pwm$084752152$0',cmds_cmus,'pwm$084752152$0$cmds_cmus'),
+signal('pwm$084752152$0',pmus_omds,'pwm$084752152$0$pmus_omds'),
+signal('pwm$084752152$0',st,'pwm$084752152$0$st'),
+signal('pwm$084752152$0',out,'pwm$084752152$0$out'),
+signal('pwm$01754918612$0',pad,'pwm$01754918612$0$pad'),
+signal('pwm$0207185738$0',pin,'pwm$0207185738$0$pin'),
+signal('watchdog$01400492666$0',wdt_srv_request,'watchdog$01400492666$0$wdt_srv_request'),
+signal('watchdog$0865335036$0',int,'watchdog$0865335036$0$int'),
+signal('global_adc$278079266$0',global_signal,'global_adc$278079266$0$global_signal'),
+signal('adc_measurement$0315738293$0',gch,'adc_measurement$0315738293$0$gch'),
+signal('adc_measurement$0680805286$0',pad,'adc_measurement$0680805286$0$pad'),
+signal('adc_measurement$0124857238$0',pin,'adc_measurement$0124857238$0$pin'),
+signal('adc_measurement$0315738293$0',select,'adc_measurement$0315738293$0$select'),
+signal('adc_measurement$01671456721$0',rev0,'adc_measurement$01671456721$0$rev0'),
+signal('adc_measurement$0960477383$0',bgreqtrsel,'adc_measurement$0960477383$0$bgreqtrsel'),
+signal('adc_measurement$0960477383$0',bgreqgtsel,'adc_measurement$0960477383$0$bgreqgtsel'),
+signal('adc_measurement$0960477383$0',global_signal,'adc_measurement$0960477383$0$global_signal'),
+signal('adc_measurement$1888029967$0',signal_in,'adc_measurement$1888029967$0$signal_in'),
+signal('global_scu_xmc1$85239467$0',signal_in,'global_scu_xmc1$85239467$0$signal_in'),
+signal('global_scu_xmc1$01722214996$0',signal_in,'global_scu_xmc1$01722214996$0$signal_in'),
+connected('clock_xmc1$347764531$0$clkout','clock_xmc1$02010375550$0$frtc',1),
+connected('pwm$0207185738$0$pin','pwm$01754918612$0$pad',1),
+connected('pwm$084752152$0$out','pwm$01754918612$0$pad',1),
+connected('pwm$01754918612$0$pad','pwm$0207185738$0$pin',1),
+connected('global_ccu4$595667498$0$global_signal','pwm$084752152$0$global_signal',1),
+connected('watchdog$0865335036$0$int','global_scu_xmc1$01722214996$0$signal_in',1),
+connected('global_adc$278079266$0$global_signal','adc_measurement$0960477383$0$global_signal',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0315738293$0$gch',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0124857238$0$pin',1),
+connected('adc_measurement$01671456721$0$rev0','adc_measurement$1888029967$0$signal_in',1),
+connected('adc_measurement$0124857238$0$pin','adc_measurement$0680805286$0$pad',1),
+linear_constraint(GLOBAL_SCU_XMC10sv1,GLOBAL_SCU_XMC10sv0,1),
+uri_element_range(GLOBAL_SCU_XMC10sv0,[0]),
+uri_element_range(GLOBAL_SCU_XMC10sv1,[1])],'pwm$0207185738$0',Result),15,writeln(timeout),all_solution, Timer, Due, Remainder).
+
+
+
+Apr 25, 2018 10:05:07 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+End of solver : getFeasiblePins() :  Difference in ms 26
+
+
+Apr 25, 2018 10:05:07 AM java.util.logging.LogManager$RootLogger log
+INFO: [/devicepackage/0/8, /devicepackage/0/19, /devicepackage/0/13, /devicepackage/0/14, /devicepackage/0/11, /devicepackage/0/12, /devicepackage/0/17, /devicepackage/0/18, /devicepackage/0/15, /devicepackage/0/16, /devicepackage/0/20, /devicepackage/0/7, /devicepackage/0/2]
+
+
+Apr 25, 2018 10:05:07 AM java.util.logging.LogManager$RootLogger log
+INFO: Start of solver :getFeasiblePins() : Wed Apr 25 10:05:07 BST 2018
+
+
+Apr 25, 2018 10:05:08 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+timeout(ask_feasible_mapping([reserved([ccu4,GLOBAL_CCU40sv0,global],'global_ccu4$595667498$0'),
+reserved([scu,_,gcu,ccu4_global_enable,GLOBAL_CCU40sv0],'global_ccu4$507149432$0'),
+reserved([scu,0,dco,_],'clock_xmc1$347764531$0'),
+reserved([scu,0,ccu,config],'clock_xmc1$02010375550$0'),
+reserved([ccu4,_,cc4,_],'pwm$084752152$0'),
+reserved([p,_,pad,_],'pwm$01754918612$0'),
+reserved([devicepackage,0,_],'pwm$0207185738$0'),
+reserved([wdt,_,wdt],'watchdog$01400492666$0'),
+reserved([scu,_,gcu,interrupt,prewarn],'watchdog$0865335036$0'),
+reserved([vadc,_,global],'global_adc$278079266$0'),
+reserved([vadc,_,group,0,config],'global_adc$283639056$0'),
+reserved([vadc,_,backgnd],'adc_measurement$0960477383$0'),
+reserved([vadc,_,class,1],'adc_measurement$0157319968$0'),
+reserved([vadc,_,class,0],'adc_measurement$01167015281$0'),
+reserved([p,_,pad,_],'adc_measurement$0680805286$0'),
+reserved([devicepackage,0,_],'adc_measurement$0124857238$0'),
+uri([devicepackage,0,1],'adc_measurement$0124857238$0'),
+reserved([vadc,0,group,_,ch,_],'adc_measurement$0315738293$0'),
+reserved([vadc,_,global_result],'adc_measurement$01671456721$0'),
+reserved([cpu,0,nvic,interrupt,_],'adc_measurement$1888029967$0'),
+reserved([p,0,pad,14],'cpu_ctrl_xmc1$355878294$0'),
+reserved([p,0,pad,15],'cpu_ctrl_xmc1$355878295$0'),
+reserved([cpu,0,exception,hardfault],'cpu_ctrl_xmc1$846901778$0'),
+reserved([cpu,0,nvic,interrupt,GLOBAL_SCU_XMC10sv0],'global_scu_xmc1$85239467$0'),
+reserved([cpu,0,nvic,interrupt,GLOBAL_SCU_XMC10sv1],'global_scu_xmc1$01722214996$0'),
+signal('global_ccu4$595667498$0',global_signal,'global_ccu4$595667498$0$global_signal'),
+signal('global_ccu4$595667498$0',clk,'global_ccu4$595667498$0$clk'),
+signal('global_ccu4$507149432$0',gsc_enable,'global_ccu4$507149432$0$gsc_enable'),
+signal('clock_xmc1$347764531$0',clkout,'clock_xmc1$347764531$0$clkout'),
+signal('clock_xmc1$02010375550$0',frtc,'clock_xmc1$02010375550$0$frtc'),
+signal('pwm$084752152$0',global_signal,'pwm$084752152$0$global_signal'),
+signal('pwm$084752152$0',cmds_cmus,'pwm$084752152$0$cmds_cmus'),
+signal('pwm$084752152$0',pmus_omds,'pwm$084752152$0$pmus_omds'),
+signal('pwm$084752152$0',st,'pwm$084752152$0$st'),
+signal('pwm$084752152$0',out,'pwm$084752152$0$out'),
+signal('pwm$01754918612$0',pad,'pwm$01754918612$0$pad'),
+signal('pwm$0207185738$0',pin,'pwm$0207185738$0$pin'),
+signal('watchdog$01400492666$0',wdt_srv_request,'watchdog$01400492666$0$wdt_srv_request'),
+signal('watchdog$0865335036$0',int,'watchdog$0865335036$0$int'),
+signal('global_adc$278079266$0',global_signal,'global_adc$278079266$0$global_signal'),
+signal('adc_measurement$0315738293$0',gch,'adc_measurement$0315738293$0$gch'),
+signal('adc_measurement$0680805286$0',pad,'adc_measurement$0680805286$0$pad'),
+signal('adc_measurement$0124857238$0',pin,'adc_measurement$0124857238$0$pin'),
+signal('adc_measurement$0315738293$0',select,'adc_measurement$0315738293$0$select'),
+signal('adc_measurement$01671456721$0',rev0,'adc_measurement$01671456721$0$rev0'),
+signal('adc_measurement$0960477383$0',bgreqtrsel,'adc_measurement$0960477383$0$bgreqtrsel'),
+signal('adc_measurement$0960477383$0',bgreqgtsel,'adc_measurement$0960477383$0$bgreqgtsel'),
+signal('adc_measurement$0960477383$0',global_signal,'adc_measurement$0960477383$0$global_signal'),
+signal('adc_measurement$1888029967$0',signal_in,'adc_measurement$1888029967$0$signal_in'),
+signal('global_scu_xmc1$85239467$0',signal_in,'global_scu_xmc1$85239467$0$signal_in'),
+signal('global_scu_xmc1$01722214996$0',signal_in,'global_scu_xmc1$01722214996$0$signal_in'),
+connected('clock_xmc1$347764531$0$clkout','clock_xmc1$02010375550$0$frtc',1),
+connected('pwm$0207185738$0$pin','pwm$01754918612$0$pad',1),
+connected('pwm$084752152$0$out','pwm$01754918612$0$pad',1),
+connected('pwm$01754918612$0$pad','pwm$0207185738$0$pin',1),
+connected('global_ccu4$595667498$0$global_signal','pwm$084752152$0$global_signal',1),
+connected('watchdog$0865335036$0$int','global_scu_xmc1$01722214996$0$signal_in',1),
+connected('global_adc$278079266$0$global_signal','adc_measurement$0960477383$0$global_signal',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0315738293$0$gch',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0124857238$0$pin',1),
+connected('adc_measurement$01671456721$0$rev0','adc_measurement$1888029967$0$signal_in',1),
+connected('adc_measurement$0124857238$0$pin','adc_measurement$0680805286$0$pad',1),
+linear_constraint(GLOBAL_SCU_XMC10sv1,GLOBAL_SCU_XMC10sv0,1),
+uri_element_range(GLOBAL_SCU_XMC10sv0,[0]),
+uri_element_range(GLOBAL_SCU_XMC10sv1,[1])],'pwm$0207185738$0',Result),15,writeln(timeout),all_solution, Timer, Due, Remainder).
+
+
+
+Apr 25, 2018 10:05:08 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+End of solver : getFeasiblePins() :  Difference in ms 23
+
+
+Apr 25, 2018 10:05:08 AM java.util.logging.LogManager$RootLogger log
+INFO: [/devicepackage/0/8, /devicepackage/0/19, /devicepackage/0/13, /devicepackage/0/14, /devicepackage/0/11, /devicepackage/0/12, /devicepackage/0/17, /devicepackage/0/18, /devicepackage/0/15, /devicepackage/0/16, /devicepackage/0/20, /devicepackage/0/7, /devicepackage/0/2]
+
+
+Apr 25, 2018 10:08:28 AM java.util.logging.LogManager$RootLogger log
+INFO: Start of solver :getFeasiblePins() : Wed Apr 25 10:08:28 BST 2018
+
+
+Apr 25, 2018 10:08:28 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+timeout(ask_feasible_mapping([reserved([ccu4,GLOBAL_CCU40sv0,global],'global_ccu4$595667498$0'),
+reserved([scu,_,gcu,ccu4_global_enable,GLOBAL_CCU40sv0],'global_ccu4$507149432$0'),
+reserved([scu,0,dco,_],'clock_xmc1$347764531$0'),
+reserved([scu,0,ccu,config],'clock_xmc1$02010375550$0'),
+reserved([ccu4,_,cc4,_],'pwm$084752152$0'),
+reserved([p,_,pad,_],'pwm$01754918612$0'),
+reserved([devicepackage,0,_],'pwm$0207185738$0'),
+reserved([wdt,_,wdt],'watchdog$01400492666$0'),
+reserved([scu,_,gcu,interrupt,prewarn],'watchdog$0865335036$0'),
+reserved([vadc,_,global],'global_adc$278079266$0'),
+reserved([vadc,_,group,0,config],'global_adc$283639056$0'),
+reserved([vadc,_,backgnd],'adc_measurement$0960477383$0'),
+reserved([vadc,_,class,1],'adc_measurement$0157319968$0'),
+reserved([vadc,_,class,0],'adc_measurement$01167015281$0'),
+reserved([p,_,pad,_],'adc_measurement$0680805286$0'),
+reserved([devicepackage,0,_],'adc_measurement$0124857238$0'),
+uri([devicepackage,0,1],'adc_measurement$0124857238$0'),
+reserved([vadc,0,group,_,ch,_],'adc_measurement$0315738293$0'),
+reserved([vadc,_,global_result],'adc_measurement$01671456721$0'),
+reserved([cpu,0,nvic,interrupt,_],'adc_measurement$1888029967$0'),
+reserved([p,0,pad,14],'cpu_ctrl_xmc1$355878294$0'),
+reserved([p,0,pad,15],'cpu_ctrl_xmc1$355878295$0'),
+reserved([cpu,0,exception,hardfault],'cpu_ctrl_xmc1$846901778$0'),
+reserved([cpu,0,nvic,interrupt,GLOBAL_SCU_XMC10sv0],'global_scu_xmc1$85239467$0'),
+reserved([cpu,0,nvic,interrupt,GLOBAL_SCU_XMC10sv1],'global_scu_xmc1$01722214996$0'),
+signal('global_ccu4$595667498$0',global_signal,'global_ccu4$595667498$0$global_signal'),
+signal('global_ccu4$595667498$0',clk,'global_ccu4$595667498$0$clk'),
+signal('global_ccu4$507149432$0',gsc_enable,'global_ccu4$507149432$0$gsc_enable'),
+signal('clock_xmc1$347764531$0',clkout,'clock_xmc1$347764531$0$clkout'),
+signal('clock_xmc1$02010375550$0',frtc,'clock_xmc1$02010375550$0$frtc'),
+signal('pwm$084752152$0',global_signal,'pwm$084752152$0$global_signal'),
+signal('pwm$084752152$0',cmds_cmus,'pwm$084752152$0$cmds_cmus'),
+signal('pwm$084752152$0',pmus_omds,'pwm$084752152$0$pmus_omds'),
+signal('pwm$084752152$0',st,'pwm$084752152$0$st'),
+signal('pwm$084752152$0',out,'pwm$084752152$0$out'),
+signal('pwm$01754918612$0',pad,'pwm$01754918612$0$pad'),
+signal('pwm$0207185738$0',pin,'pwm$0207185738$0$pin'),
+signal('watchdog$01400492666$0',wdt_srv_request,'watchdog$01400492666$0$wdt_srv_request'),
+signal('watchdog$0865335036$0',int,'watchdog$0865335036$0$int'),
+signal('global_adc$278079266$0',global_signal,'global_adc$278079266$0$global_signal'),
+signal('adc_measurement$0315738293$0',gch,'adc_measurement$0315738293$0$gch'),
+signal('adc_measurement$0680805286$0',pad,'adc_measurement$0680805286$0$pad'),
+signal('adc_measurement$0124857238$0',pin,'adc_measurement$0124857238$0$pin'),
+signal('adc_measurement$0315738293$0',select,'adc_measurement$0315738293$0$select'),
+signal('adc_measurement$01671456721$0',rev0,'adc_measurement$01671456721$0$rev0'),
+signal('adc_measurement$0960477383$0',bgreqtrsel,'adc_measurement$0960477383$0$bgreqtrsel'),
+signal('adc_measurement$0960477383$0',bgreqgtsel,'adc_measurement$0960477383$0$bgreqgtsel'),
+signal('adc_measurement$0960477383$0',global_signal,'adc_measurement$0960477383$0$global_signal'),
+signal('adc_measurement$1888029967$0',signal_in,'adc_measurement$1888029967$0$signal_in'),
+signal('global_scu_xmc1$85239467$0',signal_in,'global_scu_xmc1$85239467$0$signal_in'),
+signal('global_scu_xmc1$01722214996$0',signal_in,'global_scu_xmc1$01722214996$0$signal_in'),
+connected('clock_xmc1$347764531$0$clkout','clock_xmc1$02010375550$0$frtc',1),
+connected('pwm$0207185738$0$pin','pwm$01754918612$0$pad',1),
+connected('pwm$084752152$0$out','pwm$01754918612$0$pad',1),
+connected('pwm$01754918612$0$pad','pwm$0207185738$0$pin',1),
+connected('global_ccu4$595667498$0$global_signal','pwm$084752152$0$global_signal',1),
+connected('watchdog$0865335036$0$int','global_scu_xmc1$01722214996$0$signal_in',1),
+connected('global_adc$278079266$0$global_signal','adc_measurement$0960477383$0$global_signal',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0315738293$0$gch',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0124857238$0$pin',1),
+connected('adc_measurement$01671456721$0$rev0','adc_measurement$1888029967$0$signal_in',1),
+connected('adc_measurement$0124857238$0$pin','adc_measurement$0680805286$0$pad',1),
+linear_constraint(GLOBAL_SCU_XMC10sv1,GLOBAL_SCU_XMC10sv0,1),
+uri_element_range(GLOBAL_SCU_XMC10sv0,[0]),
+uri_element_range(GLOBAL_SCU_XMC10sv1,[1])],'pwm$0207185738$0',Result),15,writeln(timeout),all_solution, Timer, Due, Remainder).
+
+
+
+Apr 25, 2018 10:08:28 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+End of solver : getFeasiblePins() :  Difference in ms 27
+
+
+Apr 25, 2018 10:08:28 AM java.util.logging.LogManager$RootLogger log
+INFO: [/devicepackage/0/8, /devicepackage/0/19, /devicepackage/0/13, /devicepackage/0/14, /devicepackage/0/11, /devicepackage/0/12, /devicepackage/0/17, /devicepackage/0/18, /devicepackage/0/15, /devicepackage/0/16, /devicepackage/0/20, /devicepackage/0/7, /devicepackage/0/2]
+
+
+Apr 25, 2018 10:08:28 AM java.util.logging.LogManager$RootLogger log
+INFO: Start of solver :getFeasiblePins() : Wed Apr 25 10:08:28 BST 2018
+
+
+Apr 25, 2018 10:08:28 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+timeout(ask_feasible_mapping([reserved([ccu4,GLOBAL_CCU40sv0,global],'global_ccu4$595667498$0'),
+reserved([scu,_,gcu,ccu4_global_enable,GLOBAL_CCU40sv0],'global_ccu4$507149432$0'),
+reserved([scu,0,dco,_],'clock_xmc1$347764531$0'),
+reserved([scu,0,ccu,config],'clock_xmc1$02010375550$0'),
+reserved([ccu4,_,cc4,_],'pwm$084752152$0'),
+reserved([p,_,pad,_],'pwm$01754918612$0'),
+reserved([devicepackage,0,_],'pwm$0207185738$0'),
+reserved([wdt,_,wdt],'watchdog$01400492666$0'),
+reserved([scu,_,gcu,interrupt,prewarn],'watchdog$0865335036$0'),
+reserved([vadc,_,global],'global_adc$278079266$0'),
+reserved([vadc,_,group,0,config],'global_adc$283639056$0'),
+reserved([vadc,_,backgnd],'adc_measurement$0960477383$0'),
+reserved([vadc,_,class,1],'adc_measurement$0157319968$0'),
+reserved([vadc,_,class,0],'adc_measurement$01167015281$0'),
+reserved([p,_,pad,_],'adc_measurement$0680805286$0'),
+reserved([devicepackage,0,_],'adc_measurement$0124857238$0'),
+uri([devicepackage,0,1],'adc_measurement$0124857238$0'),
+reserved([vadc,0,group,_,ch,_],'adc_measurement$0315738293$0'),
+reserved([vadc,_,global_result],'adc_measurement$01671456721$0'),
+reserved([cpu,0,nvic,interrupt,_],'adc_measurement$1888029967$0'),
+reserved([p,0,pad,14],'cpu_ctrl_xmc1$355878294$0'),
+reserved([p,0,pad,15],'cpu_ctrl_xmc1$355878295$0'),
+reserved([cpu,0,exception,hardfault],'cpu_ctrl_xmc1$846901778$0'),
+reserved([cpu,0,nvic,interrupt,GLOBAL_SCU_XMC10sv0],'global_scu_xmc1$85239467$0'),
+reserved([cpu,0,nvic,interrupt,GLOBAL_SCU_XMC10sv1],'global_scu_xmc1$01722214996$0'),
+signal('global_ccu4$595667498$0',global_signal,'global_ccu4$595667498$0$global_signal'),
+signal('global_ccu4$595667498$0',clk,'global_ccu4$595667498$0$clk'),
+signal('global_ccu4$507149432$0',gsc_enable,'global_ccu4$507149432$0$gsc_enable'),
+signal('clock_xmc1$347764531$0',clkout,'clock_xmc1$347764531$0$clkout'),
+signal('clock_xmc1$02010375550$0',frtc,'clock_xmc1$02010375550$0$frtc'),
+signal('pwm$084752152$0',global_signal,'pwm$084752152$0$global_signal'),
+signal('pwm$084752152$0',cmds_cmus,'pwm$084752152$0$cmds_cmus'),
+signal('pwm$084752152$0',pmus_omds,'pwm$084752152$0$pmus_omds'),
+signal('pwm$084752152$0',st,'pwm$084752152$0$st'),
+signal('pwm$084752152$0',out,'pwm$084752152$0$out'),
+signal('pwm$01754918612$0',pad,'pwm$01754918612$0$pad'),
+signal('pwm$0207185738$0',pin,'pwm$0207185738$0$pin'),
+signal('watchdog$01400492666$0',wdt_srv_request,'watchdog$01400492666$0$wdt_srv_request'),
+signal('watchdog$0865335036$0',int,'watchdog$0865335036$0$int'),
+signal('global_adc$278079266$0',global_signal,'global_adc$278079266$0$global_signal'),
+signal('adc_measurement$0315738293$0',gch,'adc_measurement$0315738293$0$gch'),
+signal('adc_measurement$0680805286$0',pad,'adc_measurement$0680805286$0$pad'),
+signal('adc_measurement$0124857238$0',pin,'adc_measurement$0124857238$0$pin'),
+signal('adc_measurement$0315738293$0',select,'adc_measurement$0315738293$0$select'),
+signal('adc_measurement$01671456721$0',rev0,'adc_measurement$01671456721$0$rev0'),
+signal('adc_measurement$0960477383$0',bgreqtrsel,'adc_measurement$0960477383$0$bgreqtrsel'),
+signal('adc_measurement$0960477383$0',bgreqgtsel,'adc_measurement$0960477383$0$bgreqgtsel'),
+signal('adc_measurement$0960477383$0',global_signal,'adc_measurement$0960477383$0$global_signal'),
+signal('adc_measurement$1888029967$0',signal_in,'adc_measurement$1888029967$0$signal_in'),
+signal('global_scu_xmc1$85239467$0',signal_in,'global_scu_xmc1$85239467$0$signal_in'),
+signal('global_scu_xmc1$01722214996$0',signal_in,'global_scu_xmc1$01722214996$0$signal_in'),
+connected('clock_xmc1$347764531$0$clkout','clock_xmc1$02010375550$0$frtc',1),
+connected('pwm$0207185738$0$pin','pwm$01754918612$0$pad',1),
+connected('pwm$084752152$0$out','pwm$01754918612$0$pad',1),
+connected('pwm$01754918612$0$pad','pwm$0207185738$0$pin',1),
+connected('global_ccu4$595667498$0$global_signal','pwm$084752152$0$global_signal',1),
+connected('watchdog$0865335036$0$int','global_scu_xmc1$01722214996$0$signal_in',1),
+connected('global_adc$278079266$0$global_signal','adc_measurement$0960477383$0$global_signal',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0315738293$0$gch',1),
+connected('adc_measurement$0680805286$0$pad','adc_measurement$0124857238$0$pin',1),
+connected('adc_measurement$01671456721$0$rev0','adc_measurement$1888029967$0$signal_in',1),
+connected('adc_measurement$0124857238$0$pin','adc_measurement$0680805286$0$pad',1),
+linear_constraint(GLOBAL_SCU_XMC10sv1,GLOBAL_SCU_XMC10sv0,1),
+uri_element_range(GLOBAL_SCU_XMC10sv0,[0]),
+uri_element_range(GLOBAL_SCU_XMC10sv1,[1])],'pwm$0207185738$0',Result),15,writeln(timeout),all_solution, Timer, Due, Remainder).
+
+
+
+Apr 25, 2018 10:08:28 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+End of solver : getFeasiblePins() :  Difference in ms 27
+
+
+Apr 25, 2018 10:08:28 AM java.util.logging.LogManager$RootLogger log
+INFO: [/devicepackage/0/8, /devicepackage/0/19, /devicepackage/0/13, /devicepackage/0/14, /devicepackage/0/11, /devicepackage/0/12, /devicepackage/0/17, /devicepackage/0/18, /devicepackage/0/15, /devicepackage/0/16, /devicepackage/0/20, /devicepackage/0/7, /devicepackage/0/2]
+
+
